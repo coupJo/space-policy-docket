@@ -2,10 +2,11 @@
 fetch_bills.py — refresh data/bills.json with real bills from the Congress.gov API.
 
 How it works, in plain terms:
-  1. Download every bill of the current Congress, newest updates first
-     (the API has no keyword search, so we cast a wide net first).
+  1. Walk through EVERY bill of the current Congress, newest updates first
+     (the API has no keyword search, so we scan and filter ourselves).
   2. Keep only bills whose title looks space-related (keyword lists below).
-  3. For each keeper, make one extra API call to get its sponsor.
+  3. Look up each keeper's sponsor — reusing sponsors remembered from the
+     previous run so we only ask the API about genuinely new bills.
   4. Tag each bill with topics using simple keyword rules.
   5. Write everything to data/bills.json — the website just displays that file.
 
@@ -91,12 +92,32 @@ WORD_REGEX = re.compile(r"\b(" + "|".join(WORDS) + r")\b", re.IGNORECASE)
 # ---------------- Helpers ----------------
 
 def api_get(path, **params):
-    """One GET request to the Congress.gov API, with the key attached."""
+    """One GET request to the Congress.gov API, with the key attached.
+
+    Retries up to 4 times with growing pauses — the API sometimes answers
+    429 ("slow down") or has a brief outage, and we'd rather wait than crash.
+    """
     params["api_key"] = os.environ["CONGRESS_API_KEY"]
     params["format"] = "json"
-    response = requests.get(f"{API_BASE}{path}", params=params, timeout=30)
-    response.raise_for_status()   # crash loudly on errors so the Action shows red
-    return response.json()
+    for attempt in range(5):
+        try:
+            response = requests.get(f"{API_BASE}{path}", params=params, timeout=60)
+            if response.status_code in (429, 500, 502, 503, 504):
+                print(f"  API said {response.status_code}: {response.text[:200]}")
+                raise requests.exceptions.HTTPError(str(response.status_code))
+            response.raise_for_status()
+            remaining = response.headers.get("X-RateLimit-Remaining")
+            if remaining is not None:
+                api_get.rate_remaining = remaining   # shown in progress lines
+            return response.json()
+        except Exception as error:
+            if attempt == 4:
+                raise                      # give up: the Action shows red
+            wait = 30 * (attempt + 1)
+            print(f"  API hiccup ({error}); waiting {wait}s then retrying…")
+            time.sleep(wait)
+
+api_get.rate_remaining = "?"
 
 
 def is_space_related(title):
@@ -140,6 +161,16 @@ def main():
     if not os.environ.get("CONGRESS_API_KEY"):
         sys.exit("Error: set the CONGRESS_API_KEY environment variable first.")
 
+    # Sponsors never change, so remember the ones we already looked up in the
+    # previous run's bills.json — cuts API calls by ~80% on a normal day.
+    out_path = Path(__file__).resolve().parent.parent / "data" / "bills.json"
+    known_sponsors = {}
+    if out_path.exists():
+        for old in json.loads(out_path.read_text()).get("bills", []):
+            if old.get("sponsor") and old["sponsor"] != "—":
+                known_sponsors[old["bill"]] = old["sponsor"]
+    print(f"Sponsors remembered from last run: {len(known_sponsors)}")
+
     print(f"Scanning the entire {CONGRESS}th Congress for space-related bills…")
     seen = {}      # (type, number) -> raw bill, dedupes across pages
     scanned = 0
@@ -161,13 +192,15 @@ def main():
             key = (raw.get("type", ""), str(raw.get("number", "")))
             if key not in seen and is_space_related(raw.get("title", "")):
                 seen[key] = raw
+        time.sleep(0.2)   # small pause between pages, avoids burst throttling
         if (page + 1) % 10 == 0:
-            print(f"  …{scanned} bills scanned, {len(seen)} space-related so far")
+            print(f"  …{scanned} bills scanned, {len(seen)} space-related so far "
+                  f"(API quota left: {api_get.rate_remaining})")
 
     print(f"Scanned {scanned} bills total; {len(seen)} look space-related.")
 
     matches = list(seen.values())[:DETAIL_CALL_CAP]
-    print(f"Fetching sponsors for {len(matches)} bills…")
+    new_lookups = 0
 
     output = []
     for raw in matches:
@@ -175,18 +208,28 @@ def main():
         number = str(raw.get("number", ""))
         latest = raw.get("latestAction", {}) or {}
         slug = TYPE_SLUGS.get(bill_type, "bill")
+        label = f"{TYPE_LABELS.get(bill_type, bill_type)} {number}"
+
+        # Use the remembered sponsor if we have it; only ask the API for new bills.
+        sponsor = known_sponsors.get(label)
+        if not sponsor:
+            sponsor = fetch_sponsor(bill_type, number)
+            new_lookups += 1
+            time.sleep(0.2)   # be polite to the API
+
         output.append({
-            "bill": f"{TYPE_LABELS.get(bill_type, bill_type)} {number}",
+            "bill": label,
             "congress": ordinal(raw.get("congress", CONGRESS)),
             "title": raw.get("title", "").strip(),
-            "sponsor": fetch_sponsor(bill_type, number),
+            "sponsor": sponsor,
             "latest_action": latest.get("text", "—"),
             "action_date": latest.get("actionDate", raw.get("introducedDate", "")),
             "topics": tag_topics(raw.get("title", "")),
             "url": f"https://www.congress.gov/bill/"
                    f"{ordinal(raw.get('congress', CONGRESS))}-congress/{slug}/{number}",
         })
-        time.sleep(0.1)   # be polite to the API
+
+    print(f"Sponsors: {len(matches) - new_lookups} remembered, {new_lookups} fetched fresh.")
 
     # Newest action first.
     output.sort(key=lambda b: b["action_date"], reverse=True)
@@ -197,7 +240,6 @@ def main():
         "bills": output,
     }
 
-    out_path = Path(__file__).resolve().parent.parent / "data" / "bills.json"
     out_path.write_text(json.dumps(result, indent=2, ensure_ascii=False))
     print(f"Wrote {len(output)} bills to {out_path}")
 
