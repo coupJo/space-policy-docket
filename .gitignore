@@ -1,0 +1,9 @@
+# OS junk
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Secrets — never commit API keys
+.env
