@@ -10,103 +10,103 @@
       "total": 16776864141,
       "recipients": [
         {
-          "name": "CALIFORNIA INSTITUTE OF TECHNOLOGY",
+          "name": "California Institute of Technology",
           "amount": 2273203450
         },
         {
-          "name": "SPACE EXPLORATION TECHNOLOGIES CORP.",
+          "name": "Space Exploration Technologies Corp.",
           "amount": 1348486808
         },
         {
-          "name": "THE BOEING COMPANY",
+          "name": "The Boeing Company",
           "amount": 1172217661
         },
         {
-          "name": "BLUE ORIGIN WASHINGTON, LLC",
+          "name": "Blue Origin Washington, LLC",
           "amount": 828970508
         },
         {
-          "name": "PERATON INC.",
+          "name": "Peraton INC.",
           "amount": 541471072
         },
         {
-          "name": "THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC",
+          "name": "The Johns Hopkins University Applied Physics Laboratory LLC",
           "amount": 413766689
         },
         {
-          "name": "KBR WYLE SERVICES, LLC",
+          "name": "Kbr Wyle Services, LLC",
           "amount": 399382294
         },
         {
-          "name": "LOCKHEED MARTIN CORP",
+          "name": "Lockheed Martin Corp",
           "amount": 394043501
         },
         {
-          "name": "THE BOEING COMPANY",
+          "name": "The Boeing Company",
           "amount": 367315442
         },
         {
-          "name": "AMENTUM TECHNOLOGY, INC.",
+          "name": "Amentum Technology, INC.",
           "amount": 352468906
         },
         {
-          "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+          "name": "Northrop Grumman Systems Corporation",
           "amount": 352224326
         },
         {
-          "name": "ASSOCIATION OF UNIVERSITIES FOR RESEARCH IN ASTRONOMY, INC.",
+          "name": "Association of Universities for Research In Astronomy, INC.",
           "amount": 309762130
         },
         {
-          "name": "AEROJET ROCKETDYNE OF DE, INC",
+          "name": "Aerojet Rocketdyne of de, INC",
           "amount": 299151035
         },
         {
-          "name": "BECHTEL NATIONAL, INC.",
+          "name": "Bechtel National, INC.",
           "amount": 272595909
         },
         {
-          "name": "CHENEGA GLOBAL PROTECTION, LLC",
+          "name": "Chenega Global Protection, LLC",
           "amount": 142725993
         },
         {
-          "name": "SCIENCE SYSTEMS AND APPLICATIONS, INC.",
+          "name": "Science Systems and Applications, INC.",
           "amount": 133195703
         },
         {
-          "name": "CACI, INC. - FEDERAL",
+          "name": "Caci, INC. - Federal",
           "amount": 132818767
         },
         {
-          "name": "HAMILTON SUNDSTRAND SPACE SYSTEMS INTERNATIONAL, INC.",
+          "name": "Hamilton Sundstrand Space Systems International, INC.",
           "amount": 132031026
         },
         {
-          "name": "AXIOM SPACE INC",
+          "name": "Axiom Space INC",
           "amount": 130742824
         },
         {
-          "name": "NOVA SPACE SOLUTIONS, LLC",
+          "name": "Nova Space Solutions, LLC",
           "amount": 129847905
         },
         {
-          "name": "SOUTHWEST RESEARCH INSTITUTE",
+          "name": "Southwest Research Institute",
           "amount": 125147698
         },
         {
-          "name": "THE AEROSPACE CORPORATION",
+          "name": "The Aerospace Corporation",
           "amount": 115163252
         },
         {
-          "name": "UNIVERSITY OF MARYLAND, COLLEGE PARK",
+          "name": "University of Maryland, College Park",
           "amount": 112390823
         },
         {
-          "name": "FIREFLY AEROSPACE INC.",
+          "name": "Firefly Aerospace INC.",
           "amount": 110533988
         },
         {
-          "name": "REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE",
+          "name": "Regents of the University of California, the",
           "amount": 106776674
         }
       ],
@@ -212,13 +212,6 @@
           "amount": 105507766
         }
       ]
-    },
-    {
-      "key": "ussf",
-      "label": "Space Force",
-      "total": 0,
-      "recipients": [],
-      "districts": []
     }
   ]
 }
