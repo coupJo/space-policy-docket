@@ -13,8 +13,9 @@ FY 2025 prime awards — contracts and grants — and asks USAspending for:
 Everything lands in data/money.json; the website just displays it.
 
 Note: USAspending uses POST requests with JSON bodies (unlike the other two
-APIs). Each program is fetched independently — if one fails (e.g. the Space
-Force subtier name isn't recognized), we log it and keep the rest.
+APIs). Each program is fetched independently — if one fails or comes back
+empty (e.g. Space Force spending is filed under Air Force subtiers), we log
+it and keep the rest.
 
 Run locally:  python3 scripts/fetch_money.py   (no key needed)
 """
@@ -107,6 +108,23 @@ def fetch_total(agencies):
     return total
 
 
+KEEP_UPPER = {"LLC", "INC", "LP", "LLP", "JPL", "APL", "USA", "II", "III", "IV", "SAIC", "MIT"}
+KEEP_LOWER = {"of", "and", "the", "for", "de"}
+
+def prettify(name):
+    """'CALIFORNIA INSTITUTE OF TECHNOLOGY' -> 'California Institute of Technology'."""
+    words = []
+    for i, w in enumerate(name.split()):
+        bare = w.strip(".,()")
+        if bare in KEEP_UPPER:
+            words.append(w)
+        elif i > 0 and bare.lower() in KEEP_LOWER:
+            words.append(w.lower())
+        else:
+            words.append(w.capitalize())
+    return " ".join(words)
+
+
 def fetch_category(agencies, category, limit):
     """Top entries for one category: 'recipient' or 'district'."""
     data = api_post(f"/search/spending_by_category/{category}/", {
@@ -124,6 +142,8 @@ def fetch_category(agencies, category, limit):
         # District quirks: "-90" means statewide/multiple districts.
         if category == "district" and name.endswith("-90"):
             name = name[:-3] + " (statewide)"
+        if category == "recipient":
+            name = prettify(name)   # the API shouts in ALL CAPS
         out.append({"name": name, "amount": round(amount)})
     out.sort(key=lambda x: -x["amount"])   # biggest first, guaranteed
     return out
@@ -144,6 +164,12 @@ def main():
             time.sleep(0.5)
             districts = fetch_category(program["agencies"], "district", TOP_DISTRICTS)
             print(f"  top districts: {len(districts)}")
+            if total <= 0 and not recipients and not districts:
+                # The API accepted the query but has nothing filed under this
+                # program (e.g. Space Force spending sits under Air Force
+                # subtiers). An empty tab helps nobody — leave it off the site.
+                print(f"  {label}: no award data found — leaving it off the site.")
+                continue
             programs_out.append({
                 "key": program["key"],
                 "label": label,
