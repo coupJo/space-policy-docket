@@ -58,6 +58,11 @@ jobs:
           set -o pipefail
           python scripts/fetch_rules.py 2>&1 | tee -a logs/last_run.txt
 
+      - name: Fetch award data from USAspending
+        run: |
+          set -o pipefail
+          python scripts/fetch_money.py 2>&1 | tee -a logs/last_run.txt
+
       - name: Build the weekly digest
         run: |
           set -o pipefail
