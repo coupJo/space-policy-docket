@@ -39,16 +39,837 @@
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5329"
     },
     {
-      "bill": "S. 5194",
+      "bill": "H.R. 9651",
       "congress": "119th",
-      "title": "Judicial Space and Facilities Management Effectiveness Act of 2026",
-      "sponsor": "Sen. Richard Durbin (D-IL)",
-      "latest_action": "Read twice and referred to the Committee on Environment and Public Works. (text: CR S4385-4390)",
-      "action_date": "2026-07-30",
+      "title": "Space Ready 2.0 Act",
+      "sponsor": "Rep. Mike Haridopolos (R-FL)",
+      "latest_action": "Referred to the House Committee on Science, Space, and Technology.",
+      "action_date": "2026-07-13",
       "topics": [
         "General Space"
       ],
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5194"
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/9651"
+    },
+    {
+      "bill": "H.R. 9592",
+      "congress": "119th",
+      "title": "American Space Leadership for the 21st Century Act",
+      "sponsor": "Rep. Sheri Biggs (R-SC)",
+      "latest_action": "Referred to the House Committee on Foreign Affairs.",
+      "action_date": "2026-07-06",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/9592"
+    },
+    {
+      "bill": "S. 4905",
+      "congress": "119th",
+      "title": "Space Ready 2.0 Act",
+      "sponsor": "Sen. Ashley Moody (R-FL)",
+      "latest_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "action_date": "2026-06-24",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4905"
+    },
+    {
+      "bill": "S. 1898",
+      "congress": "119th",
+      "title": "ORBITS Act of 2025",
+      "sponsor": "Sen. John Hickenlooper (D-CO)",
+      "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 440.",
+      "action_date": "2026-06-18",
+      "topics": [
+        "Orbital Debris"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1898"
+    },
+    {
+      "bill": "H.R. 9193",
+      "congress": "119th",
+      "title": "Powering the Future of American Space Dominance Act",
+      "sponsor": "Rep. Mike Kennedy (R-UT)",
+      "latest_action": "Referred to the House Committee on Science, Space, and Technology.",
+      "action_date": "2026-06-08",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/9193"
+    },
+    {
+      "bill": "H.R. 8810",
+      "congress": "119th",
+      "title": "No Wasted Space Act",
+      "sponsor": "Rep. Mike Carey (R-OH)",
+      "latest_action": "Referred to the Committee on House Administration, and in addition to the Committees on Transportation and Infrastructure, and Natural Resources, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "action_date": "2026-05-14",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/8810"
+    },
+    {
+      "bill": "S.J.Res. 150",
+      "congress": "119th",
+      "title": "A joint resolution providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Consumer Financial Protection relating to the withdrawal of the rule relating to \"Limited Applicability of Consumer Financial Protection Act's 'Time or Space' Exception With Respect to Digital Marketing Providers\".",
+      "sponsor": "Sen. Richard Blumenthal (D-CT)",
+      "latest_action": "Motion to proceed to consideration of measure rejected in Senate by Voice Vote. (consideration: CR S2268)",
+      "action_date": "2026-05-13",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-joint-resolution/150"
+    },
+    {
+      "bill": "H.Res. 1242",
+      "congress": "119th",
+      "title": "Supporting the first Friday of May as \"National Space Day\" in recognition of the significant positive impact the aerospace community has and will continue to have on the United States of America.",
+      "sponsor": "Rep. Ted Lieu (D-CA)",
+      "latest_action": "Referred to the Committee on Science, Space, and Technology, and in addition to the Committee on Armed Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "action_date": "2026-04-30",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-resolution/1242"
+    },
+    {
+      "bill": "H.R. 8584",
+      "congress": "119th",
+      "title": "Indo-Pacific Space Partnership Act of 2026",
+      "sponsor": "Rep. Dave Min (D-CA)",
+      "latest_action": "Referred to the House Committee on Armed Services.",
+      "action_date": "2026-04-29",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/8584"
+    },
+    {
+      "bill": "S.Res. 695",
+      "congress": "119th",
+      "title": "A resolution commemorating April 6, 2026, as the day the Artemis II crew surpassed the record for the farthest distance traveled by astronauts into deep space and celebrating the success of the Artemis II mission.",
+      "sponsor": "Sen. Ted Cruz (R-TX)",
+      "latest_action": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S2076-2077; text: CR S2085)",
+      "action_date": "2026-04-28",
+      "topics": [
+        "NASA & Exploration"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/695"
+    },
+    {
+      "bill": "S. 1962",
+      "congress": "119th",
+      "title": "Secure Space Act of 2025",
+      "sponsor": "Sen. Deb Fischer (R-NE)",
+      "latest_action": "Committee on Commerce, Science, and Transportation. Ordered to be reported with an amendment in the nature of a substitute favorably.",
+      "action_date": "2026-04-14",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1962"
+    },
+    {
+      "bill": "S. 3404",
+      "congress": "119th",
+      "title": "Satellite Cybersecurity Act of 2025",
+      "sponsor": "Sen. Gary Peters (D-MI)",
+      "latest_action": "Committee on Commerce, Science, and Transportation. Ordered to be reported with an amendment in the nature of a substitute favorably.",
+      "action_date": "2026-04-14",
+      "topics": [
+        "National Security"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3404"
+    },
+    {
+      "bill": "S. 2351",
+      "congress": "119th",
+      "title": "Space Exploration Research Act",
+      "sponsor": "Sen. Ted Cruz (R-TX)",
+      "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 369.",
+      "action_date": "2026-04-13",
+      "topics": [
+        "NASA & Exploration",
+        "Science & Weather"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2351"
+    },
+    {
+      "bill": "H.R. 8198",
+      "congress": "119th",
+      "title": "OUTPACE in Space Act",
+      "sponsor": "Rep. Vince Fong (R-CA)",
+      "latest_action": "Referred to the House Committee on Science, Space, and Technology.",
+      "action_date": "2026-04-06",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/8198"
+    },
+    {
+      "bill": "H.R. 8187",
+      "congress": "119th",
+      "title": "To amend title 51, United States Code, to direct the Administrator of the National Aeronautics and Space Administration to seek to establish the initial elements of a lunar outpost, and for other purposes.",
+      "sponsor": "Rep. Keith Self (R-TX)",
+      "latest_action": "Referred to the House Committee on Science, Space, and Technology.",
+      "action_date": "2026-04-02",
+      "topics": [
+        "NASA & Exploration"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/8187"
+    },
+    {
+      "bill": "S. 4264",
+      "congress": "119th",
+      "title": "NASA UAS Detection Act",
+      "sponsor": "Sen. Gary Peters (D-MI)",
+      "latest_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "action_date": "2026-03-26",
+      "topics": [
+        "NASA & Exploration"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4264"
+    },
+    {
+      "bill": "H.R. 7388",
+      "congress": "119th",
+      "title": "Smart Space Act of 2026",
+      "sponsor": "Rep. Eric Burlison (R-MO)",
+      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Environment and Public Works.",
+      "action_date": "2026-03-25",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/7388"
+    },
+    {
+      "bill": "S. 4201",
+      "congress": "119th",
+      "title": "Indo-Pacific Space Partnership Act of 2026",
+      "sponsor": "Sen. Michael Bennet (D-CO)",
+      "latest_action": "Read twice and referred to the Committee on Foreign Relations.",
+      "action_date": "2026-03-25",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4201"
+    },
+    {
+      "bill": "S.Res. 641",
+      "congress": "119th",
+      "title": "A resolution recognizing Girl Scouts of the United States of America on its 114th birthday and celebrating its legacy of providing girls with a supportive and inclusive space where they can explore their world, build meaningful relationships, and have access to experiences that prepare them for a life of leadership.",
+      "sponsor": "Sen. Tammy Duckworth (D-IL)",
+      "latest_action": "Referred to the Committee on the Judiciary. (text: CR S1050-1051)",
+      "action_date": "2026-03-12",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/641"
+    },
+    {
+      "bill": "H.Res. 1114",
+      "congress": "119th",
+      "title": "Recognizing Girl Scouts of the United States of America on its 114th birthday and celebrating its legacy of providing girls with a secure and inclusive space where they can explore their world, build meaningful relationships, and have access to experiences that prepare them for a life of leadership.",
+      "sponsor": "Rep. Bonnie Watson Coleman (D-NJ)",
+      "latest_action": "Referred to the House Committee on Oversight and Government Reform.",
+      "action_date": "2026-03-12",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-resolution/1114"
+    },
+    {
+      "bill": "S. 933",
+      "congress": "119th",
+      "title": "NASA Transition Authorization Act of 2025",
+      "sponsor": "Sen. Ted Cruz (R-TX)",
+      "latest_action": "Committee on Commerce, Science, and Transportation. Ordered to be reported with an amendment in the nature of a substitute favorably.",
+      "action_date": "2026-03-04",
+      "topics": [
+        "NASA & Exploration",
+        "Regulatory & Licensing"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/933"
+    },
+    {
+      "bill": "S. 3979",
+      "congress": "119th",
+      "title": "Taiwan and American Space Assistance Act of 2026",
+      "sponsor": "Sen. Eric Schmitt (R-MO)",
+      "latest_action": "Read twice and referred to the Committee on Foreign Relations.",
+      "action_date": "2026-03-04",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3979"
+    },
+    {
+      "bill": "H.Res. 1061",
+      "congress": "119th",
+      "title": "Recognizing the cultural and historical significance of Lunar New Year in 2026.",
+      "sponsor": "Rep. Grace Meng (D-NY)",
+      "latest_action": "Referred to the House Committee on Oversight and Government Reform.",
+      "action_date": "2026-02-12",
+      "topics": [
+        "NASA & Exploration"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-resolution/1061"
+    },
+    {
+      "bill": "H.R. 7379",
+      "congress": "119th",
+      "title": "NASA C-UAS Act",
+      "sponsor": "Rep. Haley Stevens (D-MI)",
+      "latest_action": "Referred to the Subcommittee on Aviation.",
+      "action_date": "2026-02-05",
+      "topics": [
+        "NASA & Exploration"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/7379"
+    },
+    {
+      "bill": "H.R. 7273",
+      "congress": "119th",
+      "title": "NASA Reauthorization Act of 2026",
+      "sponsor": "Rep. Brian Babin (R-TX)",
+      "latest_action": "Ordered to be Reported (Amended) by the Yeas and Nays: 37 - 0.",
+      "action_date": "2026-02-04",
+      "topics": [
+        "NASA & Exploration",
+        "Regulatory & Licensing"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/7273"
+    },
+    {
+      "bill": "S. 3672",
+      "congress": "119th",
+      "title": "NASA Talent Exchange Program Act",
+      "sponsor": "Sen. Andy Kim (D-NJ)",
+      "latest_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "action_date": "2026-01-15",
+      "topics": [
+        "NASA & Exploration"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3672"
+    },
+    {
+      "bill": "H.R. 6638",
+      "congress": "119th",
+      "title": "To require a report on merits and options for establishing an institute relating to space resources, and for other purposes.",
+      "sponsor": "Rep. Valerie Foushee (D-NC)",
+      "latest_action": "Referred to the House Committee on Science, Space, and Technology.",
+      "action_date": "2025-12-11",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/6638"
+    },
+    {
+      "bill": "H.Res. 941",
+      "congress": "119th",
+      "title": "Recognizing May 20 as \"National Women in Aerospace Day\".",
+      "sponsor": "Rep. Valerie Foushee (D-NC)",
+      "latest_action": "Referred to the House Committee on Science, Space, and Technology.",
+      "action_date": "2025-12-10",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-resolution/941"
+    },
+    {
+      "bill": "H.R. 3426",
+      "congress": "119th",
+      "title": "Courthouse Affordability and Space Efficiency Act of 2025",
+      "sponsor": "Rep. Jefferson Shreve (R-IN)",
+      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Environment and Public Works.",
+      "action_date": "2025-12-01",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/3426"
+    },
+    {
+      "bill": "S. 3198",
+      "congress": "119th",
+      "title": "Space RACE Act",
+      "sponsor": "Sen. John Cornyn (R-TX)",
+      "latest_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "action_date": "2025-11-19",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3198"
+    },
+    {
+      "bill": "S. 582",
+      "congress": "119th",
+      "title": "Astronaut Ground Travel Support Act",
+      "sponsor": "Sen. Ted Cruz (R-TX)",
+      "latest_action": "Star Print ordered on report 119-82.",
+      "action_date": "2025-10-29",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/582"
+    },
+    {
+      "bill": "S. 3029",
+      "congress": "119th",
+      "title": "DOE and NASA Interagency Research Coordination Act",
+      "sponsor": "Sen. Dan Sullivan (R-AK)",
+      "latest_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "action_date": "2025-10-22",
+      "topics": [
+        "NASA & Exploration",
+        "Science & Weather"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3029"
+    },
+    {
+      "bill": "S.Res. 456",
+      "congress": "119th",
+      "title": "A resolution commemorating the 40th anniversary of the inaugural flight of Space Shuttle Atlantis and recognizing Kennedy Space Center for its economic, educational, and cultural contributions to the State of Florida and the United States.",
+      "sponsor": "Sen. Rick Scott (R-FL)",
+      "latest_action": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S7159; text: CR S7159)",
+      "action_date": "2025-10-16",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/456"
+    },
+    {
+      "bill": "H.Res. 810",
+      "congress": "119th",
+      "title": "Honoring José Moreno Hernández, who served as a NASA astronaut and continues to be an inspirational voice on the importance of perseverance and a defining example of Hispanic American contributions in STEM.",
+      "sponsor": "Rep. George Whitesides (D-CA)",
+      "latest_action": "Referred to the House Committee on Science, Space, and Technology.",
+      "action_date": "2025-10-14",
+      "topics": [
+        "NASA & Exploration"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-resolution/810"
+    },
+    {
+      "bill": "H.Res. 785",
+      "congress": "119th",
+      "title": "Expressing support for designation of the week of October 4, 2025, through October 10, 2025, as \"World Space Week\".",
+      "sponsor": "Rep. Debbie Dingell (D-MI)",
+      "latest_action": "Referred to the Committee on Science, Space, and Technology, and in addition to the Committee on Education and Workforce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "action_date": "2025-10-03",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-resolution/785"
+    },
+    {
+      "bill": "H.R. 5626",
+      "congress": "119th",
+      "title": "Taiwan and American Space Assistance Act of 2025",
+      "sponsor": "Rep. J. Hill (R-AR)",
+      "latest_action": "Referred to the Committee on Science, Space, and Technology, and in addition to the Committee on Foreign Affairs, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "action_date": "2025-09-30",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/5626"
+    },
+    {
+      "bill": "S. 428",
+      "congress": "119th",
+      "title": "SAFE Orbit Act",
+      "sponsor": "Sen. John Cornyn (R-TX)",
+      "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 170.",
+      "action_date": "2025-09-29",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/428"
+    },
+    {
+      "bill": "S. 2888",
+      "congress": "119th",
+      "title": "SPACEPORT Act",
+      "sponsor": "Sen. John Hickenlooper (D-CO)",
+      "latest_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "action_date": "2025-09-18",
+      "topics": [
+        "Commercial Launch"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2888"
+    },
+    {
+      "bill": "H.R. 5447",
+      "congress": "119th",
+      "title": "SPACEPORT Act",
+      "sponsor": "Rep. Dale Strong (R-AL)",
+      "latest_action": "Referred to the House Committee on Science, Space, and Technology.",
+      "action_date": "2025-09-17",
+      "topics": [
+        "Commercial Launch"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/5447"
+    },
+    {
+      "bill": "H.R. 3424",
+      "congress": "119th",
+      "title": "SPACE Act of 2025",
+      "sponsor": "Rep. Robert Onder (R-MO)",
+      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Environment and Public Works.",
+      "action_date": "2025-09-09",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/3424"
+    },
+    {
+      "bill": "S. 1081",
+      "congress": "119th",
+      "title": "Comprehensive NASA Reporting Act of 2025",
+      "sponsor": "Sen. Ted Cruz (R-TX)",
+      "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 150.",
+      "action_date": "2025-09-08",
+      "topics": [
+        "NASA & Exploration"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1081"
+    },
+    {
+      "bill": "H.R. 5175",
+      "congress": "119th",
+      "title": "Quad Space Act",
+      "sponsor": "Rep. Jason Crow (D-CO)",
+      "latest_action": "Referred to the House Committee on Foreign Affairs.",
+      "action_date": "2025-09-08",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/5175"
+    },
+    {
+      "bill": "H.R. 5188",
+      "congress": "119th",
+      "title": "To direct the Secretary of Defense to establish blast safety officer positions in the Army, Navy, Marine Corps, Air Force, and Space Force.",
+      "sponsor": "Rep. Ro Khanna (D-CA)",
+      "latest_action": "Referred to the House Committee on Armed Services.",
+      "action_date": "2025-09-08",
+      "topics": [
+        "National Security"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/5188"
+    },
+    {
+      "bill": "H.R. 5122",
+      "congress": "119th",
+      "title": "NASA Talent Exchange Program Act",
+      "sponsor": "Rep. Emilia Sykes (D-OH)",
+      "latest_action": "Referred to the House Committee on Science, Space, and Technology.",
+      "action_date": "2025-09-03",
+      "topics": [
+        "NASA & Exploration"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/5122"
+    },
+    {
+      "bill": "S. 2622",
+      "congress": "119th",
+      "title": "Space Ready Act",
+      "sponsor": "Sen. Ashley Moody (R-FL)",
+      "latest_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "action_date": "2025-07-31",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2622"
+    },
+    {
+      "bill": "S. 2632",
+      "congress": "119th",
+      "title": "Saving NASA’s Workforce Act",
+      "sponsor": "Sen. Mazie Hirono (D-HI)",
+      "latest_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "action_date": "2025-07-31",
+      "topics": [
+        "NASA & Exploration"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2632"
+    },
+    {
+      "bill": "S.Res. 309",
+      "congress": "119th",
+      "title": "A resolution commemorating the 65th anniversary of the Marshall Space Flight Center and recognizing its continued leadership in the development of the Space Launch System and human space exploration.",
+      "sponsor": "Sen. Tommy Tuberville (R-AL)",
+      "latest_action": "Resolution agreed to in Senate without amendment and with a preamble by Unanimous Consent. (consideration: CR S4856; text: 06/26/2025 CR S3566)",
+      "action_date": "2025-07-29",
+      "topics": [
+        "NASA & Exploration"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/309"
+    },
+    {
+      "bill": "H.R. 4414",
+      "congress": "119th",
+      "title": "Satellite-Based Agricultural Data Act",
+      "sponsor": "Rep. Brittany Pettersen (D-CO)",
+      "latest_action": "Referred to the House Committee on Agriculture.",
+      "action_date": "2025-07-15",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/4414"
+    },
+    {
+      "bill": "H.R. 1618",
+      "congress": "119th",
+      "title": "Precision Agriculture Satellite Connectivity Act",
+      "sponsor": "Rep. Robert Latta (R-OH)",
+      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "action_date": "2025-07-15",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1618"
+    },
+    {
+      "bill": "H.R. 4336",
+      "congress": "119th",
+      "title": "CBP SPACE Act",
+      "sponsor": "Rep. Laurel Lee (R-FL)",
+      "latest_action": "Referred to the House Committee on Ways and Means.",
+      "action_date": "2025-07-10",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/4336"
+    },
+    {
+      "bill": "H.R. 4360",
+      "congress": "119th",
+      "title": "Frank Wolf Space Security Act",
+      "sponsor": "Rep. Daniel Webster (R-FL)",
+      "latest_action": "Referred to the House Committee on Science, Space, and Technology.",
+      "action_date": "2025-07-10",
+      "topics": [
+        "National Security"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/4360"
+    },
+    {
+      "bill": "H.Res. 560",
+      "congress": "119th",
+      "title": "Commemorating the 65th anniversary of the Marshall Space Flight Center and recognizing its continued leadership in the development of the Space Launch System and human space exploration.",
+      "sponsor": "Rep. Dale Strong (R-AL)",
+      "latest_action": "Referred to the House Committee on Science, Space, and Technology.",
+      "action_date": "2025-06-27",
+      "topics": [
+        "NASA & Exploration"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-resolution/560"
+    },
+    {
+      "bill": "H.R. 4065",
+      "congress": "119th",
+      "title": "Bring the Space Shuttle Home Act",
+      "sponsor": "Rep. Randy Weber (R-TX)",
+      "latest_action": "Referred to the Committee on Science, Space, and Technology, and in addition to the Committee on House Administration, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "action_date": "2025-06-20",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/4065"
+    },
+    {
+      "bill": "H.R. 3804",
+      "congress": "119th",
+      "title": "Space Launch Noise Mitigation Study Act",
+      "sponsor": "Rep. Salud Carbajal (D-CA)",
+      "latest_action": "Referred to the House Committee on Armed Services.",
+      "action_date": "2025-06-06",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/3804"
+    },
+    {
+      "bill": "S. 1946",
+      "congress": "119th",
+      "title": "Quad Space Act",
+      "sponsor": "Sen. Michael Bennet (D-CO)",
+      "latest_action": "Read twice and referred to the Committee on Foreign Relations.",
+      "action_date": "2025-06-04",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1946"
+    },
+    {
+      "bill": "S.Res. 228",
+      "congress": "119th",
+      "title": "A resolution supporting May 2, 2025, as \"National Space Day\" in recognition of the significant positive impact the aerospace community has and will continue to have on the United States of America.",
+      "sponsor": "Sen. Jerry Moran (R-KS)",
+      "latest_action": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S2934; text: CR S2931)",
+      "action_date": "2025-05-14",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/228"
+    },
+    {
+      "bill": "H.Res. 370",
+      "congress": "119th",
+      "title": "Supporting May 2 as \"National Space Day\" in recognition of the significant positive impact the aerospace community has and will continue to have on the United States of America.",
+      "sponsor": "Rep. Ted Lieu (D-CA)",
+      "latest_action": "Referred to the Committee on Science, Space, and Technology, and in addition to the Committee on Armed Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "action_date": "2025-05-01",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-resolution/370"
+    },
+    {
+      "bill": "H.R. 3142",
+      "congress": "119th",
+      "title": "Secure U.S. Leadership in Space Act of 2025",
+      "sponsor": "Rep. Neal Dunn (R-FL)",
+      "latest_action": "Referred to the House Committee on Ways and Means.",
+      "action_date": "2025-05-01",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/3142"
+    },
+    {
+      "bill": "S. 1560",
+      "congress": "119th",
+      "title": "Secure U.S. Leadership in Space Act of 2025",
+      "sponsor": "Sen. Ashley Moody (R-FL)",
+      "latest_action": "Read twice and referred to the Committee on Finance.",
+      "action_date": "2025-05-01",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1560"
+    },
+    {
+      "bill": "H.R. 2458",
+      "congress": "119th",
+      "title": "Secure Space Act of 2025",
+      "sponsor": "Rep. Frank Pallone (D-NJ)",
+      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "action_date": "2025-04-29",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/2458"
+    },
+    {
+      "bill": "S. 1403",
+      "congress": "119th",
+      "title": "Bring the Space Shuttle Home Act",
+      "sponsor": "Sen. John Cornyn (R-TX)",
+      "latest_action": "Read twice and referred to the Committee on Rules and Administration.",
+      "action_date": "2025-04-10",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1403"
+    },
+    {
+      "bill": "S.Res. 120",
+      "congress": "119th",
+      "title": "A resolution recognizing Girl Scouts of the United States of America on its 113th birthday and celebrating its founder, Juliette Gordon Low, and the legacy of providing girls with a secure and inclusive space where they can explore their world, build meaningful relationships, and have access to experiences that prepare them for a life of leadership.",
+      "sponsor": "Sen. Tammy Duckworth (D-IL)",
+      "latest_action": "Resolution agreed to in Senate without amendment and with a preamble by Unanimous Consent. (consideration: CR S1864; text: 03/10/2025 CR S1632)",
+      "action_date": "2025-03-26",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/120"
+    },
+    {
+      "bill": "H.R. 1368",
+      "congress": "119th",
+      "title": "DOE and NASA Interagency Research Coordination Act",
+      "sponsor": "Rep. Nicholas Begich (R-AK)",
+      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "action_date": "2025-03-25",
+      "topics": [
+        "NASA & Exploration",
+        "Science & Weather"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1368"
+    },
+    {
+      "bill": "H.R. 1325",
+      "congress": "119th",
+      "title": "Commercial Remote Sensing Amendment Act of 2025",
+      "sponsor": "Rep. Frank Lucas (R-OK)",
+      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "action_date": "2025-03-25",
+      "topics": [
+        "Remote Sensing"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1325"
+    },
+    {
+      "bill": "H.R. 2210",
+      "congress": "119th",
+      "title": "Saving NASA’s Workforce Act",
+      "sponsor": "Rep. Zoe Lofgren (D-CA)",
+      "latest_action": "Referred to the House Committee on Science, Space, and Technology.",
+      "action_date": "2025-03-18",
+      "topics": [
+        "NASA & Exploration"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/2210"
+    },
+    {
+      "bill": "S. 980",
+      "congress": "119th",
+      "title": "Alleviating Spaceport Traffic by Rewarding Operators Act of 2025",
+      "sponsor": "Sen. Mark Warner (D-VA)",
+      "latest_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "action_date": "2025-03-12",
+      "topics": [
+        "Commercial Launch"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/980"
+    },
+    {
+      "bill": "H.Res. 217",
+      "congress": "119th",
+      "title": "Recognizing Girl Scouts of the United States of America on its 113th birthday and celebrating its founder Juliette Gordon Low and the legacy of providing girls with a secure and inclusive space where they can explore their world, build meaningful relationships, and have access to experiences that prepare them for a life of leadership.",
+      "sponsor": "Rep. Young Kim (R-CA)",
+      "latest_action": "Referred to the House Committee on Oversight and Government Reform.",
+      "action_date": "2025-03-11",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-resolution/217"
+    },
+    {
+      "bill": "H.R. 2042",
+      "congress": "119th",
+      "title": "Space National Guard Establishment Act of 2025",
+      "sponsor": "Rep. Jason Crow (D-CO)",
+      "latest_action": "Referred to the House Committee on Armed Services.",
+      "action_date": "2025-03-11",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/2042"
+    },
+    {
+      "bill": "S. 963",
+      "congress": "119th",
+      "title": "Space National Guard Establishment Act of 2025",
+      "sponsor": "Sen. Mike Crapo (R-ID)",
+      "latest_action": "Read twice and referred to the Committee on Armed Services.",
+      "action_date": "2025-03-11",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/963"
     },
     {
       "bill": "H.R. 1154",
@@ -61,6 +882,90 @@
         "General Space"
       ],
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/1154"
+    },
+    {
+      "bill": "H.Res. 96",
+      "congress": "119th",
+      "title": "Providing amounts for the expenses of the Committee on Science, Space, and Technology in the One Hundred Nineteenth Congress.",
+      "sponsor": "Rep. Brian Babin (R-TX)",
+      "latest_action": "Referred to the House Committee on House Administration.",
+      "action_date": "2025-02-04",
+      "topics": [
+        "Science & Weather"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-resolution/96"
+    },
+    {
+      "bill": "H.R. 794",
+      "congress": "119th",
+      "title": "Lunar New Year Day Act",
+      "sponsor": "Rep. Grace Meng (D-NY)",
+      "latest_action": "Referred to the House Committee on Oversight and Government Reform.",
+      "action_date": "2025-01-28",
+      "topics": [
+        "NASA & Exploration"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/794"
+    },
+    {
+      "bill": "H.Res. 75",
+      "congress": "119th",
+      "title": "Recognizing the cultural and historical significance of Lunar New Year in 2025.",
+      "sponsor": "Rep. Grace Meng (D-NY)",
+      "latest_action": "Referred to the House Committee on Oversight and Government Reform.",
+      "action_date": "2025-01-28",
+      "topics": [
+        "NASA & Exploration"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-resolution/75"
+    },
+    {
+      "bill": "H.R. 527",
+      "congress": "119th",
+      "title": "Strengthening Wildfire Resiliency Through Satellites Act of 2025",
+      "sponsor": "Rep. Brittany Pettersen (D-CO)",
+      "latest_action": "Referred to the House Committee on Natural Resources.",
+      "action_date": "2025-01-16",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/527"
+    },
+    {
+      "bill": "S.Res. 23",
+      "congress": "119th",
+      "title": "A resolution recognizing the 4th anniversary of the Trump administration's Secretary of the Air Force announcing Redstone Arsenal in Huntsville, Alabama, as the preferred location for United States Space Command Headquarters.",
+      "sponsor": "Sen. Tommy Tuberville (R-AL)",
+      "latest_action": "Referred to the Committee on Armed Services.",
+      "action_date": "2025-01-13",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/23"
+    },
+    {
+      "bill": "H.Res. 37",
+      "congress": "119th",
+      "title": "Recognizing the 4th anniversary of the Trump administration's Secretary of the Air Force announcing Redstone Arsenal in Huntsville, Alabama, as the preferred location for United States Space Command Headquarters.",
+      "sponsor": "Rep. Dale Strong (R-AL)",
+      "latest_action": "Referred to the House Committee on Armed Services.",
+      "action_date": "2025-01-13",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-resolution/37"
+    },
+    {
+      "bill": "H.R. 108",
+      "congress": "119th",
+      "title": "Space Research Innovation Act",
+      "sponsor": "Rep. Andy Biggs (R-AZ)",
+      "latest_action": "Referred to the House Committee on Science, Space, and Technology.",
+      "action_date": "2025-01-03",
+      "topics": [
+        "Science & Weather"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/108"
     }
   ]
 }
