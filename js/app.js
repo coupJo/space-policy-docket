@@ -384,3 +384,65 @@ function miniTable(id, rows, header) {
       `<tr><td>${i + 1}</td><td>${r.name}</td><td class="num">$${r.amount.toLocaleString()}</td></tr>`
     ).join("") + "</tbody>";
 }
+
+/* ------------------ 8. LAW COMPARATOR ------------------ */
+
+let lawsData = null;
+const activeCountries = new Set();   // which country columns are showing
+
+fetch("data/laws.json?v=" + Date.now())
+  .then(response => response.json())
+  .then(data => {
+    lawsData = data;
+    data.countries.forEach(c => { if (c.default) activeCountries.add(c.key); });
+    if (activeCountries.size === 0) activeCountries.add(data.countries[0].key);
+    buildCountryPills();
+    renderLaws();
+    renderLawSources();
+    document.getElementById("laws-note").textContent =
+      data.disclaimer + " " + data.source + ".";
+  })
+  .catch(() => { /* laws.json missing — tab just stays empty */ });
+
+function buildCountryPills() {
+  const pills = document.getElementById("country-pills");
+  pills.innerHTML = lawsData.countries.map(c =>
+    `<button class="subtab-btn ${activeCountries.has(c.key) ? "active" : ""}" ` +
+    `data-country="${c.key}">${c.flag} ${c.name}</button>`).join("");
+  pills.querySelectorAll("button").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const key = btn.dataset.country;
+      if (activeCountries.has(key)) {
+        if (activeCountries.size === 1) return;   // keep at least one column
+        activeCountries.delete(key);
+      } else {
+        activeCountries.add(key);
+      }
+      btn.classList.toggle("active", activeCountries.has(key));
+      renderLaws();
+    });
+  });
+}
+
+function renderLaws() {
+  // Columns appear in the data file's order, filtered to the active set.
+  const countries = lawsData.countries.filter(c => activeCountries.has(c.key));
+  document.querySelector("#laws-table thead tr").innerHTML =
+    "<th></th>" + countries.map(c => `<th>${c.flag} ${c.name}</th>`).join("");
+  document.querySelector("#laws-table tbody").innerHTML =
+    lawsData.dimensions.map(dim => `
+      <tr>
+        <th class="dim-label">${dim.label}</th>
+        ${countries.map(c => `<td>${c.cells[dim.key] || "—"}</td>`).join("")}
+      </tr>
+    `).join("");
+}
+
+function renderLawSources() {
+  const items = [];
+  lawsData.countries.forEach(c => (c.sources || []).forEach(s =>
+    items.push(`<li>${c.flag} <a href="${s.url}" target="_blank" rel="noopener">${s.label}</a></li>`)));
+  (lawsData.general_sources || []).forEach(s =>
+    items.push(`<li>🌐 <a href="${s.url}" target="_blank" rel="noopener">${s.label}</a></li>`));
+  document.getElementById("laws-sources-list").innerHTML = items.join("");
+}
