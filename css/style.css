@@ -103,6 +103,13 @@ body {
   color: #5c4a1a;
 }
 
+.notice-live {
+  background: #edf1f6;
+  border-color: #d5dde8;
+  border-left-color: var(--navy);
+  color: #3a4a5e;
+}
+
 /* ---------- Docket controls ---------- */
 .controls {
   display: flex;
