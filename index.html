@@ -41,30 +41,75 @@
       <!-- Filled by js/app.js: warning if sample data, quiet status line if live -->
       <div class="notice" id="data-status" hidden></div>
 
-      <div class="controls">
-        <input type="search" id="search-input" placeholder="Search bills, sponsors, topics…" aria-label="Search bills">
-        <select id="topic-filter" aria-label="Filter by topic">
-          <option value="">All topics</option>
-        </select>
-        <span id="result-count" class="result-count"></span>
+      <!-- "This Week in Space Policy" — filled from data/digest.json -->
+      <details class="digest" id="digest-card" hidden open>
+        <summary id="digest-summary"></summary>
+        <div id="digest-body"></div>
+      </details>
+
+      <!-- Switch between the two Docket views -->
+      <div class="subtabs" role="tablist">
+        <button class="subtab-btn active" data-view="bills">Bills in Congress</button>
+        <button class="subtab-btn" data-view="rules">Agency Rulemaking</button>
       </div>
 
-      <div class="table-wrap">
-        <table id="bills-table">
-          <thead>
-            <tr>
-              <th data-sort="bill" class="sortable">Bill</th>
-              <th data-sort="title" class="sortable">Title</th>
-              <th data-sort="sponsor" class="sortable">Sponsor</th>
-              <th>Latest Action</th>
-              <th data-sort="action_date" class="sortable sorted-desc">Date</th>
-              <th>Topics</th>
-            </tr>
-          </thead>
-          <tbody><!-- rows injected by js/app.js --></tbody>
-        </table>
+      <!-- ===== View 1: bills ===== -->
+      <div id="view-bills">
+        <div class="controls">
+          <input type="search" id="search-input" placeholder="Search bills, sponsors, topics…" aria-label="Search bills">
+          <select id="topic-filter" aria-label="Filter by topic">
+            <option value="">All topics</option>
+          </select>
+          <span id="result-count" class="result-count"></span>
+        </div>
+
+        <div class="table-wrap">
+          <table id="bills-table">
+            <thead>
+              <tr>
+                <th data-sort="bill" class="sortable">Bill</th>
+                <th data-sort="title" class="sortable">Title</th>
+                <th data-sort="sponsor" class="sortable">Sponsor</th>
+                <th>Latest Action</th>
+                <th data-sort="action_date" class="sortable sorted-desc">Date</th>
+                <th>Topics</th>
+              </tr>
+            </thead>
+            <tbody><!-- rows injected by js/app.js --></tbody>
+          </table>
+        </div>
+        <p class="table-hint">Click a column header to sort. Bill numbers link to Congress.gov.</p>
       </div>
-      <p class="table-hint">Click a column header to sort. Bill numbers link to Congress.gov.</p>
+
+      <!-- ===== View 2: agency rules ===== -->
+      <div id="view-rules" hidden>
+        <div class="controls">
+          <input type="search" id="rules-search" placeholder="Search rules, agencies, topics…" aria-label="Search rules">
+          <select id="type-filter" aria-label="Filter by document type">
+            <option value="">All types</option>
+            <option value="Final Rule">Final Rules</option>
+            <option value="Proposed Rule">Proposed Rules</option>
+          </select>
+          <span id="rules-count" class="result-count"></span>
+        </div>
+
+        <div class="table-wrap">
+          <table id="rules-table">
+            <thead>
+              <tr>
+                <th>Document</th>
+                <th>Title</th>
+                <th>Agency</th>
+                <th>Type</th>
+                <th>Published</th>
+                <th>Comments Close</th>
+              </tr>
+            </thead>
+            <tbody><!-- rows injected by js/app.js --></tbody>
+          </table>
+        </div>
+        <p class="table-hint">Final and proposed rules from FAA, FCC, NOAA, and NASA since January 2025. Document numbers link to the Federal Register.</p>
+      </div>
     </section>
 
     <!-- ============ TAB 2: MONEY MAP (Phase 3) ============ -->
@@ -156,7 +201,7 @@
   <footer>
     <div class="container">
       <p><strong>Space Policy Docket</strong> · An independent, nonpartisan tracker of U.S. space policy.</p>
-      <p>Data: Congress.gov, refreshed daily · Federal Register rulemaking joins in Phase 2.</p>
+      <p>Data: Congress.gov &amp; Federal Register, refreshed daily.</p>
     </div>
   </footer>
 
