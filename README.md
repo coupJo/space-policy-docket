@@ -4,7 +4,7 @@ A free, independent tracker of U.S. space policy — bills in Congress, agency r
 
 **Live site:** https://coupjo.github.io/space-policy-docket/
 
-**Status:** Docket tab live with real Congress.gov bills and Federal Register rulemaking, plus an auto-generated "This Week in Space Policy" digest. All refreshed daily.
+**Status:** Docket tab live with real Congress.gov bills and Federal Register rulemaking, a "This Week in Space Policy" digest, and a Money Map of NASA award spending. All refreshed daily.
 
 ## What's in each file
 
@@ -18,11 +18,13 @@ space-policy-docket/
 ├── data/                   Auto-generated — don't hand-edit these
 │   ├── bills.json          Space bills in the current Congress
 │   ├── rules.json          Final & proposed rules from FAA, FCC, NOAA, NASA
+│   ├── money.json          NASA award totals by recipient & congressional district
 │   └── digest.json         The trailing-7-day summary shown at the top
 ├── scripts/
 │   ├── fetch_bills.py      Scans every bill of the Congress via the Congress.gov API
 │   ├── fetch_rules.py      Pulls space rulemaking from the Federal Register API
-│   └── build_digest.py     Summarizes the last 7 days from the two files above
+│   ├── fetch_money.py      Pulls FY award data from the USAspending.gov API
+│   └── build_digest.py     Summarizes the last 7 days from the bills & rules files
 └── .github/workflows/
     └── update-data.yml     Runs all three scripts every morning and commits the result
 ```
@@ -31,7 +33,7 @@ The key idea: the `data/` files are the only things that change day to day. The 
 
 ## How the daily update works
 
-Every morning at 6am Pacific, GitHub Actions (GitHub's free robot) checks out this repo, runs the three scripts in order — bills, rules, digest — and commits whatever changed. GitHub Pages then redeploys the site automatically. It also re-runs whenever a script is edited, and can be triggered by hand: **Actions tab → Update bill data → Run workflow**.
+Every morning at 6am Pacific, GitHub Actions (GitHub's free robot) checks out this repo, runs the scripts in order — bills, rules, awards, digest — and commits whatever changed. GitHub Pages then redeploys the site automatically. It also re-runs whenever a script is edited, and can be triggered by hand: **Actions tab → Update bill data → Run workflow**.
 
 The Congress.gov API key lives in a repository secret named `CONGRESS_API_KEY` (Settings → Secrets and variables → Actions) — it never appears in the code. The Federal Register API needs no key.
 
@@ -55,5 +57,5 @@ Then open http://localhost:8000. (The live GitHub Pages site has no such issue.)
 
 - **Phase 1 (done):** site shell + live bills table + Who Regulates v1
 - **Phase 2 (done):** Federal Register rulemaking + weekly digest
-- **Phase 3:** Money Map — space contracts by company and congressional district (USAspending.gov)
+- **Phase 3 (done):** Money Map — NASA awards by company and congressional district (USAspending.gov)
 - **Phase 4:** National Space Law Comparator (UNOOSA sources)
