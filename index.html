@@ -38,6 +38,170 @@
 
     <!-- ============ TAB 1: THE DOCKET ============ -->
     <section id="docket" class="tab-panel active">
+      <!-- Filled by js/app.js: warning if sample data, quiet status line if live -->
+      <div class="notice" id="data-status" hidden></div>
+
+      <div class="controls">
+        <input type="search" id="search-input" placeholder="Search bills, sponsors, topics…" aria-label="Search bills">
+        <select id="topic-filter" aria-label="Filter by topic">
+          <option value="">All topics</option>
+        </select>
+        <span id="result-count" class="result-count"></span>
+      </div>
+
+      <div class="table-wrap">
+        <table id="bills-table">
+          <thead>
+            <tr>
+              <th data-sort="bill" class="sortable">Bill</th>
+              <th data-sort="title" class="sortable">Title</th>
+              <th data-sort="sponsor" class="sortable">Sponsor</th>
+              <th>Latest Action</th>
+              <th data-sort="action_date" class="sortable sorted-desc">Date</th>
+              <th>Topics</th>
+            </tr>
+          </thead>
+          <tbody><!-- rows injected by js/app.js --></tbody>
+        </table>
+      </div>
+      <p class="table-hint">Click a column header to sort. Bill numbers link to Congress.gov.</p>
+    </section>
+
+    <!-- ============ TAB 2: MONEY MAP (Phase 3) ============ -->
+    <section id="money-map" class="tab-panel">
+      <div class="coming-soon">
+        <h2>Money Map</h2>
+        <p class="phase-label">Coming in Phase 3 · late September</p>
+        <p>Federal space contracts and grants mapped by company and congressional district, built on the
+        USAspending.gov API. Which districts eat when NASA's budget moves — and which members have
+        skin in the game.</p>
+      </div>
+    </section>
+
+    <!-- ============ TAB 3: WHO REGULATES SPACE? ============ -->
+    <section id="regulators" class="tab-panel">
+      <h2>Who Regulates Space?</h2>
+      <p class="section-intro">No single agency governs American activity in orbit. Jurisdiction is split across
+      at least five, each holding one piece of a launch-to-reentry mission — and some novel activities fall
+      through the cracks entirely.</p>
+
+      <div class="card-grid">
+        <article class="agency-card">
+          <h3>FAA <span class="office">Office of Commercial Space Transportation (AST)</span></h3>
+          <p>Licenses commercial launch, reentry, and spaceport operations to protect public safety, under
+          51 U.S.C. chapter 509. Safety requirements are consolidated in 14 CFR Part 450. The FAA's writ
+          largely ends where orbit begins — it does not regulate what a spacecraft does once deployed.</p>
+          <p class="authority">Key authority: 51 U.S.C. ch. 509 · 14 CFR Part 450</p>
+        </article>
+
+        <article class="agency-card">
+          <h3>FCC <span class="office">Space Bureau</span></h3>
+          <p>Licenses the radio spectrum every satellite needs to communicate, which makes it a de facto
+          regulator of satellite operations. FCC license conditions include orbital debris mitigation —
+          notably the rule requiring low-Earth-orbit satellites to deorbit within five years of mission end.</p>
+          <p class="authority">Key authority: Communications Act · 47 CFR Part 25</p>
+        </article>
+
+        <article class="agency-card">
+          <h3>NOAA <span class="office">Commercial Remote Sensing Regulatory Affairs</span></h3>
+          <p>Licenses private Earth-imaging satellites under the Land Remote Sensing Policy Act. The 2020
+          reform sorted systems into tiers: the more widely available your imaging capability, the lighter
+          the conditions on your license.</p>
+          <p class="authority">Key authority: 51 U.S.C. ch. 601 · 15 CFR Part 960</p>
+        </article>
+
+        <article class="agency-card">
+          <h3>State &amp; Commerce <span class="office">Export Controls (ITAR / EAR)</span></h3>
+          <p>Space technology is treated as sensitive dual-use or defense technology. The State Department
+          (ITAR) controls defense articles; the Commerce Department (EAR) controls most commercial satellite
+          tech since the 2014 reform. Export compliance shapes who space companies can hire, partner with,
+          and sell to.</p>
+          <p class="authority">Key authority: ITAR (22 CFR 120–130) · EAR (15 CFR 730–774)</p>
+        </article>
+
+        <article class="agency-card">
+          <h3>DoD / U.S. Space Force <span class="office">+ Commerce Office of Space Commerce</span></h3>
+          <p>The military tracks objects in orbit and has long warned operators of potential collisions. That
+          civil traffic-coordination role is transitioning to the Commerce Department's TraCSS system,
+          leaving DoD focused on national security space.</p>
+          <p class="authority">Key authority: Space Policy Directive-3</p>
+        </article>
+
+        <article class="agency-card gap-card">
+          <h3>The Mission Authorization Gap</h3>
+          <p>Private space stations, satellite servicing, debris removal, lunar landers: novel activities with
+          no clear licensing home. The Outer Space Treaty (Art. VI) obligates the U.S. to authorize and
+          continuously supervise its nationals in space — but Congress hasn't assigned the job. Competing
+          proposals would hand it to Commerce, the FAA, or split it. This is the live debate this site tracks.</p>
+          <p class="authority">Key authority: Outer Space Treaty, Art. VI — unimplemented for novel activities</p>
+        </article>
+      </div>
+
+      <p class="draft-note">Version 1 — this explainer is being expanded with sources and case studies.</p>
+    </section>
+
+    <!-- ============ TAB 4: LAW COMPARATOR (Phase 4) ============ -->
+    <section id="comparator" class="tab-panel">
+      <div class="coming-soon">
+        <h2>National Space Law Comparator</h2>
+        <p class="phase-label">Coming in Phase 4 · October</p>
+        <p>How the U.S., Luxembourg, Japan, the UAE, and others handle licensing, liability, registration,
+        and space resource rights — side by side, in plain English, sourced from the UNOOSA national
+        space law database.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <p><strong>Space Policy Docket</strong> · An independent, nonpartisan tracker of U.S. space policy.</p>
+      <p>Data: Congress.gov, refreshed daily · Federal Register rulemaking joins in Phase 2.</p>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Space Policy Docket — Tracking U.S. Space Law &amp; Regulation</title>
+  <meta name="description" content="A free, independent tracker of U.S. space policy: bills in Congress, agency rulemaking, and who regulates what in orbit.">
+
+  <!-- Fonts: serif for headings (think-tank feel), sans for body -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ============ MASTHEAD ============ -->
+  <header class="masthead">
+    <div class="container">
+      <p class="eyebrow">An independent U.S. space policy tracker</p>
+      <h1>Space Policy Docket</h1>
+      <p class="tagline">Bills, rules, and the agencies that govern American activity in orbit — in one place.</p>
+    </div>
+  </header>
+
+  <!-- ============ TAB NAVIGATION ============ -->
+  <nav class="tab-bar" aria-label="Site sections">
+    <div class="container tab-bar-inner">
+      <button class="tab-btn active" data-tab="docket">The Docket</button>
+      <button class="tab-btn" data-tab="money-map">Money Map</button>
+      <button class="tab-btn" data-tab="regulators">Who Regulates Space?</button>
+      <button class="tab-btn" data-tab="comparator">Law Comparator</button>
+    </div>
+  </nav>
+
+  <main class="container">
+
+    <!-- ============ TAB 1: THE DOCKET ============ -->
+    <section id="docket" class="tab-panel active">
       <div class="notice" id="sample-notice">
         <strong>Sample data.</strong> These entries are placeholders to test the layout — details may be
         inaccurate. A live daily feed from the Congress.gov API replaces this in Phase&nbsp;2.
