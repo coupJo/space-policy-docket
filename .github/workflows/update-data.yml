@@ -1,4 +1,4 @@
-# Runs scripts/fetch_bills.py every morning and commits the fresh data,
+# Runs the data scripts every morning and commits the fresh data,
 # so the site updates itself. Can also be run by hand from the Actions tab
 # ("Run workflow" button) thanks to workflow_dispatch.
 
@@ -37,10 +37,16 @@ jobs:
           CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
         run: python scripts/fetch_bills.py
 
+      - name: Fetch rules from the Federal Register
+        run: python scripts/fetch_rules.py
+
+      - name: Build the weekly digest
+        run: python scripts/build_digest.py
+
       - name: Commit updated data (only if it changed)
         run: |
           git config user.name "docket-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/bills.json
+          git add data/
           git diff --staged --quiet || git commit -m "Daily data refresh"
           git push
