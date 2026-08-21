@@ -2,7 +2,7 @@
 fetch_bills.py — refresh data/bills.json with real bills from the Congress.gov API.
 
 How it works, in plain terms:
-  1. Download the most recently *updated* bills of the current Congress
+  1. Download every bill of the current Congress, newest updates first
      (the API has no keyword search, so we cast a wide net first).
   2. Keep only bills whose title looks space-related (keyword lists below).
   3. For each keeper, make one extra API call to get its sponsor.
@@ -32,8 +32,8 @@ import requests
 API_BASE = "https://api.congress.gov/v3"
 CONGRESS = 119                # current Congress (update every two years)
 PAGE_SIZE = 250               # max the API allows per request
-MAX_PAGES = 6                 # 6 x 250 = the 1,500 most recently updated bills
-DETAIL_CALL_CAP = 250         # safety cap on per-bill sponsor lookups
+SAFETY_MAX_PAGES = 80         # backstop so a bug can never loop forever
+DETAIL_CALL_CAP = 400         # safety cap on per-bill sponsor lookups
 
 # A bill's title must contain one of these to count as "space policy."
 # WORDS are matched as whole words ("mars" won't match "marshal");
@@ -46,6 +46,12 @@ WORDS = [
 PHRASES = [
     "commercial launch", "launch vehicle", "space launch",
     "remote sensing", "outer space",
+]
+
+# "Space" also means office space, parking space, green space… skip those.
+EXCLUDE_PHRASES = [
+    "office space", "space and facilities", "facilities management",
+    "parking space", "open space", "green space", "crawl space",
 ]
 
 # Topic tags shown as pills on the site. First keyword hit wins a tag;
@@ -95,6 +101,8 @@ def api_get(path, **params):
 
 def is_space_related(title):
     lower = title.lower()
+    if any(p in lower for p in EXCLUDE_PHRASES):
+        return False
     return bool(WORD_REGEX.search(title)) or any(p in lower for p in PHRASES)
 
 
@@ -132,10 +140,13 @@ def main():
     if not os.environ.get("CONGRESS_API_KEY"):
         sys.exit("Error: set the CONGRESS_API_KEY environment variable first.")
 
-    print(f"Scanning the {CONGRESS}th Congress for space-related bills…")
-    seen = {}   # (type, number) -> raw bill, dedupes across pages
+    print(f"Scanning the entire {CONGRESS}th Congress for space-related bills…")
+    seen = {}      # (type, number) -> raw bill, dedupes across pages
+    scanned = 0
 
-    for page in range(MAX_PAGES):
+    # Walk through EVERY bill of this Congress, 250 at a time,
+    # until the API returns an empty page.
+    for page in range(SAFETY_MAX_PAGES):
         batch = api_get(
             f"/bill/{CONGRESS}",
             limit=PAGE_SIZE,
@@ -145,12 +156,15 @@ def main():
         bills = batch.get("bills", [])
         if not bills:
             break
+        scanned += len(bills)
         for raw in bills:
             key = (raw.get("type", ""), str(raw.get("number", "")))
             if key not in seen and is_space_related(raw.get("title", "")):
                 seen[key] = raw
-        print(f"  page {page + 1}: scanned {len(bills)}, "
-              f"space-related so far: {len(seen)}")
+        if (page + 1) % 10 == 0:
+            print(f"  …{scanned} bills scanned, {len(seen)} space-related so far")
+
+    print(f"Scanned {scanned} bills total; {len(seen)} look space-related.")
 
     matches = list(seen.values())[:DETAIL_CALL_CAP]
     print(f"Fetching sponsors for {len(matches)} bills…")
