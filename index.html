@@ -222,8 +222,9 @@
           <h3>The Mission Authorization Gap</h3>
           <p>Private space stations, satellite servicing, debris removal, lunar landers: novel activities with
           no clear licensing home. The Outer Space Treaty (Art. VI) obligates the U.S. to authorize and
-          continuously supervise its nationals in space — but Congress hasn't assigned the job. Competing
-          proposals would hand it to Commerce, the FAA, or split it. This is the live debate this site tracks.</p>
+          continuously supervise its nationals in space — but Congress hasn't assigned the job. An August
+          2025 executive order tasked Commerce with proposing a mission-authorization process, and Congress
+          is now weighing legislation — the live debate this site tracks.</p>
           <p class="authority">Key authority: Outer Space Treaty, Art. VI — unimplemented for novel activities</p>
         </article>
       </div>
@@ -231,15 +232,28 @@
       <p class="draft-note">Version 1 — this explainer is being expanded with sources and case studies.</p>
     </section>
 
-    <!-- ============ TAB 4: LAW COMPARATOR (Phase 4) ============ -->
+    <!-- ============ TAB 4: LAW COMPARATOR ============ -->
     <section id="comparator" class="tab-panel">
-      <div class="coming-soon">
-        <h2>National Space Law Comparator</h2>
-        <p class="phase-label">Coming in Phase 4 · October</p>
-        <p>How the U.S., Luxembourg, Japan, the UAE, and others handle licensing, liability, registration,
-        and space resource rights — side by side, in plain English, sourced from the UNOOSA national
-        space law database.</p>
+      <h2>National Space Law Comparator</h2>
+      <p class="section-intro">Six countries, one question each way: who licenses, who's liable, and who
+      may own what they mine. Plain-English summaries of national space law, side by side. Pick countries
+      to compare.</p>
+
+      <div class="subtabs" id="country-pills"></div>
+
+      <div class="table-wrap">
+        <table id="laws-table" class="laws-table">
+          <thead><tr><!-- built by js/app.js --></tr></thead>
+          <tbody><!-- built by js/app.js --></tbody>
+        </table>
       </div>
+
+      <details class="money-tables" id="laws-sources">
+        <summary>Sources</summary>
+        <ul id="laws-sources-list" class="sources-list"></ul>
+      </details>
+
+      <p class="table-hint" id="laws-note"></p>
     </section>
 
   </main>
@@ -247,6 +261,7 @@
   <footer>
     <div class="container">
       <p><strong>Space Policy Docket</strong> · An independent, nonpartisan tracker of U.S. space policy.</p>
+      <p>Built and maintained by Joseph Khoury · <a href="mailto:j3khoury@ucsd.edu">j3khoury@ucsd.edu</a></p>
       <p>Data: Congress.gov, Federal Register &amp; USAspending.gov — refreshed daily.</p>
     </div>
   </footer>
