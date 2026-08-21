@@ -182,7 +182,7 @@ document.querySelectorAll("th.sortable").forEach(th => {
 
 /* ------------------ 4. DOCKET SUB-TABS (Bills / Rules) ------------------ */
 
-const subtabButtons = document.querySelectorAll(".subtab-btn");
+const subtabButtons = document.querySelectorAll("#docket .subtab-btn");
 subtabButtons.forEach(btn => {
   btn.addEventListener("click", () => {
     subtabButtons.forEach(b => b.classList.toggle("active", b === btn));
@@ -291,4 +291,96 @@ function renderDigest(d) {
 
   document.getElementById("digest-body").innerHTML = html;
   document.getElementById("digest-card").hidden = false;
+}
+
+/* ------------------ 7. MONEY MAP ------------------ */
+
+// "$22.4B" / "$830M" / "$140K" — compact money for tiles and bar tips.
+function fmtMoney(n) {
+  if (n >= 1e9) return "$" + (n / 1e9).toFixed(1).replace(/\.0$/, "") + "B";
+  if (n >= 1e6) return "$" + (n / 1e6).toFixed(0) + "M";
+  if (n >= 1e3) return "$" + (n / 1e3).toFixed(0) + "K";
+  return "$" + n;
+}
+
+fetch("data/money.json?v=" + Date.now())
+  .then(response => response.json())
+  .then(initMoney)
+  .catch(() => {
+    document.getElementById("money-empty").hidden = false;
+  });
+
+function initMoney(data) {
+  const status = document.getElementById("money-status");
+  status.hidden = false;
+  if ((data.source || "").toLowerCase().includes("sample")) {
+    status.innerHTML = "<strong>Sample data.</strong> Placeholder figures to test " +
+      "the layout — the live USAspending.gov feed replaces this shortly.";
+  } else {
+    status.classList.add("notice-live");
+    status.innerHTML = "<strong>Live data</strong> from the USAspending.gov API · " +
+      data.fiscal_year + " · updated " + formatDate(data.generated) + " · refreshes daily.";
+  }
+
+  document.getElementById("money-note").textContent =
+    (data.note || "") + " Figures are " + data.fiscal_year + " prime-award obligations.";
+
+  // One pill per program (only shown if there's more than one, e.g. NASA + Space Force).
+  const pills = document.getElementById("program-pills");
+  if (data.programs.length > 1) {
+    pills.hidden = false;
+    pills.innerHTML = data.programs.map((p, i) =>
+      `<button class="subtab-btn ${i === 0 ? "active" : ""}" data-program="${p.key}">${p.label}</button>`
+    ).join("");
+    pills.querySelectorAll("button").forEach(btn => {
+      btn.addEventListener("click", () => {
+        pills.querySelectorAll("button").forEach(b =>
+          b.classList.toggle("active", b === btn));
+        renderProgram(data, data.programs.find(p => p.key === btn.dataset.program));
+      });
+    });
+  }
+
+  document.getElementById("money-content").hidden = false;
+  renderProgram(data, data.programs[0]);
+}
+
+function renderProgram(data, program) {
+  // Stat tiles.
+  document.getElementById("stat-total-label").textContent =
+    program.label + " obligations · " + data.fiscal_year;
+  document.getElementById("stat-total").textContent = fmtMoney(program.total);
+  const topR = program.recipients[0], topD = program.districts[0];
+  document.getElementById("stat-recipient").textContent = topR ? topR.name : "—";
+  document.getElementById("stat-recipient-amt").textContent = topR ? fmtMoney(topR.amount) : "";
+  document.getElementById("stat-district").textContent = topD ? topD.name : "—";
+  document.getElementById("stat-district-amt").textContent = topD ? fmtMoney(topD.amount) : "";
+
+  // Bar charts (top 10 each) + full tables.
+  barlist("bars-recipients", program.recipients.slice(0, 10));
+  barlist("bars-districts", program.districts.slice(0, 10));
+  miniTable("table-recipients", program.recipients, "Recipient");
+  miniTable("table-districts", program.districts, "District");
+}
+
+// A horizontal bar per row: label | bar | value. All bars share one scale.
+function barlist(id, rows) {
+  const max = Math.max(...rows.map(r => r.amount), 1);
+  document.getElementById(id).innerHTML = rows.map(r => `
+    <div class="bar-row" title="${r.name} — $${r.amount.toLocaleString()}">
+      <span class="bar-label">${r.name}</span>
+      <div class="bar-track">
+        <div class="bar-fill" style="width:${(r.amount / max * 100).toFixed(1)}%"></div>
+      </div>
+      <span class="bar-value">${fmtMoney(r.amount)}</span>
+    </div>
+  `).join("");
+}
+
+function miniTable(id, rows, header) {
+  document.getElementById(id).innerHTML =
+    `<thead><tr><th>#</th><th>${header}</th><th class="num">Amount</th></tr></thead><tbody>` +
+    rows.map((r, i) =>
+      `<tr><td>${i + 1}</td><td>${r.name}</td><td class="num">$${r.amount.toLocaleString()}</td></tr>`
+    ).join("") + "</tbody>";
 }
