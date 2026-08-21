@@ -112,14 +112,60 @@
       </div>
     </section>
 
-    <!-- ============ TAB 2: MONEY MAP (Phase 3) ============ -->
+    <!-- ============ TAB 2: MONEY MAP ============ -->
     <section id="money-map" class="tab-panel">
-      <div class="coming-soon">
-        <h2>Money Map</h2>
-        <p class="phase-label">Coming in Phase 3 · late September</p>
-        <p>Federal space contracts and grants mapped by company and congressional district, built on the
-        USAspending.gov API. Which districts eat when NASA's budget moves — and which members have
-        skin in the game.</p>
+      <h2>Money Map</h2>
+      <p class="section-intro">Where federal space money lands: prime awards — contracts and grants —
+      grouped by who received them and by the congressional district where the work is performed.
+      Source: USAspending.gov.</p>
+
+      <div class="notice" id="money-status" hidden></div>
+
+      <!-- Program pills appear only when more than one program loaded -->
+      <div class="subtabs" id="program-pills" hidden></div>
+
+      <div id="money-content" hidden>
+        <div class="stat-row">
+          <div class="stat-tile">
+            <p class="stat-label" id="stat-total-label">Total obligations</p>
+            <p class="stat-value stat-hero" id="stat-total"></p>
+          </div>
+          <div class="stat-tile">
+            <p class="stat-label">Top recipient</p>
+            <p class="stat-value" id="stat-recipient"></p>
+            <p class="stat-sub" id="stat-recipient-amt"></p>
+          </div>
+          <div class="stat-tile">
+            <p class="stat-label">Top district</p>
+            <p class="stat-value" id="stat-district"></p>
+            <p class="stat-sub" id="stat-district-amt"></p>
+          </div>
+        </div>
+
+        <div class="chart-grid">
+          <div class="chart-card">
+            <h3>Top recipients</h3>
+            <div class="barlist" id="bars-recipients"></div>
+          </div>
+          <div class="chart-card">
+            <h3>Top districts <span class="chart-sub">by place of performance</span></h3>
+            <div class="barlist" id="bars-districts"></div>
+          </div>
+        </div>
+
+        <details class="money-tables">
+          <summary>Full lists (table view)</summary>
+          <div class="chart-grid">
+            <div class="chart-card"><h3>Recipients</h3><table class="mini-table" id="table-recipients"></table></div>
+            <div class="chart-card"><h3>Districts</h3><table class="mini-table" id="table-districts"></table></div>
+          </div>
+        </details>
+
+        <p class="table-hint" id="money-note"></p>
+      </div>
+
+      <div class="coming-soon" id="money-empty" hidden>
+        <p>Award data hasn't been generated yet — it arrives with the next daily refresh.</p>
       </div>
     </section>
 
@@ -201,7 +247,7 @@
   <footer>
     <div class="container">
       <p><strong>Space Policy Docket</strong> · An independent, nonpartisan tracker of U.S. space policy.</p>
-      <p>Data: Congress.gov &amp; Federal Register, refreshed daily.</p>
+      <p>Data: Congress.gov, Federal Register &amp; USAspending.gov — refreshed daily.</p>
     </div>
   </footer>
 
