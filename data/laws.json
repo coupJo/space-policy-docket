@@ -1,0 +1,123 @@
+{
+  "generated": "2026-08-21",
+  "source": "Hand-researched by the site author from primary sources; last verified August 2026",
+  "disclaimer": "Plain-English summaries for orientation — not legal advice.",
+  "dimensions": [
+    { "key": "key_law", "label": "Key instrument(s)" },
+    { "key": "licensing", "label": "Who authorizes" },
+    { "key": "liability", "label": "Liability & insurance" },
+    { "key": "registration", "label": "National registry" },
+    { "key": "resources", "label": "Space resource rights" },
+    { "key": "distinctive", "label": "One thing to know" }
+  ],
+  "countries": [
+    {
+      "key": "us",
+      "name": "United States",
+      "flag": "🇺🇸",
+      "default": true,
+      "cells": {
+        "key_law": "No single space act — a patchwork: 51 U.S.C. ch. 509 (launch & reentry), the Communications Act (spectrum), 51 U.S.C. ch. 601 (remote sensing), and the Commercial Space Launch Competitiveness Act of 2015.",
+        "licensing": "Split by activity: FAA licenses launch and reentry, FCC licenses spectrum, NOAA licenses remote sensing. Novel in-space activities still have no assigned licenser — an August 2025 executive order tasked Commerce with proposing a mission-authorization process, now before Congress.",
+        "liability": "Launch operators must insure up to a government-calculated \"maximum probable loss\"; above that, the government promises to cover third-party claims up to a cap in the low billions — a bargain designed to make launch insurable.",
+        "registration": "The State Department keeps the U.S. registry of space objects under the UN Registration Convention.",
+        "resources": "First mover: the 2015 law grants U.S. citizens ownership of space resources they obtain, while explicitly claiming no sovereignty over celestial bodies.",
+        "distinctive": "The world's largest space economy runs on launch-era statutes — the \"mission authorization gap\" for stations, servicing, and mining is the live debate this site tracks."
+      },
+      "sources": [
+        { "label": "FAA Office of Commercial Space Transportation", "url": "https://www.faa.gov/space" },
+        { "label": "CSLCA of 2015 (H.R. 2262)", "url": "https://www.congress.gov/bill/114th-congress/house-bill/2262" }
+      ]
+    },
+    {
+      "key": "lux",
+      "name": "Luxembourg",
+      "flag": "🇱🇺",
+      "default": true,
+      "cells": {
+        "key_law": "Law of 20 July 2017 on the exploration and use of space resources + Law of 15 December 2020 on space activities.",
+        "licensing": "Government ministers authorize and continuously supervise each mission individually; the 2020 law extends licensing to all space activities, not just resource ventures.",
+        "liability": "Operators bear liability and must demonstrate financial soundness and insurance to be authorized; the state can recover what it pays out on international claims.",
+        "registration": "A national registry of space objects maintained under the 2020 law.",
+        "resources": "Second country on Earth (2017) to declare that space resources are \"capable of being appropriated\" — the legal cornerstone of its bid to host the space-mining industry.",
+        "distinctive": "A country of under 700,000 people deliberately wrote itself into the center of commercial space law — legislation as industrial policy."
+      },
+      "sources": [
+        { "label": "Luxembourg Space Agency — legal framework", "url": "https://space-agency.public.lu/en/agency/legal-framework.html" }
+      ]
+    },
+    {
+      "key": "jp",
+      "name": "Japan",
+      "flag": "🇯🇵",
+      "default": true,
+      "cells": {
+        "key_law": "Space Activities Act (2016) + Space Resources Act (2021).",
+        "licensing": "The Cabinet Office licenses each launch vehicle, launch site, and satellite-control operation under the 2016 Act.",
+        "liability": "Liability for launch damage is channeled exclusively to the launch operator, who must carry insurance — with government compensation above it. Customers and manufacturers are shielded by design.",
+        "registration": "National registration is handled through the Cabinet Office licensing system.",
+        "resources": "The 2021 Act grants ownership of extracted space resources to operators holding an approved business plan — permits are published publicly.",
+        "distinctive": "\"Channeling\" all launch liability to one party is a deliberate pro-business design — a satellite customer in Japan knows exactly what risk they do and don't carry."
+      },
+      "sources": [
+        { "label": "Space Resources Act (official translation)", "url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4816/en" },
+        { "label": "Cabinet Office — space activities licensing", "url": "https://www8.cao.go.jp/space/english/resource/application.html" }
+      ]
+    },
+    {
+      "key": "uae",
+      "name": "UAE",
+      "flag": "🇦🇪",
+      "default": false,
+      "cells": {
+        "key_law": "Federal Law No. 12 of 2019 on the Regulation of the Space Sector.",
+        "licensing": "The UAE Space Agency licenses a deliberately broad range of activities — launch, satellite operation, human spaceflight, and space resource activities are all named in the statute.",
+        "liability": "Operators must carry insurance at levels set by the Space Agency; the state can recover payments it makes under international liability claims.",
+        "registration": "The Space Agency maintains the national registry of space objects.",
+        "resources": "The 2019 law explicitly contemplates permits for the exploration, extraction, and use of space resources — among the first statutes drafted with mining already in mind.",
+        "distinctive": "One modern statute written in a single stroke (2019) — covering debris mitigation, human spaceflight, and mining before most countries had addressed any of them."
+      },
+      "sources": [
+        { "label": "Federal Law No. 12 of 2019 (official PDF)", "url": "https://www.moj.gov.ae/assets/2020/Federal%20Law%20No%2012%20of%202019%20on%20THE%20REGULATION%20OF%20THE%20SPACE%20SECTOR.pdf.aspx" }
+      ]
+    },
+    {
+      "key": "uk",
+      "name": "United Kingdom",
+      "flag": "🇬🇧",
+      "default": false,
+      "cells": {
+        "key_law": "Space Industry Act 2018 + Space Industry Regulations 2021.",
+        "licensing": "The Civil Aviation Authority licenses launches, spaceports, and orbital operations conducted from the UK.",
+        "liability": "Each license carries a liability limit set by the regulator, with mandatory insurance up to it — operators aren't exposed to unlimited claims; the state takes the tail risk.",
+        "registration": "The UK keeps its own registry of launches and orbital objects alongside its UN registration.",
+        "resources": "No space-resources legislation — the UK has not followed the US, Luxembourg, Japan, and UAE down the ownership route.",
+        "distinctive": "The first European country to license an orbital launch attempt from home soil (Cornwall, 2023) — a real-world stress test of the whole framework."
+      },
+      "sources": [
+        { "label": "Space Industry Act 2018", "url": "https://www.legislation.gov.uk/ukpga/2018/5/contents" },
+        { "label": "CAA — space licensing", "url": "https://www.caa.co.uk/space/" }
+      ]
+    },
+    {
+      "key": "in",
+      "name": "India",
+      "flag": "🇮🇳",
+      "default": false,
+      "cells": {
+        "key_law": "No statute yet — the Indian Space Policy 2023 plus IN-SPACe's Norms, Guidelines and Procedures (2024); a comprehensive Space Activities Bill has been in draft for years.",
+        "licensing": "IN-SPACe, a single-window regulator created in 2020, authorizes private space activities under policy rather than legislation — a bridge until Parliament acts.",
+        "liability": "No dedicated liability statute; authorization conditions and general law fill the gap — one of the strongest arguments made for passing the pending bill.",
+        "registration": "Registration is handled through IN-SPACe and Department of Space processes.",
+        "resources": "Policy language permits private resource recovery consistent with international law, but there is no statutory ownership grant yet.",
+        "distinctive": "A top-tier spacefaring nation running a private-sector space boom on policy documents rather than law — the world's most consequential \"statute to come.\""
+      },
+      "sources": [
+        { "label": "Indian Space Policy 2023 (ISRO)", "url": "https://www.isro.gov.in/media_isro/pdf/IndianSpacePolicy2023.pdf" }
+      ]
+    }
+  ],
+  "general_sources": [
+    { "label": "UNOOSA national space law database", "url": "https://www.unoosa.org/oosa/en/ourwork/spacelaw/nationalspacelaw/index.html" }
+  ]
+}
