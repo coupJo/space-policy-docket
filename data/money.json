@@ -1,0 +1,224 @@
+{
+  "generated": "2026-08-21",
+  "source": "Live data from the USAspending.gov API",
+  "fiscal_year": "FY 2025",
+  "note": "Prime awards (contracts and grants). Districts reflect place of performance — where the work is done.",
+  "programs": [
+    {
+      "key": "nasa",
+      "label": "NASA",
+      "total": 16776864141,
+      "recipients": [
+        {
+          "name": "CALIFORNIA INSTITUTE OF TECHNOLOGY",
+          "amount": 2273203450
+        },
+        {
+          "name": "SPACE EXPLORATION TECHNOLOGIES CORP.",
+          "amount": 1348486808
+        },
+        {
+          "name": "THE BOEING COMPANY",
+          "amount": 1172217661
+        },
+        {
+          "name": "BLUE ORIGIN WASHINGTON, LLC",
+          "amount": 828970508
+        },
+        {
+          "name": "PERATON INC.",
+          "amount": 541471072
+        },
+        {
+          "name": "THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC",
+          "amount": 413766689
+        },
+        {
+          "name": "KBR WYLE SERVICES, LLC",
+          "amount": 399382294
+        },
+        {
+          "name": "LOCKHEED MARTIN CORP",
+          "amount": 394043501
+        },
+        {
+          "name": "THE BOEING COMPANY",
+          "amount": 367315442
+        },
+        {
+          "name": "AMENTUM TECHNOLOGY, INC.",
+          "amount": 352468906
+        },
+        {
+          "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+          "amount": 352224326
+        },
+        {
+          "name": "ASSOCIATION OF UNIVERSITIES FOR RESEARCH IN ASTRONOMY, INC.",
+          "amount": 309762130
+        },
+        {
+          "name": "AEROJET ROCKETDYNE OF DE, INC",
+          "amount": 299151035
+        },
+        {
+          "name": "BECHTEL NATIONAL, INC.",
+          "amount": 272595909
+        },
+        {
+          "name": "CHENEGA GLOBAL PROTECTION, LLC",
+          "amount": 142725993
+        },
+        {
+          "name": "SCIENCE SYSTEMS AND APPLICATIONS, INC.",
+          "amount": 133195703
+        },
+        {
+          "name": "CACI, INC. - FEDERAL",
+          "amount": 132818767
+        },
+        {
+          "name": "HAMILTON SUNDSTRAND SPACE SYSTEMS INTERNATIONAL, INC.",
+          "amount": 132031026
+        },
+        {
+          "name": "AXIOM SPACE INC",
+          "amount": 130742824
+        },
+        {
+          "name": "NOVA SPACE SOLUTIONS, LLC",
+          "amount": 129847905
+        },
+        {
+          "name": "SOUTHWEST RESEARCH INSTITUTE",
+          "amount": 125147698
+        },
+        {
+          "name": "THE AEROSPACE CORPORATION",
+          "amount": 115163252
+        },
+        {
+          "name": "UNIVERSITY OF MARYLAND, COLLEGE PARK",
+          "amount": 112390823
+        },
+        {
+          "name": "FIREFLY AEROSPACE INC.",
+          "amount": 110533988
+        },
+        {
+          "name": "REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE",
+          "amount": 106776674
+        }
+      ],
+      "districts": [
+        {
+          "name": "CA-28",
+          "amount": 2387384997
+        },
+        {
+          "name": "AL-05",
+          "amount": 1911759228
+        },
+        {
+          "name": "FL-08",
+          "amount": 1267163497
+        },
+        {
+          "name": "MD-04",
+          "amount": 1232812632
+        },
+        {
+          "name": "TX-36",
+          "amount": 1115438784
+        },
+        {
+          "name": "VA-11",
+          "amount": 1035066787
+        },
+        {
+          "name": "WA-09",
+          "amount": 775426696
+        },
+        {
+          "name": "CA-43",
+          "amount": 679162491
+        },
+        {
+          "name": "MD-03",
+          "amount": 447691753
+        },
+        {
+          "name": "MD-07",
+          "amount": 405723179
+        },
+        {
+          "name": "VA-10",
+          "amount": 366655497
+        },
+        {
+          "name": "CO-07",
+          "amount": 352948082
+        },
+        {
+          "name": "CA-32",
+          "amount": 319569128
+        },
+        {
+          "name": "CO-02",
+          "amount": 258805599
+        },
+        {
+          "name": "CA-36",
+          "amount": 232431770
+        },
+        {
+          "name": "CA-16",
+          "amount": 218237063
+        },
+        {
+          "name": "DC-98",
+          "amount": 182253042
+        },
+        {
+          "name": "MS-04",
+          "amount": 174950433
+        },
+        {
+          "name": "CA-18",
+          "amount": 168817697
+        },
+        {
+          "name": "VA-03",
+          "amount": 159806047
+        },
+        {
+          "name": "TX-20",
+          "amount": 127377520
+        },
+        {
+          "name": "VA-02",
+          "amount": 118218444
+        },
+        {
+          "name": "MA-05",
+          "amount": 113785725
+        },
+        {
+          "name": "CA-12",
+          "amount": 113736898
+        },
+        {
+          "name": "CA-20",
+          "amount": 105507766
+        }
+      ]
+    },
+    {
+      "key": "ussf",
+      "label": "Space Force",
+      "total": 0,
+      "recipients": [],
+      "districts": []
+    }
+  ]
+}
