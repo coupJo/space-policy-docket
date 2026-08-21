@@ -8,23 +8,24 @@ A free, independent tracker of U.S. space policy — bills in Congress, agency r
 
 ## What's in each file
 
+```
 space-policy-docket/
-├── index.html The whole site: masthead, 4 tabs, and all written content
+├── index.html              The whole site: masthead, 4 tabs, and all written content
 ├── css/
-│ └── style.css All styling (colors, fonts, tables, cards, badges)
+│   └── style.css           All styling (colors, fonts, tables, cards, badges)
 ├── js/
-│ └── app.js All behavior: tabs, data loading, search/sort/filter, digest
-├── data/ Auto-generated — don't hand-edit these
-│ ├── bills.json Space bills in the current Congress
-│ ├── rules.json Final & proposed rules from FAA, FCC, NOAA, NASA
-│ └── digest.json The trailing-7-day summary shown at the top
+│   └── app.js              All behavior: tabs, data loading, search/sort/filter, digest
+├── data/                   Auto-generated — don't hand-edit these
+│   ├── bills.json          Space bills in the current Congress
+│   ├── rules.json          Final & proposed rules from FAA, FCC, NOAA, NASA
+│   └── digest.json         The trailing-7-day summary shown at the top
 ├── scripts/
-│ ├── fetch_bills.py Scans every bill of the Congress via the Congress.gov API
-│ ├── fetch_rules.py Pulls space rulemaking from the Federal Register API
-│ └── build_digest.py Summarizes the last 7 days from the two files above
+│   ├── fetch_bills.py      Scans every bill of the Congress via the Congress.gov API
+│   ├── fetch_rules.py      Pulls space rulemaking from the Federal Register API
+│   └── build_digest.py     Summarizes the last 7 days from the two files above
 └── .github/workflows/
-└── update-data.yml Runs all three scripts every morning and commits the result
-
+    └── update-data.yml     Runs all three scripts every morning and commits the result
+```
 
 The key idea: the `data/` files are the only things that change day to day. The site just displays whatever is in them, and the Python scripts rewrite them daily — no changes to the site needed.
 
@@ -38,8 +39,9 @@ The Congress.gov API key lives in a repository secret named `CONGRESS_API_KEY` (
 
 Browsers block `fetch()` when you double-click an HTML file. Run a tiny local server from inside this folder instead:
 
+```
 python3 -m http.server 8000
-
+```
 
 Then open http://localhost:8000. (The live GitHub Pages site has no such issue.)
 
