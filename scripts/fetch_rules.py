@@ -117,6 +117,24 @@ def agency_names(doc):
     return ", ".join(names) or "—"
 
 
+def api_get(params):
+    """One GET to the Federal Register, with retries on throttling/outages."""
+    for attempt in range(5):
+        try:
+            response = requests.get(API_URL, params=params, timeout=60)
+            if response.status_code in (429, 500, 502, 503, 504):
+                print(f"  API said {response.status_code}: {response.text[:200]}")
+                raise requests.exceptions.HTTPError(str(response.status_code))
+            response.raise_for_status()
+            return response.json()
+        except Exception as error:
+            if attempt == 4:
+                raise                      # give up: the Action shows red
+            wait = 30 * (attempt + 1)
+            print(f"  API hiccup ({error}); waiting {wait}s then retrying…")
+            time.sleep(wait)
+
+
 def search_term(term):
     """All pages of one keyword search. Returns raw document dicts."""
     docs, page = [], 1
@@ -131,9 +149,7 @@ def search_term(term):
             "order": "newest",
             "page": page,
         }
-        response = requests.get(API_URL, params=params, timeout=30)
-        response.raise_for_status()
-        results = response.json().get("results", [])
+        results = api_get(params).get("results", [])
         if not results:
             break
         docs.extend(results)
