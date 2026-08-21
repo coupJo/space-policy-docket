@@ -1,0 +1,275 @@
+/* ============================================================
+   Space Policy Docket — stylesheet
+   Design goal: serious, think-tank feel. Warm paper background,
+   deep navy ink, one restrained gold accent. No frameworks.
+   ============================================================ */
+
+:root {
+  --navy: #12263f;        /* headings, masthead */
+  --ink: #23303f;         /* body text */
+  --muted: #66707c;       /* secondary text */
+  --paper: #f7f5f0;       /* page background */
+  --card: #ffffff;        /* table & card background */
+  --rule: #ddd6c8;        /* hairline borders */
+  --accent: #a97b1f;      /* gold accent — active tab, links */
+  --accent-soft: #f4ead3; /* pale gold — notices, tag pills */
+  --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --sans: "Inter", -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: var(--sans);
+  color: var(--ink);
+  background: var(--paper);
+  line-height: 1.6;
+  font-size: 15.5px;
+}
+
+.container { max-width: 1080px; margin: 0 auto; padding: 0 20px; }
+
+/* ---------- Masthead ---------- */
+.masthead {
+  background: var(--navy);
+  color: #f4f1ea;
+  padding: 44px 0 36px;
+  border-bottom: 3px solid var(--accent);
+}
+.eyebrow {
+  font-size: 11.5px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #c9b57f;
+  margin-bottom: 10px;
+}
+.masthead h1 {
+  font-family: var(--serif);
+  font-size: clamp(30px, 5vw, 44px);
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+.tagline { color: #b9c2cf; margin-top: 8px; max-width: 620px; }
+
+/* ---------- Tab bar ---------- */
+.tab-bar {
+  background: var(--card);
+  border-bottom: 1px solid var(--rule);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.tab-bar-inner { display: flex; gap: 4px; overflow-x: auto; }
+.tab-btn {
+  font-family: var(--sans);
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--muted);
+  background: none;
+  border: none;
+  border-bottom: 3px solid transparent;
+  padding: 14px 16px 11px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.tab-btn:hover { color: var(--navy); }
+.tab-btn.active {
+  color: var(--navy);
+  font-weight: 600;
+  border-bottom-color: var(--accent);
+}
+
+/* ---------- Tab panels ---------- */
+.tab-panel { display: none; padding: 30px 0 60px; }
+.tab-panel.active { display: block; }
+
+.tab-panel h2 {
+  font-family: var(--serif);
+  font-size: 27px;
+  color: var(--navy);
+  margin-bottom: 10px;
+}
+.section-intro { max-width: 700px; color: var(--ink); margin-bottom: 26px; }
+
+/* ---------- Notices ---------- */
+.notice {
+  background: var(--accent-soft);
+  border: 1px solid #e3d3a8;
+  border-left: 4px solid var(--accent);
+  padding: 10px 14px;
+  font-size: 13.5px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  color: #5c4a1a;
+}
+
+/* ---------- Docket controls ---------- */
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 14px;
+}
+#search-input {
+  flex: 1 1 260px;
+  max-width: 380px;
+  padding: 9px 12px;
+  font-size: 14px;
+  font-family: var(--sans);
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  background: var(--card);
+}
+#search-input:focus, #topic-filter:focus {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+  border-color: var(--accent);
+}
+#topic-filter {
+  padding: 9px 10px;
+  font-size: 14px;
+  font-family: var(--sans);
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  background: var(--card);
+  color: var(--ink);
+}
+.result-count { font-size: 13px; color: var(--muted); margin-left: auto; }
+
+/* ---------- Table ---------- */
+.table-wrap {
+  background: var(--card);
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  overflow-x: auto;   /* wide table scrolls inside, page never does */
+}
+table { width: 100%; border-collapse: collapse; min-width: 780px; }
+thead th {
+  font-size: 11.5px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  text-align: left;
+  padding: 12px 14px;
+  border-bottom: 2px solid var(--rule);
+  background: #fbfaf7;
+  white-space: nowrap;
+}
+th.sortable { cursor: pointer; user-select: none; }
+th.sortable:hover { color: var(--navy); }
+th.sortable::after { content: " ↕"; opacity: 0.45; }
+th.sorted-asc::after { content: " ↑"; opacity: 1; color: var(--accent); }
+th.sorted-desc::after { content: " ↓"; opacity: 1; color: var(--accent); }
+
+tbody td {
+  padding: 12px 14px;
+  border-bottom: 1px solid #eee9dd;
+  vertical-align: top;
+  font-size: 14px;
+}
+tbody tr:last-child td { border-bottom: none; }
+tbody tr:hover { background: #fbf9f4; }
+
+td.bill-cell { white-space: nowrap; font-weight: 600; }
+td.bill-cell a { color: var(--accent); text-decoration: none; }
+td.bill-cell a:hover { text-decoration: underline; }
+td.bill-cell .congress { display: block; font-size: 11.5px; font-weight: 400; color: var(--muted); }
+td.title-cell { font-weight: 500; color: var(--navy); min-width: 200px; }
+td.action-cell { color: var(--muted); font-size: 13.5px; min-width: 190px; }
+td.date-cell { white-space: nowrap; color: var(--ink); }
+
+.tag {
+  display: inline-block;
+  background: var(--accent-soft);
+  color: #6b5416;
+  font-size: 11.5px;
+  font-weight: 500;
+  padding: 2px 8px;
+  border-radius: 999px;
+  margin: 1px 3px 1px 0;
+  white-space: nowrap;
+}
+
+.table-hint { font-size: 12.5px; color: var(--muted); margin-top: 10px; }
+
+.empty-row td {
+  text-align: center;
+  color: var(--muted);
+  padding: 30px;
+  font-style: italic;
+}
+
+/* ---------- Agency cards ---------- */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 16px;
+}
+.agency-card {
+  background: var(--card);
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  padding: 20px 22px;
+}
+.agency-card h3 {
+  font-family: var(--serif);
+  font-size: 19px;
+  color: var(--navy);
+  margin-bottom: 8px;
+}
+.agency-card .office {
+  display: block;
+  font-family: var(--sans);
+  font-size: 12.5px;
+  font-weight: 500;
+  color: var(--muted);
+  margin-top: 2px;
+}
+.agency-card p { font-size: 14px; }
+.authority {
+  margin-top: 10px;
+  font-size: 12px !important;
+  color: var(--muted) !important;
+  border-top: 1px dashed var(--rule);
+  padding-top: 8px;
+}
+.gap-card { border-left: 4px solid var(--accent); background: #fffdf6; }
+.draft-note { margin-top: 18px; font-size: 12.5px; color: var(--muted); font-style: italic; }
+
+/* ---------- Coming soon ---------- */
+.coming-soon {
+  background: var(--card);
+  border: 1px dashed var(--rule);
+  border-radius: 8px;
+  padding: 46px 30px;
+  text-align: center;
+  max-width: 640px;
+  margin: 20px auto;
+}
+.coming-soon p { max-width: 480px; margin: 0 auto; color: var(--muted); }
+.phase-label {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--accent) !important;
+  margin: 6px auto 14px !important;
+  font-weight: 600;
+}
+
+/* ---------- Footer ---------- */
+footer {
+  background: var(--navy);
+  color: #b9c2cf;
+  font-size: 13px;
+  padding: 26px 0;
+  margin-top: 20px;
+}
+footer strong { color: #f4f1ea; }
+footer p + p { margin-top: 4px; }
+
+/* ---------- Small screens ---------- */
+@media (max-width: 560px) {
+  .masthead { padding: 32px 0 26px; }
+  .result-count { margin-left: 0; width: 100%; }
+}

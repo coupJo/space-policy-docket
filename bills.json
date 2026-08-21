@@ -1,0 +1,86 @@
+{
+  "generated": "2026-08-21",
+  "source": "SAMPLE DATA — placeholder entries for layout testing. Replaced by a live Congress.gov feed in Phase 2.",
+  "bills": [
+    {
+      "bill": "S. 428",
+      "congress": "119th",
+      "title": "Orbital Sustainability (ORBITS) Act of 2025",
+      "sponsor": "Sen. John Hickenlooper (D-CO)",
+      "latest_action": "Reported favorably by the Committee on Commerce, Science, and Transportation",
+      "action_date": "2026-03-12",
+      "topics": ["Orbital Debris", "Space Traffic"],
+      "url": "https://www.congress.gov/"
+    },
+    {
+      "bill": "H.R. 2313",
+      "congress": "119th",
+      "title": "Commercial Space Licensing Reform Act",
+      "sponsor": "Rep. Brian Babin (R-TX)",
+      "latest_action": "Referred to the Subcommittee on Space and Aeronautics",
+      "action_date": "2026-02-04",
+      "topics": ["Commercial Launch", "Mission Authorization"],
+      "url": "https://www.congress.gov/"
+    },
+    {
+      "bill": "S. 1932",
+      "congress": "119th",
+      "title": "NASA Reauthorization Act of 2026",
+      "sponsor": "Sen. Ted Cruz (R-TX)",
+      "latest_action": "Placed on Senate Legislative Calendar",
+      "action_date": "2026-06-18",
+      "topics": ["NASA", "Exploration"],
+      "url": "https://www.congress.gov/"
+    },
+    {
+      "bill": "S. 1425",
+      "congress": "119th",
+      "title": "Satellite Cybersecurity Act",
+      "sponsor": "Sen. Gary Peters (D-MI)",
+      "latest_action": "Passed Senate by unanimous consent",
+      "action_date": "2026-01-22",
+      "topics": ["National Security", "Spectrum & Comms"],
+      "url": "https://www.congress.gov/"
+    },
+    {
+      "bill": "H.R. 675",
+      "congress": "119th",
+      "title": "Secure Space Act",
+      "sponsor": "Rep. Elissa Slotkin (D-MI)",
+      "latest_action": "Ordered to be reported by the Committee on Energy and Commerce",
+      "action_date": "2025-11-13",
+      "topics": ["Spectrum & Comms", "National Security"],
+      "url": "https://www.congress.gov/"
+    },
+    {
+      "bill": "S. 2103",
+      "congress": "119th",
+      "title": "Space Weather Research and Observations Act",
+      "sponsor": "Sen. Maria Cantwell (D-WA)",
+      "latest_action": "Hearings held by the Committee on Commerce, Science, and Transportation",
+      "action_date": "2026-04-29",
+      "topics": ["Science & Weather", "NOAA"],
+      "url": "https://www.congress.gov/"
+    },
+    {
+      "bill": "H.R. 4812",
+      "congress": "119th",
+      "title": "American Space Commerce Act",
+      "sponsor": "Rep. Frank Lucas (R-OK)",
+      "latest_action": "Introduced in House",
+      "action_date": "2026-05-07",
+      "topics": ["Commercial Launch", "Industrial Base"],
+      "url": "https://www.congress.gov/"
+    },
+    {
+      "bill": "H.R. 3901",
+      "congress": "119th",
+      "title": "Commercial Remote Sensing Modernization Act",
+      "sponsor": "Rep. Zoe Lofgren (D-CA)",
+      "latest_action": "Referred to the Committee on Science, Space, and Technology",
+      "action_date": "2026-03-30",
+      "topics": ["Remote Sensing", "NOAA"],
+      "url": "https://www.congress.gov/"
+    }
+  ]
+}
