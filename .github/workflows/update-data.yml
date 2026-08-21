@@ -1,0 +1,46 @@
+# Runs scripts/fetch_bills.py every morning and commits the fresh data,
+# so the site updates itself. Can also be run by hand from the Actions tab
+# ("Run workflow" button) thanks to workflow_dispatch.
+
+name: Update bill data
+
+on:
+  schedule:
+    - cron: "0 13 * * *"   # 13:00 UTC = 6am Pacific (PDT)
+  workflow_dispatch:        # adds a manual "Run workflow" button
+  push:
+    branches: [main]
+    paths:                  # also refresh whenever the script itself changes
+      - "scripts/**"
+      - ".github/workflows/update-data.yml"
+
+permissions:
+  contents: write           # allows the workflow to commit to the repo
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Fetch bills from Congress.gov
+        env:
+          CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
+        run: python scripts/fetch_bills.py
+
+      - name: Commit updated data (only if it changed)
+        run: |
+          git config user.name "docket-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/bills.json
+          git diff --staged --quiet || git commit -m "Daily data refresh"
+          git push
