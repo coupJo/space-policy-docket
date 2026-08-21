@@ -140,7 +140,7 @@ body {
 .digest-quiet { color: var(--muted); font-style: italic; margin-top: 10px; font-size: 13.5px; }
 
 /* ---------- Docket sub-tabs (Bills / Rules) ---------- */
-.subtabs { display: flex; gap: 8px; margin-bottom: 18px; }
+.subtabs { display: flex; gap: 8px; margin-bottom: 18px; flex-wrap: wrap; }
 .subtab-btn {
   font-family: var(--sans);
   font-size: 13.5px;
@@ -263,6 +263,48 @@ body {
 }
 .mini-table .num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
 .mini-table tr:last-child td { border-bottom: none; }
+
+/* ---------- Law Comparator ---------- */
+.laws-table { min-width: 0; }
+.laws-table thead th {
+  font-family: var(--serif);
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--navy);
+  text-transform: none;
+  letter-spacing: 0;
+  min-width: 230px;
+}
+.laws-table thead th:first-child { min-width: 120px; }
+.laws-table td {
+  font-size: 13.5px;
+  line-height: 1.55;
+  min-width: 230px;
+  max-width: 340px;
+}
+.laws-table .dim-label {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--muted);
+  font-weight: 600;
+  text-align: left;
+  padding: 12px 14px;
+  border-bottom: 1px solid #eee9dd;
+  vertical-align: top;
+  background: #fbfaf7;
+  min-width: 120px;
+  max-width: 140px;
+}
+.laws-table tbody tr:last-child .dim-label { border-bottom: none; }
+
+.sources-list { list-style: none; padding-left: 4px; }
+.sources-list li { font-size: 13.5px; margin-bottom: 5px; }
+.sources-list a { color: var(--accent); text-decoration: none; font-weight: 500; }
+.sources-list a:hover { text-decoration: underline; }
+
+footer a { color: #c9b57f; text-decoration: none; }
+footer a:hover { text-decoration: underline; }
 
 /* ---------- Rule type badges & deadlines ---------- */
 .badge {
