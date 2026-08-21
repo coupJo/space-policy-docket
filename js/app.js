@@ -179,3 +179,116 @@ document.querySelectorAll("th.sortable").forEach(th => {
     render();
   });
 });
+
+/* ------------------ 4. DOCKET SUB-TABS (Bills / Rules) ------------------ */
+
+const subtabButtons = document.querySelectorAll(".subtab-btn");
+subtabButtons.forEach(btn => {
+  btn.addEventListener("click", () => {
+    subtabButtons.forEach(b => b.classList.toggle("active", b === btn));
+    document.getElementById("view-bills").hidden = btn.dataset.view !== "bills";
+    document.getElementById("view-rules").hidden = btn.dataset.view !== "rules";
+  });
+});
+
+/* ------------------ 5. AGENCY RULEMAKING TABLE ------------------ */
+
+let allRules = [];
+const rulesBody = document.querySelector("#rules-table tbody");
+const rulesSearch = document.getElementById("rules-search");
+const typeFilter = document.getElementById("type-filter");
+const rulesCount = document.getElementById("rules-count");
+
+fetch("data/rules.json?v=" + Date.now())
+  .then(response => response.json())
+  .then(data => {
+    allRules = data.rules;
+    renderRules();
+  })
+  .catch(() => {
+    // The rules file doesn't exist until the daily automation runs with it.
+    rulesBody.innerHTML =
+      '<tr class="empty-row"><td colspan="6">Rule data hasn\'t been generated ' +
+      "yet — it arrives with the next daily refresh.</td></tr>";
+  });
+
+function renderRules() {
+  const query = rulesSearch.value.trim().toLowerCase();
+  const type = typeFilter.value;
+
+  const rules = allRules.filter(r => {
+    const haystack = (
+      r.document + " " + r.title + " " + r.agency + " " +
+      r.type + " " + r.topics.join(" ")
+    ).toLowerCase();
+    const matchesQuery = !query || haystack.includes(query);
+    const matchesType = !type || r.type === type;
+    return matchesQuery && matchesType;
+  });
+
+  rulesCount.textContent = rules.length + " of " + allRules.length + " documents";
+
+  if (rules.length === 0) {
+    rulesBody.innerHTML =
+      '<tr class="empty-row"><td colspan="6">No documents match your search.</td></tr>';
+    return;
+  }
+
+  rulesBody.innerHTML = rules.map(r => `
+    <tr>
+      <td class="bill-cell">
+        <a href="${r.url}" target="_blank" rel="noopener">${r.document}</a>
+      </td>
+      <td class="title-cell">${r.title}</td>
+      <td>${r.agency}</td>
+      <td><span class="badge ${r.type === "Final Rule" ? "badge-final" : "badge-proposed"}">${r.type}</span></td>
+      <td class="date-cell">${formatDate(r.published)}</td>
+      <td class="date-cell">${r.comments_close_on
+        ? '<span class="deadline">' + formatDate(r.comments_close_on) + "</span>"
+        : "—"}</td>
+    </tr>
+  `).join("");
+}
+
+rulesSearch.addEventListener("input", renderRules);
+typeFilter.addEventListener("change", renderRules);
+
+/* ------------------ 6. "THIS WEEK" DIGEST ------------------ */
+
+fetch("data/digest.json?v=" + Date.now())
+  .then(response => response.json())
+  .then(renderDigest)
+  .catch(() => { /* no digest yet — leave the card hidden */ });
+
+function digestSection(title, items) {
+  return "<h4>" + title + "</h4><ul>" + items.join("") + "</ul>";
+}
+
+function renderDigest(d) {
+  document.getElementById("digest-summary").innerHTML =
+    "<strong>This Week in Space Policy</strong> — " + d.summary +
+    ' <span class="digest-dates">(' + formatDate(d.window_start) +
+    " – " + formatDate(d.window_end) + ")</span>";
+
+  let html = "";
+  if (d.bills && d.bills.length) {
+    html += digestSection("On the Hill", d.bills.map(b =>
+      `<li><a href="${b.url}" target="_blank" rel="noopener">${b.bill}</a> ` +
+      `${b.title} — <em>${b.latest_action}</em> (${formatDate(b.action_date)})</li>`));
+  }
+  if (d.rules && d.rules.length) {
+    html += digestSection("In the agencies", d.rules.map(r =>
+      `<li>${r.type}: ${r.agency} — ` +
+      `<a href="${r.url}" target="_blank" rel="noopener">${r.title}</a> ` +
+      `(${formatDate(r.published)})</li>`));
+  }
+  if (d.deadlines && d.deadlines.length) {
+    html += digestSection("Comment deadlines ahead", d.deadlines.map(x =>
+      `<li><a href="${x.url}" target="_blank" rel="noopener">${x.title}</a> ` +
+      `(${x.agency}) — closes <strong>${formatDate(x.closes)}</strong></li>`));
+  }
+  if (!html) html = '<p class="digest-quiet">A quiet week in space policy.</p>';
+
+  document.getElementById("digest-body").innerHTML = html;
+  document.getElementById("digest-card").hidden = false;
+}
