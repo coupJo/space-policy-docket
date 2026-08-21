@@ -160,6 +160,110 @@ body {
   font-weight: 600;
 }
 
+/* ---------- Money Map: stat tiles, bar charts, tables ---------- */
+:root { --data-blue: #3a62a0; }   /* validated single data hue (bars) */
+
+.stat-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  margin-bottom: 18px;
+}
+.stat-tile {
+  background: var(--card);
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  padding: 16px 20px;
+}
+.stat-label {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  margin-bottom: 6px;
+}
+.stat-value {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--ink);
+  line-height: 1.2;
+  overflow-wrap: anywhere;
+}
+.stat-hero { font-size: 48px; }
+.stat-sub { font-size: 13px; color: var(--muted); margin-top: 3px; }
+
+.chart-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 16px;
+  margin-bottom: 18px;
+}
+.chart-card {
+  background: var(--card);
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  padding: 18px 20px;
+}
+.chart-card h3 {
+  font-family: var(--serif);
+  font-size: 17px;
+  color: var(--navy);
+  margin-bottom: 14px;
+}
+.chart-sub { font-family: var(--sans); font-size: 12px; color: var(--muted); font-weight: 400; }
+
+/* Bar list: label | bar | value. Thin bars, rounded at the data end only. */
+.bar-row {
+  display: grid;
+  grid-template-columns: minmax(90px, 150px) 1fr 58px;
+  align-items: center;
+  gap: 10px;
+  padding: 4px 4px;
+  border-radius: 4px;
+}
+.bar-row:hover { background: #fbf9f4; }
+.bar-label {
+  font-size: 12.5px;
+  color: var(--ink);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.bar-track { min-width: 0; }
+.bar-fill {
+  height: 12px;
+  min-width: 2px;
+  background: var(--data-blue);
+  border-radius: 0 4px 4px 0;   /* square at the baseline, rounded data end */
+}
+.bar-value {
+  font-size: 12px;
+  color: var(--muted);
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.money-tables { margin-bottom: 14px; }
+.money-tables > summary {
+  cursor: pointer;
+  font-size: 13.5px;
+  color: var(--muted);
+  margin-bottom: 12px;
+}
+.mini-table { width: 100%; border-collapse: collapse; min-width: 0; }
+.mini-table th {
+  font-size: 11px; text-transform: uppercase; letter-spacing: 0.07em;
+  color: var(--muted); text-align: left; padding: 6px 8px;
+  border-bottom: 2px solid var(--rule);
+}
+.mini-table td {
+  font-size: 13px; padding: 6px 8px; border-bottom: 1px solid #eee9dd;
+  vertical-align: top;
+}
+.mini-table .num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.mini-table tr:last-child td { border-bottom: none; }
+
 /* ---------- Rule type badges & deadlines ---------- */
 .badge {
   display: inline-block;
