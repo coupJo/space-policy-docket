@@ -1,6 +1,9 @@
 # Runs the data scripts every morning and commits the fresh data,
 # so the site updates itself. Can also be run by hand from the Actions tab
 # ("Run workflow" button) thanks to workflow_dispatch.
+#
+# Every run writes logs/last_run.txt into the repo — if something breaks,
+# the full story is readable right there, no log-spelunking needed.
 
 name: Update bill data
 
@@ -17,6 +20,12 @@ on:
 permissions:
   contents: write           # allows the workflow to commit to the repo
 
+# If several runs get triggered back-to-back (e.g. a burst of commits),
+# keep only the newest one instead of hammering the APIs in parallel.
+concurrency:
+  group: update-data
+  cancel-in-progress: true
+
 jobs:
   refresh:
     runs-on: ubuntu-latest
@@ -32,21 +41,34 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
+      - name: Start the run log
+        run: |
+          mkdir -p logs
+          echo "Run started $(date -u '+%Y-%m-%d %H:%M UTC')" > logs/last_run.txt
+
       - name: Fetch bills from Congress.gov
         env:
           CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
-        run: python scripts/fetch_bills.py
+        run: |
+          set -o pipefail
+          python scripts/fetch_bills.py 2>&1 | tee -a logs/last_run.txt
 
       - name: Fetch rules from the Federal Register
-        run: python scripts/fetch_rules.py
+        run: |
+          set -o pipefail
+          python scripts/fetch_rules.py 2>&1 | tee -a logs/last_run.txt
 
       - name: Build the weekly digest
-        run: python scripts/build_digest.py
+        run: |
+          set -o pipefail
+          python scripts/build_digest.py 2>&1 | tee -a logs/last_run.txt
 
-      - name: Commit updated data (only if it changed)
+      - name: Commit updated data (runs even if a step above failed)
+        if: success() || failure()
         run: |
           git config user.name "docket-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/
+          git add data/ logs/
           git diff --staged --quiet || git commit -m "Daily data refresh"
-          git push
+          # If someone pushed while we were running, rebase and try once more.
+          git push || (git pull --rebase origin main && git push)
