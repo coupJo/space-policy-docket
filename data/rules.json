@@ -1,0 +1,741 @@
+{
+  "generated": "2026-08-21",
+  "source": "Live data from the Federal Register API",
+  "rules": [
+    {
+      "document": "2026-15598",
+      "title": "Upper C-Band (3.98-4.2 GHz); Expanding Flexible Use of the 3.7 to 4.2 GHz Band",
+      "agency": "FCC",
+      "type": "Final Rule",
+      "published": "2026-07-31",
+      "comments_close_on": null,
+      "topics": [
+        "Spectrum & Comms",
+        "Regulatory & Licensing"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/07/31/2026-15598/upper-c-band-398-42-ghz-expanding-flexible-use-of-the-37-to-42-ghz-band"
+    },
+    {
+      "document": "2026-15415",
+      "title": "Waiver of Specified Statutory Requirements for Commercial Space Launch and Reentry Actions",
+      "agency": "Transportation Department, FAA",
+      "type": "Proposed Rule",
+      "published": "2026-07-30",
+      "comments_close_on": "2026-08-31",
+      "topics": [
+        "Commercial Launch",
+        "Regulatory & Licensing"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/07/30/2026-15415/waiver-of-specified-statutory-requirements-for-commercial-space-launch-and-reentry-actions"
+    },
+    {
+      "document": "2026-13245",
+      "title": "Procedures for Implementing the National Environmental Policy Act",
+      "agency": "NASA",
+      "type": "Final Rule",
+      "published": "2026-07-01",
+      "comments_close_on": "2026-07-31",
+      "topics": [
+        "NASA & Exploration"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/07/01/2026-13245/procedures-for-implementing-the-national-environmental-policy-act"
+    },
+    {
+      "document": "2026-12766",
+      "title": "Establishing the Digital Opportunity Data Collection; Modernizing the FCC Form 477 Data Program; Delete, Delete, Delete",
+      "agency": "FCC",
+      "type": "Final Rule",
+      "published": "2026-06-24",
+      "comments_close_on": null,
+      "topics": [
+        "Regulatory & Licensing"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/06/24/2026-12766/establishing-the-digital-opportunity-data-collection-modernizing-the-fcc-form-477-data-program"
+    },
+    {
+      "document": "2026-12562",
+      "title": "Federal Acquisition Regulation: Revolutionary Federal Acquisition Regulation Overhaul Parts 3 and 49",
+      "agency": "Management and Budget Office, Federal Procurement Policy Office, Defense Department, General Services Administration, NASA",
+      "type": "Proposed Rule",
+      "published": "2026-06-23",
+      "comments_close_on": "2026-07-23",
+      "topics": [
+        "NASA & Exploration",
+        "Regulatory & Licensing"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/06/23/2026-12562/federal-acquisition-regulation-revolutionary-federal-acquisition-regulation-overhaul-parts-3-and-49"
+    },
+    {
+      "document": "2026-12561",
+      "title": "Federal Acquisition Regulation: Revolutionary Federal Acquisition Regulation Overhaul Parts 5, 24, and 29",
+      "agency": "Management and Budget Office, Federal Procurement Policy Office, Defense Department, General Services Administration, NASA",
+      "type": "Proposed Rule",
+      "published": "2026-06-23",
+      "comments_close_on": "2026-07-23",
+      "topics": [
+        "NASA & Exploration",
+        "Regulatory & Licensing"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/06/23/2026-12561/federal-acquisition-regulation-revolutionary-federal-acquisition-regulation-overhaul-parts-5-24-and"
+    },
+    {
+      "document": "2026-12560",
+      "title": "Federal Acquisition Regulation: Revolutionary Federal Acquisition Regulation Overhaul Parts 6, 7, 10, 18, 26, 37, and 41",
+      "agency": "Management and Budget Office, Federal Procurement Policy Office, Defense Department, General Services Administration, NASA",
+      "type": "Proposed Rule",
+      "published": "2026-06-23",
+      "comments_close_on": "2026-07-23",
+      "topics": [
+        "NASA & Exploration",
+        "Regulatory & Licensing"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/06/23/2026-12560/federal-acquisition-regulation-revolutionary-federal-acquisition-regulation-overhaul-parts-6-7-10-18"
+    },
+    {
+      "document": "2026-12559",
+      "title": "Federal Acquisition Regulation: Revolutionary Federal Acquisition Regulation Overhaul Parts 1, 2, 4, 33, 39, 40, and 53",
+      "agency": "Management and Budget Office, Federal Procurement Policy Office, Defense Department, General Services Administration, NASA",
+      "type": "Proposed Rule",
+      "published": "2026-06-23",
+      "comments_close_on": "2026-07-23",
+      "topics": [
+        "NASA & Exploration",
+        "Regulatory & Licensing"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/06/23/2026-12559/federal-acquisition-regulation-revolutionary-federal-acquisition-regulation-overhaul-parts-1-2-4-33"
+    },
+    {
+      "document": "2026-12277",
+      "title": "Special Conditions: Honeywell Aerospace US LLC, Dassault Aviation Model Falcon 900EX Airplane; Electronic System Security Protection From Unauthorized External Access",
+      "agency": "Transportation Department, FAA",
+      "type": "Final Rule",
+      "published": "2026-06-18",
+      "comments_close_on": "2026-08-03",
+      "topics": [
+        "Spectrum & Comms"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/06/18/2026-12277/special-conditions-honeywell-aerospace-us-llc-dassault-aviation-model-falcon-900ex-airplane"
+    },
+    {
+      "document": "2026-10803",
+      "title": "Airworthiness Directives; The Boeing Company Airplanes",
+      "agency": "Transportation Department, FAA",
+      "type": "Final Rule",
+      "published": "2026-05-29",
+      "comments_close_on": null,
+      "topics": [
+        "Spectrum & Comms"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/05/29/2026-10803/airworthiness-directives-the-boeing-company-airplanes"
+    },
+    {
+      "document": "2026-10617",
+      "title": "Space Bureau Seeks Comment on GSO Reference Links",
+      "agency": "FCC",
+      "type": "Proposed Rule",
+      "published": "2026-05-28",
+      "comments_close_on": null,
+      "topics": [
+        "Spectrum & Comms"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/05/28/2026-10617/space-bureau-seeks-comment-on-gso-reference-links"
+    },
+    {
+      "document": "2026-09565",
+      "title": "Modernizing Spectrum Sharing for Satellite Broadband",
+      "agency": "FCC",
+      "type": "Final Rule",
+      "published": "2026-05-13",
+      "comments_close_on": null,
+      "topics": [
+        "Spectrum & Comms"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/05/13/2026-09565/modernizing-spectrum-sharing-for-satellite-broadband"
+    },
+    {
+      "document": "2026-08903",
+      "title": "Special Conditions: Xtreme Avionics, LLC, Airbus Defense and Space S.A. Model 212 Series Airplane; Rechargeable Lithium Battery and Battery System Installations",
+      "agency": "Transportation Department, FAA",
+      "type": "Final Rule",
+      "published": "2026-05-06",
+      "comments_close_on": "2026-06-22",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/05/06/2026-08903/special-conditions-xtreme-avionics-llc-airbus-defense-and-space-sa-model-212-series-airplane"
+    },
+    {
+      "document": "2026-06865",
+      "title": "Spectrum Abundance for Weird Space Stuff",
+      "agency": "FCC",
+      "type": "Proposed Rule",
+      "published": "2026-04-09",
+      "comments_close_on": "2026-05-11",
+      "topics": [
+        "Spectrum & Comms",
+        "Regulatory & Licensing"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/04/09/2026-06865/spectrum-abundance-for-weird-space-stuff"
+    },
+    {
+      "document": "2026-04911",
+      "title": "Federal Acquisition Regulation; Federal Acquisition Circular 2026-01; Introduction",
+      "agency": "Management and Budget Office, Federal Procurement Policy Office, Defense Department, General Services Administration, NASA",
+      "type": "Final Rule",
+      "published": "2026-03-13",
+      "comments_close_on": null,
+      "topics": [
+        "NASA & Exploration",
+        "Regulatory & Licensing"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/03/13/2026-04911/federal-acquisition-regulation-federal-acquisition-circular-2026-01-introduction"
+    },
+    {
+      "document": "2026-04466",
+      "title": "Airworthiness Directives; The Boeing Company Airplanes",
+      "agency": "Transportation Department, FAA",
+      "type": "Final Rule",
+      "published": "2026-03-06",
+      "comments_close_on": null,
+      "topics": [
+        "Spectrum & Comms"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/03/06/2026-04466/airworthiness-directives-the-boeing-company-airplanes"
+    },
+    {
+      "document": "2026-02420",
+      "title": "Airworthiness Directives; The Boeing Company Airplanes",
+      "agency": "Transportation Department, FAA",
+      "type": "Proposed Rule",
+      "published": "2026-02-06",
+      "comments_close_on": "2026-03-23",
+      "topics": [
+        "Spectrum & Comms"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/02/06/2026-02420/airworthiness-directives-the-boeing-company-airplanes"
+    },
+    {
+      "document": "2026-00680",
+      "title": "Mitigation Methods for Launch Vehicle Upper Stages on the Creation of Orbital Debris; Withdrawal",
+      "agency": "Transportation Department, FAA",
+      "type": "Proposed Rule",
+      "published": "2026-01-15",
+      "comments_close_on": null,
+      "topics": [
+        "Orbital Debris",
+        "Commercial Launch"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/01/15/2026-00680/mitigation-methods-for-launch-vehicle-upper-stages-on-the-creation-of-orbital-debris-withdrawal"
+    },
+    {
+      "document": "2026-00587",
+      "title": "Implementation of the Final Acts of the World Radiocommunication Conference (Geneva, 2015) (WRC-15), Other Allocation Issues, and Related Rule Updates",
+      "agency": "FCC",
+      "type": "Final Rule",
+      "published": "2026-01-14",
+      "comments_close_on": null,
+      "topics": [
+        "Spectrum & Comms"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/01/14/2026-00587/implementation-of-the-final-acts-of-the-world-radiocommunication-conference-geneva-2015-wrc-15-other"
+    },
+    {
+      "document": "2025-23963",
+      "title": "Implementation of the Administrative False Claims Act",
+      "agency": "NASA",
+      "type": "Proposed Rule",
+      "published": "2025-12-30",
+      "comments_close_on": "2026-02-13",
+      "topics": [
+        "NASA & Exploration",
+        "Regulatory & Licensing"
+      ],
+      "url": "https://www.federalregister.gov/documents/2025/12/30/2025-23963/implementation-of-the-administrative-false-claims-act"
+    },
+    {
+      "document": "2025-23638",
+      "title": "Space Bureau Seeks To Refresh the Record on Proposed Rules To Permit the Use of Additional Frequency Bands for NGSO Satellites To Communicate With Earth Stations in Motion",
+      "agency": "FCC",
+      "type": "Proposed Rule",
+      "published": "2025-12-22",
+      "comments_close_on": "2026-01-21",
+      "topics": [
+        "Spectrum & Comms"
+      ],
+      "url": "https://www.federalregister.gov/documents/2025/12/22/2025-23638/space-bureau-seeks-to-refresh-the-record-on-proposed-rules-to-permit-the-use-of-additional-frequency"
+    },
+    {
+      "document": "2025-23625",
+      "title": "Space Bureau Extends Comment and Reply Comment Deadlines for Notice of Proposed Rulemaking Regarding Facilitating More Intensive Use of Upper Microwave Spectrum",
+      "agency": "FCC",
+      "type": "Proposed Rule",
+      "published": "2025-12-22",
+      "comments_close_on": "2025-01-20",
+      "topics": [
+        "Spectrum & Comms"
+      ],
+      "url": "https://www.federalregister.gov/documents/2025/12/22/2025-23625/space-bureau-extends-comment-and-reply-comment-deadlines-for-notice-of-proposed-rulemaking-regarding"
+    },
+    {
+      "document": "2025-23447",
+      "title": "Amendment of Class E Airspace; Franklin, NC",
+      "agency": "Transportation Department, FAA",
+      "type": "Proposed Rule",
+      "published": "2025-12-19",
+      "comments_close_on": "2026-02-02",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.federalregister.gov/documents/2025/12/19/2025-23447/amendment-of-class-e-airspace-franklin-nc"
+    },
+    {
+      "document": "2025-23254",
+      "title": "Amendment of Class E Airspace; Morganton, NC",
+      "agency": "Transportation Department, FAA",
+      "type": "Proposed Rule",
+      "published": "2025-12-18",
+      "comments_close_on": "2026-02-02",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.federalregister.gov/documents/2025/12/18/2025-23254/amendment-of-class-e-airspace-morganton-nc"
+    },
+    {
+      "document": "2025-22020",
+      "title": "In the Matter of Upper C-band (3.98-4.2 GHz)",
+      "agency": "FCC",
+      "type": "Proposed Rule",
+      "published": "2025-12-05",
+      "comments_close_on": "2026-01-05",
+      "topics": [
+        "Spectrum & Comms",
+        "Regulatory & Licensing"
+      ],
+      "url": "https://www.federalregister.gov/documents/2025/12/05/2025-22020/in-the-matter-of-upper-c-band-398-42-ghz"
+    },
+    {
+      "document": "2025-22019",
+      "title": "Space Modernization for the 21st Century",
+      "agency": "FCC",
+      "type": "Proposed Rule",
+      "published": "2025-12-05",
+      "comments_close_on": "2026-01-20",
+      "topics": [
+        "Spectrum & Comms",
+        "NASA & Exploration",
+        "Regulatory & Licensing"
+      ],
+      "url": "https://www.federalregister.gov/documents/2025/12/05/2025-22019/space-modernization-for-the-21st-century"
+    },
+    {
+      "document": "2025-21805",
+      "title": "Facilitating More Intensive Use of Upper Microwave Spectrum",
+      "agency": "FCC",
+      "type": "Proposed Rule",
+      "published": "2025-12-03",
+      "comments_close_on": "2026-01-02",
+      "topics": [
+        "Spectrum & Comms",
+        "Regulatory & Licensing"
+      ],
+      "url": "https://www.federalregister.gov/documents/2025/12/03/2025-21805/facilitating-more-intensive-use-of-upper-microwave-spectrum"
+    },
+    {
+      "document": "2025-19055",
+      "title": "Airworthiness Directives; The Boeing Company Airplanes",
+      "agency": "Transportation Department, FAA",
+      "type": "Proposed Rule",
+      "published": "2025-09-30",
+      "comments_close_on": "2025-11-14",
+      "topics": [
+        "Spectrum & Comms"
+      ],
+      "url": "https://www.federalregister.gov/documents/2025/09/30/2025-19055/airworthiness-directives-the-boeing-company-airplanes"
+    },
+    {
+      "document": "2025-16902",
+      "title": "Falsification, Reproduction, Alteration, Omission, or Incorrect Statements",
+      "agency": "Transportation Department, FAA",
+      "type": "Final Rule",
+      "published": "2025-09-03",
+      "comments_close_on": null,
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.federalregister.gov/documents/2025/09/03/2025-16902/falsification-reproduction-alteration-omission-or-incorrect-statements"
+    },
+    {
+      "document": "2025-16411",
+      "title": "Federal Acquisition Regulation; Federal Acquisition Circular 2025-06; Introduction",
+      "agency": "Management and Budget Office, Federal Procurement Policy Office, Defense Department, General Services Administration, NASA",
+      "type": "Final Rule",
+      "published": "2025-08-27",
+      "comments_close_on": null,
+      "topics": [
+        "NASA & Exploration",
+        "Regulatory & Licensing"
+      ],
+      "url": "https://www.federalregister.gov/documents/2025/08/27/2025-16411/federal-acquisition-regulation-federal-acquisition-circular-2025-06-introduction"
+    },
+    {
+      "document": "2025-16375",
+      "title": "Expediting Initial Processing of Satellite and Earth Station Applications; Space Innovation",
+      "agency": "FCC",
+      "type": "Final Rule",
+      "published": "2025-08-27",
+      "comments_close_on": null,
+      "topics": [
+        "Spectrum & Comms",
+        "Regulatory & Licensing"
+      ],
+      "url": "https://www.federalregister.gov/documents/2025/08/27/2025-16375/expediting-initial-processing-of-satellite-and-earth-station-applications-space-innovation"
+    },
+    {
+      "document": "2025-16351",
+      "title": "Delete, Delete, Delete; Removal of Obsolete Regulations",
+      "agency": "FCC",
+      "type": "Final Rule",
+      "published": "2025-08-26",
+      "comments_close_on": null,
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.federalregister.gov/documents/2025/08/26/2025-16351/delete-delete-delete-removal-of-obsolete-regulations"
+    },
+    {
+      "document": "2025-14990",
+      "title": "Federal Acquisition Regulation: Clarification of System for Award Management Preaward Registration Requirements",
+      "agency": "Management and Budget Office, Federal Procurement Policy Office, Defense Department, General Services Administration, NASA",
+      "type": "Final Rule",
+      "published": "2025-08-07",
+      "comments_close_on": null,
+      "topics": [
+        "NASA & Exploration",
+        "Regulatory & Licensing"
+      ],
+      "url": "https://www.federalregister.gov/documents/2025/08/07/2025-14990/federal-acquisition-regulation-clarification-of-system-for-award-management-preaward-registration"
+    },
+    {
+      "document": "2025-14976",
+      "title": "Federal Acquisition Regulation; Federal Acquisition Circular 2025-05; Introduction",
+      "agency": "Defense Department, General Services Administration, NASA",
+      "type": "Final Rule",
+      "published": "2025-08-07",
+      "comments_close_on": null,
+      "topics": [
+        "NASA & Exploration",
+        "Regulatory & Licensing"
+      ],
+      "url": "https://www.federalregister.gov/documents/2025/08/07/2025-14976/federal-acquisition-regulation-federal-acquisition-circular-2025-05-introduction"
+    },
+    {
+      "document": "2025-14506",
+      "title": "Revising Spectrum Sharing Rules for Non-Geostationary Orbit, Fixed-Satellite Service Systems",
+      "agency": "FCC",
+      "type": "Final Rule",
+      "published": "2025-07-31",
+      "comments_close_on": null,
+      "topics": [
+        "Spectrum & Comms"
+      ],
+      "url": "https://www.federalregister.gov/documents/2025/07/31/2025-14506/revising-spectrum-sharing-rules-for-non-geostationary-orbit-fixed-satellite-service-systems"
+    },
+    {
+      "document": "2025-13972",
+      "title": "Modernization of Special Airworthiness Certification",
+      "agency": "Transportation Department, FAA",
+      "type": "Final Rule",
+      "published": "2025-07-24",
+      "comments_close_on": null,
+      "topics": [
+        "Regulatory & Licensing"
+      ],
+      "url": "https://www.federalregister.gov/documents/2025/07/24/2025-13972/modernization-of-special-airworthiness-certification"
+    },
+    {
+      "document": "2025-13611",
+      "title": "Amendment of Class E Airspace; Culpeper, VA",
+      "agency": "Transportation Department, FAA",
+      "type": "Final Rule",
+      "published": "2025-07-21",
+      "comments_close_on": null,
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.federalregister.gov/documents/2025/07/21/2025-13611/amendment-of-class-e-airspace-culpeper-va"
+    },
+    {
+      "document": "2025-12579",
+      "title": "Assessment and Collection of Space and Earth Station Regulatory Fees for Fiscal Year 2024",
+      "agency": "FCC",
+      "type": "Final Rule",
+      "published": "2025-07-07",
+      "comments_close_on": null,
+      "topics": [
+        "Spectrum & Comms",
+        "Regulatory & Licensing"
+      ],
+      "url": "https://www.federalregister.gov/documents/2025/07/07/2025-12579/assessment-and-collection-of-space-and-earth-station-regulatory-fees-for-fiscal-year-2024"
+    },
+    {
+      "document": "2025-11966",
+      "title": "Satellite Spectrum Abundance",
+      "agency": "FCC",
+      "type": "Proposed Rule",
+      "published": "2025-06-27",
+      "comments_close_on": "2025-08-26",
+      "topics": [
+        "Spectrum & Comms"
+      ],
+      "url": "https://www.federalregister.gov/documents/2025/06/27/2025-11966/satellite-spectrum-abundance"
+    },
+    {
+      "document": "2025-10799",
+      "title": "Modernizing Spectrum Sharing for Satellite Broadband",
+      "agency": "FCC",
+      "type": "Proposed Rule",
+      "published": "2025-06-13",
+      "comments_close_on": "2025-07-28",
+      "topics": [
+        "Spectrum & Comms"
+      ],
+      "url": "https://www.federalregister.gov/documents/2025/06/13/2025-10799/modernizing-spectrum-sharing-for-satellite-broadband"
+    },
+    {
+      "document": "2025-09819",
+      "title": "Petition for Reconsideration of Action in Rulemaking Proceeding",
+      "agency": "FCC",
+      "type": "Proposed Rule",
+      "published": "2025-05-30",
+      "comments_close_on": null,
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.federalregister.gov/documents/2025/05/30/2025-09819/petition-for-reconsideration-of-action-in-rulemaking-proceeding"
+    },
+    {
+      "document": "2025-08496",
+      "title": "Agency Advisory Circular: Reduced Reliability Flight Safety System Design, Test, and Documentation",
+      "agency": "Transportation Department, FAA",
+      "type": "Proposed Rule",
+      "published": "2025-05-14",
+      "comments_close_on": "2025-06-13",
+      "topics": [
+        "Commercial Launch",
+        "Regulatory & Licensing"
+      ],
+      "url": "https://www.federalregister.gov/documents/2025/05/14/2025-08496/agency-advisory-circular-reduced-reliability-flight-safety-system-design-test-and-documentation"
+    },
+    {
+      "document": "2025-08021",
+      "title": "Federal Acquisition Regulation; Federal Acquisition Circular 2025-04; Introduction",
+      "agency": "Management and Budget Office, Federal Procurement Policy Office, Defense Department, General Services Administration, NASA",
+      "type": "Final Rule",
+      "published": "2025-05-12",
+      "comments_close_on": null,
+      "topics": [
+        "NASA & Exploration",
+        "Regulatory & Licensing"
+      ],
+      "url": "https://www.federalregister.gov/documents/2025/05/12/2025-08021/federal-acquisition-regulation-federal-acquisition-circular-2025-04-introduction"
+    },
+    {
+      "document": "2025-07886",
+      "title": "Implementation of the Federal Civil Penalties Inflation Adjustment Act and Adjustment of Amounts for 2025",
+      "agency": "NASA",
+      "type": "Final Rule",
+      "published": "2025-05-07",
+      "comments_close_on": null,
+      "topics": [
+        "NASA & Exploration"
+      ],
+      "url": "https://www.federalregister.gov/documents/2025/05/07/2025-07886/implementation-of-the-federal-civil-penalties-inflation-adjustment-act-and-adjustment-of-amounts-for"
+    },
+    {
+      "document": "2025-07614",
+      "title": "Special Conditions: Archeion Holdings LLC, Boeing Model 747-400/-400D/ -400F Series Airplanes; Electronic System Security Protection From Unauthorized External Access",
+      "agency": "Transportation Department, FAA",
+      "type": "Final Rule",
+      "published": "2025-05-05",
+      "comments_close_on": "2025-06-20",
+      "topics": [
+        "Spectrum & Comms"
+      ],
+      "url": "https://www.federalregister.gov/documents/2025/05/05/2025-07614/special-conditions-archeion-holdings-llc-boeing-model-747-400-400d--400f-series-airplanes-electronic"
+    },
+    {
+      "document": "2025-07644",
+      "title": "Amendment of Class E Airspace; Lebanon, NH",
+      "agency": "Transportation Department, FAA",
+      "type": "Final Rule",
+      "published": "2025-05-02",
+      "comments_close_on": null,
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.federalregister.gov/documents/2025/05/02/2025-07644/amendment-of-class-e-airspace-lebanon-nh"
+    },
+    {
+      "document": "2025-07643",
+      "title": "Wireless Telecommunications Bureau Announces Licensing and Coordination Procedures for the Space Launch Service",
+      "agency": "FCC",
+      "type": "Final Rule",
+      "published": "2025-05-02",
+      "comments_close_on": null,
+      "topics": [
+        "Commercial Launch",
+        "Spectrum & Comms",
+        "Regulatory & Licensing"
+      ],
+      "url": "https://www.federalregister.gov/documents/2025/05/02/2025-07643/wireless-telecommunications-bureau-announces-licensing-and-coordination-procedures-for-the-space"
+    },
+    {
+      "document": "2025-07641",
+      "title": "Wireless Telecommunications Bureau Announces Mechanism and Criteria for Selecting Space Launch Frequency Coordinator",
+      "agency": "FCC",
+      "type": "Final Rule",
+      "published": "2025-05-02",
+      "comments_close_on": null,
+      "topics": [
+        "Commercial Launch",
+        "Spectrum & Comms"
+      ],
+      "url": "https://www.federalregister.gov/documents/2025/05/02/2025-07641/wireless-telecommunications-bureau-announces-mechanism-and-criteria-for-selecting-space-launch"
+    },
+    {
+      "document": "2025-07271",
+      "title": "Airworthiness Directives; The Boeing Company Airplanes",
+      "agency": "Transportation Department, FAA",
+      "type": "Proposed Rule",
+      "published": "2025-04-29",
+      "comments_close_on": "2025-06-13",
+      "topics": [
+        "Spectrum & Comms"
+      ],
+      "url": "https://www.federalregister.gov/documents/2025/04/29/2025-07271/airworthiness-directives-the-boeing-company-airplanes"
+    },
+    {
+      "document": "2025-04664",
+      "title": "Special Conditions: Canard Aerospace Corporation, DeHavilland Model DHC-8-400 Series Airplane; Electronic System Security Protection From Unauthorized External Access",
+      "agency": "Transportation Department, FAA",
+      "type": "Final Rule",
+      "published": "2025-03-20",
+      "comments_close_on": "2025-05-05",
+      "topics": [
+        "Spectrum & Comms"
+      ],
+      "url": "https://www.federalregister.gov/documents/2025/03/20/2025-04664/special-conditions-canard-aerospace-corporation-dehavilland-model-dhc-8-400-series-airplane"
+    },
+    {
+      "document": "2025-03993",
+      "title": "Assessment and Collection of Space and Earth Station Regulatory Fees for Fiscal Year 2024",
+      "agency": "FCC",
+      "type": "Proposed Rule",
+      "published": "2025-03-13",
+      "comments_close_on": "2025-03-27",
+      "topics": [
+        "Spectrum & Comms",
+        "Regulatory & Licensing"
+      ],
+      "url": "https://www.federalregister.gov/documents/2025/03/13/2025-03993/assessment-and-collection-of-space-and-earth-station-regulatory-fees-for-fiscal-year-2024"
+    },
+    {
+      "document": "2025-02961",
+      "title": "Allocation of Spectrum for Non-Federal Space Launch Operations",
+      "agency": "FCC",
+      "type": "Final Rule",
+      "published": "2025-03-07",
+      "comments_close_on": null,
+      "topics": [
+        "Commercial Launch",
+        "Spectrum & Comms",
+        "Regulatory & Licensing"
+      ],
+      "url": "https://www.federalregister.gov/documents/2025/03/07/2025-02961/allocation-of-spectrum-for-non-federal-space-launch-operations"
+    },
+    {
+      "document": "2025-03493",
+      "title": "Special Conditions: Universal Avionics; Electronic System Security Protection From Unauthorized External Access",
+      "agency": "Transportation Department, FAA",
+      "type": "Final Rule",
+      "published": "2025-03-05",
+      "comments_close_on": "2025-04-21",
+      "topics": [
+        "Spectrum & Comms"
+      ],
+      "url": "https://www.federalregister.gov/documents/2025/03/05/2025-03493/special-conditions-universal-avionics-electronic-system-security-protection-from-unauthorized"
+    },
+    {
+      "document": "2025-02323",
+      "title": "Amendment of Class E Airspace; Marion, NC",
+      "agency": "Transportation Department, FAA",
+      "type": "Final Rule",
+      "published": "2025-02-07",
+      "comments_close_on": null,
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.federalregister.gov/documents/2025/02/07/2025-02323/amendment-of-class-e-airspace-marion-nc"
+    },
+    {
+      "document": "2025-01908",
+      "title": "Establishment of Area Navigation (RNAV) Routes Q-162 and Q-166; Southwest United States",
+      "agency": "Transportation Department, FAA",
+      "type": "Final Rule",
+      "published": "2025-01-30",
+      "comments_close_on": null,
+      "topics": [
+        "Science & Weather"
+      ],
+      "url": "https://www.federalregister.gov/documents/2025/01/30/2025-01908/establishment-of-area-navigation-rnav-routes-q-162-and-q-166-southwest-united-states"
+    },
+    {
+      "document": "2025-01115",
+      "title": "Spectrum Sharing Rules for NGSO Fixed-Satellite Service Systems; Correction",
+      "agency": "FCC",
+      "type": "Final Rule",
+      "published": "2025-01-22",
+      "comments_close_on": null,
+      "topics": [
+        "Spectrum & Comms"
+      ],
+      "url": "https://www.federalregister.gov/documents/2025/01/22/2025-01115/spectrum-sharing-rules-for-ngso-fixed-satellite-service-systems-correction"
+    },
+    {
+      "document": "2024-31561",
+      "title": "Federal Acquisition Regulation: Preventing Organizational Conflicts of Interest in Federal Acquisition",
+      "agency": "Defense Department, General Services Administration, NASA",
+      "type": "Proposed Rule",
+      "published": "2025-01-15",
+      "comments_close_on": "2025-03-17",
+      "topics": [
+        "NASA & Exploration"
+      ],
+      "url": "https://www.federalregister.gov/documents/2025/01/15/2024-31561/federal-acquisition-regulation-preventing-organizational-conflicts-of-interest-in-federal"
+    },
+    {
+      "document": "2024-30437",
+      "title": "Federal Acquisition Regulation: Controlled Unclassified Information",
+      "agency": "Defense Department, General Services Administration, NASA",
+      "type": "Proposed Rule",
+      "published": "2025-01-15",
+      "comments_close_on": "2025-03-17",
+      "topics": [
+        "NASA & Exploration"
+      ],
+      "url": "https://www.federalregister.gov/documents/2025/01/15/2024-30437/federal-acquisition-regulation-controlled-unclassified-information"
+    },
+    {
+      "document": "2025-00146",
+      "title": "Airworthiness Directives; Airbus Defense and Space S.A. (Formerly Known as Construcciones Aeronauticas, S.A.) Airplanes",
+      "agency": "Transportation Department, FAA",
+      "type": "Final Rule",
+      "published": "2025-01-08",
+      "comments_close_on": null,
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.federalregister.gov/documents/2025/01/08/2025-00146/airworthiness-directives-airbus-defense-and-space-sa-formerly-known-as-construcciones-aeronauticas"
+    }
+  ]
+}

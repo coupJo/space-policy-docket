@@ -1,0 +1,25 @@
+{
+  "generated": "2026-08-21",
+  "window_start": "2026-08-14",
+  "window_end": "2026-08-21",
+  "summary": "1 bill action · 0 rules published · 1 comment deadline ahead",
+  "bills": [
+    {
+      "bill": "S. 5123",
+      "title": "Lunar Landing Day Act",
+      "latest_action": "Held at the desk.",
+      "action_date": "2026-08-20",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5123"
+    }
+  ],
+  "rules": [],
+  "deadlines": [
+    {
+      "document": "2026-15415",
+      "title": "Waiver of Specified Statutory Requirements for Commercial Space Launch and Reentry Actions",
+      "agency": "Transportation Department, FAA",
+      "closes": "2026-08-31",
+      "url": "https://www.federalregister.gov/documents/2026/07/30/2026-15415/waiver-of-specified-statutory-requirements-for-commercial-space-launch-and-reentry-actions"
+    }
+  ]
+}
