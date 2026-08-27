@@ -1,16 +1,16 @@
-Run started 2026-08-26 13:58 UTC
-Sponsors remembered from last run: 80
+Run started 2026-08-27 22:54 UTC
+Sponsors remembered from last run: 81
 Scanning the entire 119th Congress for space-related bills…
-  …2500 bills scanned, 7 space-related so far (API quota left: 19990)
-  …5000 bills scanned, 12 space-related so far (API quota left: 19980)
-  …7500 bills scanned, 25 space-related so far (API quota left: 19970)
-  …10000 bills scanned, 36 space-related so far (API quota left: 19961)
-  …12500 bills scanned, 49 space-related so far (API quota left: 19951)
-  …15000 bills scanned, 68 space-related so far (API quota left: 19942)
-  …17500 bills scanned, 78 space-related so far (API quota left: 19932)
-Scanned 18433 bills total; 81 look space-related.
-Sponsors: 80 remembered, 1 fetched fresh.
-Wrote 81 bills to /home/runner/work/space-policy-docket/space-policy-docket/data/bills.json
+  …2500 bills scanned, 6 space-related so far (API quota left: 19990)
+  …5000 bills scanned, 11 space-related so far (API quota left: 19980)
+  …7500 bills scanned, 24 space-related so far (API quota left: 19970)
+  …10000 bills scanned, 35 space-related so far (API quota left: 19961)
+  …12500 bills scanned, 48 space-related so far (API quota left: 19950)
+  …15000 bills scanned, 67 space-related so far (API quota left: 19940)
+  …17500 bills scanned, 77 space-related so far (API quota left: 19930)
+Scanned 18433 bills total; 80 look space-related.
+Sponsors: 80 remembered, 0 fetched fresh.
+Wrote 80 bills to /home/runner/work/space-policy-docket/space-policy-docket/data/bills.json
 Searching the Federal Register…
   'space': 173 documents
   'satellite': 156 documents
@@ -22,7 +22,7 @@ Searching the Federal Register…
 261 unique documents; filtering for space relevance…
 Wrote 59 rules to /home/runner/work/space-policy-docket/space-policy-docket/data/rules.json
 Fetching FY 2025 awards funded by NASA…
-  total obligations: $16,776,849,318
+  total obligations: $16,776,848,691
   top recipients: 25
   top districts: 25
 Fetching FY 2025 awards funded by Space Force…
@@ -31,4 +31,4 @@ Fetching FY 2025 awards funded by Space Force…
   top districts: 0
   Space Force: no award data found — leaving it off the site.
 Wrote 1 program(s) to /home/runner/work/space-policy-docket/space-policy-docket/data/money.json
-Digest: 2 bill actions · 0 rules published · 1 comment deadline ahead  →  /home/runner/work/space-policy-docket/space-policy-docket/data/digest.json
+Digest: 1 bill action · 0 rules published · 1 comment deadline ahead  →  /home/runner/work/space-policy-docket/space-policy-docket/data/digest.json

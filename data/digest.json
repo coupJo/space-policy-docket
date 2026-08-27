@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-26",
-  "window_start": "2026-08-19",
-  "window_end": "2026-08-26",
-  "summary": "2 bill actions · 0 rules published · 1 comment deadline ahead",
+  "generated": "2026-08-27",
+  "window_start": "2026-08-20",
+  "window_end": "2026-08-27",
+  "summary": "1 bill action · 0 rules published · 1 comment deadline ahead",
   "bills": [
     {
       "bill": "H.Res. 1489",
@@ -10,13 +10,6 @@
       "latest_action": "Referred to the House Committee on Science, Space, and Technology.",
       "action_date": "2026-08-24",
       "url": "https://www.congress.gov/bill/119th-congress/house-resolution/1489"
-    },
-    {
-      "bill": "S. 5123",
-      "title": "Lunar Landing Day Act",
-      "latest_action": "Held at the desk.",
-      "action_date": "2026-08-20",
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5123"
     }
   ],
   "rules": [],
