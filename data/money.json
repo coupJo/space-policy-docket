@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-27",
+  "generated": "2026-08-28",
   "source": "Live data from the USAspending.gov API",
   "fiscal_year": "FY 2025",
   "note": "Prime awards (contracts and grants). Districts reflect place of performance — where the work is done.",
@@ -7,7 +7,7 @@
     {
       "key": "nasa",
       "label": "NASA",
-      "total": 16776848691,
+      "total": 16776842693,
       "recipients": [
         {
           "name": "California Institute of Technology",
@@ -95,7 +95,7 @@
         },
         {
           "name": "The Aerospace Corporation",
-          "amount": 115163252
+          "amount": 115162927
         },
         {
           "name": "University of Maryland, College Park",
@@ -169,7 +169,7 @@
         },
         {
           "name": "CA-36",
-          "amount": 232431770
+          "amount": 232431445
         },
         {
           "name": "CA-16",
