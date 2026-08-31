@@ -1,4 +1,4 @@
-Run started 2026-08-30 17:18 UTC
+Run started 2026-08-31 19:28 UTC
 Sponsors remembered from last run: 81
 Scanning the entire 119th Congress for space-related bills…
   …2500 bills scanned, 6 space-related so far (API quota left: 19990)
@@ -31,4 +31,4 @@ Fetching FY 2025 awards funded by Space Force…
   top districts: 0
   Space Force: no award data found — leaving it off the site.
 Wrote 1 program(s) to /home/runner/work/space-policy-docket/space-policy-docket/data/money.json
-Digest: 1 bill action · 0 rules published · 1 comment deadline ahead  →  /home/runner/work/space-policy-docket/space-policy-docket/data/digest.json
+Digest: 0 bill actions · 0 rules published · 1 comment deadline ahead  →  /home/runner/work/space-policy-docket/space-policy-docket/data/digest.json

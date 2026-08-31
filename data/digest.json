@@ -1,17 +1,9 @@
 {
-  "generated": "2026-08-30",
-  "window_start": "2026-08-23",
-  "window_end": "2026-08-30",
-  "summary": "1 bill action · 0 rules published · 1 comment deadline ahead",
-  "bills": [
-    {
-      "bill": "H.Res. 1489",
-      "title": "Honoring the crew of the Artemis II mission for their historic lunar flyby.",
-      "latest_action": "Referred to the House Committee on Science, Space, and Technology.",
-      "action_date": "2026-08-24",
-      "url": "https://www.congress.gov/bill/119th-congress/house-resolution/1489"
-    }
-  ],
+  "generated": "2026-08-31",
+  "window_start": "2026-08-24",
+  "window_end": "2026-08-31",
+  "summary": "0 bill actions · 0 rules published · 1 comment deadline ahead",
+  "bills": [],
   "rules": [],
   "deadlines": [
     {
