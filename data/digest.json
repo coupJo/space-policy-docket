@@ -1,17 +1,9 @@
 {
-  "generated": "2026-08-31",
-  "window_start": "2026-08-24",
-  "window_end": "2026-08-31",
-  "summary": "0 bill actions · 0 rules published · 1 comment deadline ahead",
+  "generated": "2026-09-01",
+  "window_start": "2026-08-25",
+  "window_end": "2026-09-01",
+  "summary": "0 bill actions · 0 rules published",
   "bills": [],
   "rules": [],
-  "deadlines": [
-    {
-      "document": "2026-15415",
-      "title": "Waiver of Specified Statutory Requirements for Commercial Space Launch and Reentry Actions",
-      "agency": "Transportation Department, FAA",
-      "closes": "2026-08-31",
-      "url": "https://www.federalregister.gov/documents/2026/07/30/2026-15415/waiver-of-specified-statutory-requirements-for-commercial-space-launch-and-reentry-actions"
-    }
-  ]
+  "deadlines": []
 }
