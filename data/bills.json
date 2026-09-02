@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-01",
+  "generated": "2026-09-02",
   "source": "Live data from the Congress.gov API",
   "bills": [
     {
@@ -629,18 +629,6 @@
         "General Space"
       ],
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/4414"
-    },
-    {
-      "bill": "H.R. 1618",
-      "congress": "119th",
-      "title": "Precision Agriculture Satellite Connectivity Act",
-      "sponsor": "Rep. Robert Latta (R-OH)",
-      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
-      "action_date": "2025-07-15",
-      "topics": [
-        "General Space"
-      ],
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1618"
     },
     {
       "bill": "H.R. 4336",
