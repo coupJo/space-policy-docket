@@ -1,7 +1,20 @@
 {
-  "generated": "2026-09-04",
+  "generated": "2026-09-05",
   "source": "Live data from the Federal Register API",
   "rules": [
+    {
+      "document": "2026-18282",
+      "title": "Unleashing Unlicensed Spectrum for Direct-to-Device",
+      "agency": "FCC",
+      "type": "Proposed Rule",
+      "published": "2026-09-08",
+      "comments_close_on": "2026-12-07",
+      "topics": [
+        "Spectrum & Comms",
+        "Regulatory & Licensing"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/09/08/2026-18282/unleashing-unlicensed-spectrum-for-direct-to-device"
+    },
     {
       "document": "2026-15598",
       "title": "Upper C-Band (3.98-4.2 GHz); Expanding Flexible Use of the 3.7 to 4.2 GHz Band",
