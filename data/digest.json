@@ -1,9 +1,18 @@
 {
-  "generated": "2026-09-07",
-  "window_start": "2026-08-31",
-  "window_end": "2026-09-07",
-  "summary": "0 bill actions · 0 rules published",
+  "generated": "2026-09-08",
+  "window_start": "2026-09-01",
+  "window_end": "2026-09-08",
+  "summary": "0 bill actions · 1 rule published",
   "bills": [],
-  "rules": [],
+  "rules": [
+    {
+      "document": "2026-18282",
+      "title": "Unleashing Unlicensed Spectrum for Direct-to-Device",
+      "agency": "FCC",
+      "type": "Proposed Rule",
+      "published": "2026-09-08",
+      "url": "https://www.federalregister.gov/documents/2026/09/08/2026-18282/unleashing-unlicensed-spectrum-for-direct-to-device"
+    }
+  ],
   "deadlines": []
 }
