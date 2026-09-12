@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-11",
+  "generated": "2026-09-12",
   "source": "Live data from the Congress.gov API",
   "bills": [
     {
@@ -352,18 +352,6 @@
         "Regulatory & Licensing"
       ],
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/7273"
-    },
-    {
-      "bill": "S. 3672",
-      "congress": "119th",
-      "title": "NASA Talent Exchange Program Act",
-      "sponsor": "Sen. Andy Kim (D-NJ)",
-      "latest_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
-      "action_date": "2026-01-15",
-      "topics": [
-        "NASA & Exploration"
-      ],
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3672"
     },
     {
       "bill": "H.R. 6638",
