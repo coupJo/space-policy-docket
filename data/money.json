@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-12",
+  "generated": "2026-09-13",
   "source": "Live data from the USAspending.gov API",
   "fiscal_year": "FY 2025",
   "note": "Prime awards (contracts and grants). Districts reflect place of performance — where the work is done.",
@@ -7,7 +7,7 @@
     {
       "key": "nasa",
       "label": "NASA",
-      "total": 16778808470,
+      "total": 16778888345,
       "recipients": [
         {
           "name": "California Institute of Technology",
@@ -161,7 +161,7 @@
         },
         {
           "name": "CA-32",
-          "amount": 319569128
+          "amount": 319648123
         },
         {
           "name": "CO-02",
@@ -189,7 +189,7 @@
         },
         {
           "name": "VA-03",
-          "amount": 159805167
+          "amount": 159806047
         },
         {
           "name": "TX-20",
