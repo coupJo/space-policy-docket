@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-13",
+  "generated": "2026-09-14",
   "source": "Live data from the Congress.gov API",
   "bills": [
     {
@@ -171,18 +171,6 @@
       "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/695"
     },
     {
-      "bill": "S. 1962",
-      "congress": "119th",
-      "title": "Secure Space Act of 2025",
-      "sponsor": "Sen. Deb Fischer (R-NE)",
-      "latest_action": "Committee on Commerce, Science, and Transportation. Ordered to be reported with an amendment in the nature of a substitute favorably.",
-      "action_date": "2026-04-14",
-      "topics": [
-        "General Space"
-      ],
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1962"
-    },
-    {
       "bill": "S. 3404",
       "congress": "119th",
       "title": "Satellite Cybersecurity Act of 2025",
@@ -193,6 +181,18 @@
         "National Security"
       ],
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3404"
+    },
+    {
+      "bill": "S. 1962",
+      "congress": "119th",
+      "title": "Secure Space Act of 2025",
+      "sponsor": "Sen. Deb Fischer (R-NE)",
+      "latest_action": "Committee on Commerce, Science, and Transportation. Ordered to be reported with an amendment in the nature of a substitute favorably.",
+      "action_date": "2026-04-14",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1962"
     },
     {
       "bill": "S. 2351",
@@ -242,18 +242,6 @@
         "NASA & Exploration"
       ],
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4264"
-    },
-    {
-      "bill": "H.R. 7388",
-      "congress": "119th",
-      "title": "Smart Space Act of 2026",
-      "sponsor": "Rep. Eric Burlison (R-MO)",
-      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Environment and Public Works.",
-      "action_date": "2026-03-25",
-      "topics": [
-        "General Space"
-      ],
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/7388"
     },
     {
       "bill": "S. 4201",
@@ -352,6 +340,18 @@
         "Regulatory & Licensing"
       ],
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/7273"
+    },
+    {
+      "bill": "S. 3672",
+      "congress": "119th",
+      "title": "NASA Talent Exchange Program Act",
+      "sponsor": "Sen. Andy Kim (D-NJ)",
+      "latest_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "action_date": "2026-01-15",
+      "topics": [
+        "NASA & Exploration"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3672"
     },
     {
       "bill": "H.R. 6638",
