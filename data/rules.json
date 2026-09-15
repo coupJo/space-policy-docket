@@ -1,7 +1,19 @@
 {
-  "generated": "2026-09-14",
+  "generated": "2026-09-15",
   "source": "Live data from the Federal Register API",
   "rules": [
+    {
+      "document": "2026-18850",
+      "title": "Airworthiness Directives; Airbus Defence and Space GmbH Airplanes",
+      "agency": "Transportation Department, FAA",
+      "type": "Proposed Rule",
+      "published": "2026-09-15",
+      "comments_close_on": "2026-10-30",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/09/15/2026-18850/airworthiness-directives-airbus-defence-and-space-gmbh-airplanes"
+    },
     {
       "document": "2026-18282",
       "title": "Unleashing Unlicensed Spectrum for Direct-to-Device",

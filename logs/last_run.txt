@@ -1,46 +1,34 @@
-Run started 2026-09-14 18:30 UTC
+Run started 2026-09-15 17:37 UTC
 Sponsors remembered from last run: 80
 Scanning the entire 119th Congress for space-related bills…
-  …2500 bills scanned, 25 space-related so far (API quota left: 19990)
+  …2500 bills scanned, 26 space-related so far (API quota left: 19990)
   …5000 bills scanned, 32 space-related so far (API quota left: 19980)
   …7500 bills scanned, 35 space-related so far (API quota left: 19970)
-  …10000 bills scanned, 42 space-related so far (API quota left: 19960)
-  …12500 bills scanned, 57 space-related so far (API quota left: 19950)
-  …15000 bills scanned, 65 space-related so far (API quota left: 19940)
+  …10000 bills scanned, 43 space-related so far (API quota left: 19960)
+  …12500 bills scanned, 58 space-related so far (API quota left: 19950)
+  …15000 bills scanned, 63 space-related so far (API quota left: 19940)
   …17500 bills scanned, 78 space-related so far (API quota left: 19930)
-Scanned 18676 bills total; 80 look space-related.
-Sponsors: 79 remembered, 1 fetched fresh.
-Wrote 80 bills to /home/runner/work/space-policy-docket/space-policy-docket/data/bills.json
+Scanned 18726 bills total; 81 look space-related.
+Sponsors: 80 remembered, 1 fetched fresh.
+Wrote 81 bills to /home/runner/work/space-policy-docket/space-policy-docket/data/bills.json
 Searching the Federal Register…
-  'space': 177 documents
+  'space': 178 documents
   'satellite': 160 documents
   'orbital debris': 13 documents
   'launch vehicle': 30 documents
   'remote sensing': 26 documents
   'spaceport': 3 documents
   'reentry': 13 documents
-266 unique documents; filtering for space relevance…
-Wrote 60 rules to /home/runner/work/space-policy-docket/space-policy-docket/data/rules.json
+267 unique documents; filtering for space relevance…
+Wrote 61 rules to /home/runner/work/space-policy-docket/space-policy-docket/data/rules.json
 Fetching FY 2025 awards funded by NASA…
   total obligations: $16,778,888,345
-  API hiccup (HTTPSConnectionPool(host='api.usaspending.gov', port=443): Max retries exceeded with url: /api/v2/search/spending_by_category/recipient/ (Caused by NameResolutionError("HTTPSConnection(host='api.usaspending.gov', port=443): Failed to resolve 'api.usaspending.gov' ([Errno -3] Temporary failure in name resolution)"))); waiting 30s then retrying…
   top recipients: 25
-  API said 504: <html>
-<head><title>504 Gateway Time-out</title></head>
-<body>
-<center><h1>504 Gateway Time-out</h1></center>
-</body>
-</html>
-
-  API hiccup (504); waiting 30s then retrying…
   top districts: 25
 Fetching FY 2025 awards funded by Space Force…
   total obligations: $0
   top recipients: 0
-  API hiccup (HTTPSConnectionPool(host='api.usaspending.gov', port=443): Max retries exceeded with url: /api/v2/search/spending_by_category/district/ (Caused by NameResolutionError("HTTPSConnection(host='api.usaspending.gov', port=443): Failed to resolve 'api.usaspending.gov' ([Errno -3] Temporary failure in name resolution)"))); waiting 30s then retrying…
-  API hiccup (HTTPSConnectionPool(host='api.usaspending.gov', port=443): Max retries exceeded with url: /api/v2/search/spending_by_category/district/ (Caused by NameResolutionError("HTTPSConnection(host='api.usaspending.gov', port=443): Failed to resolve 'api.usaspending.gov' ([Errno -3] Temporary failure in name resolution)"))); waiting 60s then retrying…
-  API hiccup (HTTPSConnectionPool(host='api.usaspending.gov', port=443): Max retries exceeded with url: /api/v2/search/spending_by_category/district/ (Caused by NameResolutionError("HTTPSConnection(host='api.usaspending.gov', port=443): Failed to resolve 'api.usaspending.gov' ([Errno -3] Temporary failure in name resolution)"))); waiting 90s then retrying…
   top districts: 0
   Space Force: no award data found — leaving it off the site.
 Wrote 1 program(s) to /home/runner/work/space-policy-docket/space-policy-docket/data/money.json
-Digest: 0 bill actions · 1 rule published  →  /home/runner/work/space-policy-docket/space-policy-docket/data/digest.json
+Digest: 2 bill actions · 1 rule published  →  /home/runner/work/space-policy-docket/space-policy-docket/data/digest.json
