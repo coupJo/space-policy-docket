@@ -1,16 +1,16 @@
-Run started 2026-09-15 17:37 UTC
-Sponsors remembered from last run: 80
+Run started 2026-09-16 17:34 UTC
+Sponsors remembered from last run: 81
 Scanning the entire 119th Congress for space-related bills…
-  …2500 bills scanned, 26 space-related so far (API quota left: 19990)
-  …5000 bills scanned, 32 space-related so far (API quota left: 19980)
-  …7500 bills scanned, 35 space-related so far (API quota left: 19970)
+  …2500 bills scanned, 24 space-related so far (API quota left: 19991)
+  …5000 bills scanned, 33 space-related so far (API quota left: 19980)
+  …7500 bills scanned, 36 space-related so far (API quota left: 19970)
   …10000 bills scanned, 43 space-related so far (API quota left: 19960)
   …12500 bills scanned, 58 space-related so far (API quota left: 19950)
-  …15000 bills scanned, 63 space-related so far (API quota left: 19940)
-  …17500 bills scanned, 78 space-related so far (API quota left: 19930)
-Scanned 18726 bills total; 81 look space-related.
-Sponsors: 80 remembered, 1 fetched fresh.
-Wrote 81 bills to /home/runner/work/space-policy-docket/space-policy-docket/data/bills.json
+  …15000 bills scanned, 64 space-related so far (API quota left: 19940)
+  …17500 bills scanned, 79 space-related so far (API quota left: 19930)
+Scanned 18773 bills total; 82 look space-related.
+Sponsors: 81 remembered, 1 fetched fresh.
+Wrote 82 bills to /home/runner/work/space-policy-docket/space-policy-docket/data/bills.json
 Searching the Federal Register…
   'space': 178 documents
   'satellite': 160 documents
@@ -24,11 +24,21 @@ Wrote 61 rules to /home/runner/work/space-policy-docket/space-policy-docket/data
 Fetching FY 2025 awards funded by NASA…
   total obligations: $16,778,888,345
   top recipients: 25
+  API said 504: <html>
+<head><title>504 Gateway Time-out</title></head>
+<body>
+<center><h1>504 Gateway Time-out</h1></center>
+</body>
+</html>
+
+  API hiccup (504); waiting 30s then retrying…
   top districts: 25
 Fetching FY 2025 awards funded by Space Force…
   total obligations: $0
+  API said 503: 
+  API hiccup (503); waiting 30s then retrying…
   top recipients: 0
   top districts: 0
   Space Force: no award data found — leaving it off the site.
 Wrote 1 program(s) to /home/runner/work/space-policy-docket/space-policy-docket/data/money.json
-Digest: 2 bill actions · 1 rule published  →  /home/runner/work/space-policy-docket/space-policy-docket/data/digest.json
+Digest: 3 bill actions · 1 rule published  →  /home/runner/work/space-policy-docket/space-policy-docket/data/digest.json

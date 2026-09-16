@@ -1,7 +1,19 @@
 {
-  "generated": "2026-09-15",
+  "generated": "2026-09-16",
   "source": "Live data from the Congress.gov API",
   "bills": [
+    {
+      "bill": "S. 5398",
+      "congress": "119th",
+      "title": "A bill to establish the United States Space Academy as a service academy of the United States, to require that the Academy be located in the State of Florida, and for other purposes.",
+      "sponsor": "Sen. Ashley Moody (R-FL)",
+      "latest_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "action_date": "2026-09-15",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5398"
+    },
     {
       "bill": "S. 1962",
       "congress": "119th",
@@ -799,6 +811,18 @@
       "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/120"
     },
     {
+      "bill": "H.R. 1325",
+      "congress": "119th",
+      "title": "Commercial Remote Sensing Amendment Act of 2025",
+      "sponsor": "Rep. Frank Lucas (R-OK)",
+      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "action_date": "2025-03-25",
+      "topics": [
+        "Remote Sensing"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1325"
+    },
+    {
       "bill": "H.R. 1368",
       "congress": "119th",
       "title": "DOE and NASA Interagency Research Coordination Act",
@@ -810,18 +834,6 @@
         "Science & Weather"
       ],
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/1368"
-    },
-    {
-      "bill": "H.R. 1325",
-      "congress": "119th",
-      "title": "Commercial Remote Sensing Amendment Act of 2025",
-      "sponsor": "Rep. Frank Lucas (R-OK)",
-      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
-      "action_date": "2025-03-25",
-      "topics": [
-        "Remote Sensing"
-      ],
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1325"
     },
     {
       "bill": "H.R. 2210",
