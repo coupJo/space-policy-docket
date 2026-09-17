@@ -1,7 +1,31 @@
 {
-  "generated": "2026-09-16",
+  "generated": "2026-09-17",
   "source": "Live data from the Congress.gov API",
   "bills": [
+    {
+      "bill": "H.Res. 1557",
+      "congress": "119th",
+      "title": "Commemorating the 50th anniversary of the rollout of Space Shuttle Enterprise from the Rockwell International plant in Palmdale, California.",
+      "sponsor": "Rep. George Whitesides (D-CA)",
+      "latest_action": "Referred to the House Committee on Science, Space, and Technology.",
+      "action_date": "2026-09-16",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-resolution/1557"
+    },
+    {
+      "bill": "H.R. 10430",
+      "congress": "119th",
+      "title": "To establish the United States Space Academy as a service academy of the United States, to require that the Academy be located in the State of Florida, and for other purposes.",
+      "sponsor": "Rep. Byron Donalds (R-FL)",
+      "latest_action": "Referred to the House Committee on Science, Space, and Technology.",
+      "action_date": "2026-09-16",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/10430"
+    },
     {
       "bill": "S. 5398",
       "congress": "119th",
@@ -17,7 +41,7 @@
     {
       "bill": "S. 1962",
       "congress": "119th",
-      "title": "Secure Space Act of 2025",
+      "title": "Secure Space Act of 2026",
       "sponsor": "Sen. Deb Fischer (R-NE)",
       "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 557.",
       "action_date": "2026-09-14",
@@ -242,18 +266,6 @@
         "NASA & Exploration"
       ],
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/8187"
-    },
-    {
-      "bill": "S. 4264",
-      "congress": "119th",
-      "title": "NASA UAS Detection Act",
-      "sponsor": "Sen. Gary Peters (D-MI)",
-      "latest_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
-      "action_date": "2026-03-26",
-      "topics": [
-        "NASA & Exploration"
-      ],
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4264"
     },
     {
       "bill": "H.R. 7388",
@@ -595,18 +607,6 @@
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/5122"
     },
     {
-      "bill": "S. 2622",
-      "congress": "119th",
-      "title": "Space Ready Act",
-      "sponsor": "Sen. Ashley Moody (R-FL)",
-      "latest_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
-      "action_date": "2025-07-31",
-      "topics": [
-        "General Space"
-      ],
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2622"
-    },
-    {
       "bill": "S. 2632",
       "congress": "119th",
       "title": "Saving NASA’s Workforce Act",
@@ -617,6 +617,18 @@
         "NASA & Exploration"
       ],
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2632"
+    },
+    {
+      "bill": "S. 2622",
+      "congress": "119th",
+      "title": "Space Ready Act",
+      "sponsor": "Sen. Ashley Moody (R-FL)",
+      "latest_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "action_date": "2025-07-31",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2622"
     },
     {
       "bill": "S.Res. 309",
@@ -811,18 +823,6 @@
       "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/120"
     },
     {
-      "bill": "H.R. 1325",
-      "congress": "119th",
-      "title": "Commercial Remote Sensing Amendment Act of 2025",
-      "sponsor": "Rep. Frank Lucas (R-OK)",
-      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
-      "action_date": "2025-03-25",
-      "topics": [
-        "Remote Sensing"
-      ],
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1325"
-    },
-    {
       "bill": "H.R. 1368",
       "congress": "119th",
       "title": "DOE and NASA Interagency Research Coordination Act",
@@ -834,6 +834,18 @@
         "Science & Weather"
       ],
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/1368"
+    },
+    {
+      "bill": "H.R. 1325",
+      "congress": "119th",
+      "title": "Commercial Remote Sensing Amendment Act of 2025",
+      "sponsor": "Rep. Frank Lucas (R-OK)",
+      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "action_date": "2025-03-25",
+      "topics": [
+        "Remote Sensing"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1325"
     },
     {
       "bill": "H.R. 2210",

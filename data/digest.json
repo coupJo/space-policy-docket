@@ -1,9 +1,23 @@
 {
-  "generated": "2026-09-16",
-  "window_start": "2026-09-09",
-  "window_end": "2026-09-16",
-  "summary": "3 bill actions · 1 rule published",
+  "generated": "2026-09-17",
+  "window_start": "2026-09-10",
+  "window_end": "2026-09-17",
+  "summary": "5 bill actions · 1 rule published",
   "bills": [
+    {
+      "bill": "H.Res. 1557",
+      "title": "Commemorating the 50th anniversary of the rollout of Space Shuttle Enterprise from the Rockwell International plant in Palmdale, California.",
+      "latest_action": "Referred to the House Committee on Science, Space, and Technology.",
+      "action_date": "2026-09-16",
+      "url": "https://www.congress.gov/bill/119th-congress/house-resolution/1557"
+    },
+    {
+      "bill": "H.R. 10430",
+      "title": "To establish the United States Space Academy as a service academy of the United States, to require that the Academy be located in the State of Florida, and for other purposes.",
+      "latest_action": "Referred to the House Committee on Science, Space, and Technology.",
+      "action_date": "2026-09-16",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/10430"
+    },
     {
       "bill": "S. 5398",
       "title": "A bill to establish the United States Space Academy as a service academy of the United States, to require that the Academy be located in the State of Florida, and for other purposes.",
@@ -13,7 +27,7 @@
     },
     {
       "bill": "S. 1962",
-      "title": "Secure Space Act of 2025",
+      "title": "Secure Space Act of 2026",
       "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 557.",
       "action_date": "2026-09-14",
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1962"
