@@ -1,7 +1,59 @@
 {
-  "generated": "2026-09-17",
+  "generated": "2026-09-18",
   "source": "Live data from the Federal Register API",
   "rules": [
+    {
+      "document": "2026-19162",
+      "title": "Federal Acquisition Regulation: Revolutionary FAR Overhaul Parts 8, 12, 13, 15, 38, 44, and 51",
+      "agency": "Management and Budget Office, Federal Procurement Policy Office, Defense Department, General Services Administration, NASA",
+      "type": "Proposed Rule",
+      "published": "2026-09-18",
+      "comments_close_on": "2026-10-19",
+      "topics": [
+        "NASA & Exploration",
+        "Regulatory & Licensing"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/09/18/2026-19162/federal-acquisition-regulation-revolutionary-far-overhaul-parts-8-12-13-15-38-44-and-51"
+    },
+    {
+      "document": "2026-19160",
+      "title": "Federal Acquisition Regulation: Revolutionary Federal Acquisition Regulation Overhaul Parts 16, 17, and 35",
+      "agency": "Management and Budget Office, Federal Procurement Policy Office, Defense Department, General Services Administration, NASA",
+      "type": "Proposed Rule",
+      "published": "2026-09-18",
+      "comments_close_on": "2026-10-19",
+      "topics": [
+        "NASA & Exploration",
+        "Regulatory & Licensing"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/09/18/2026-19160/federal-acquisition-regulation-revolutionary-federal-acquisition-regulation-overhaul-parts-16-17-and"
+    },
+    {
+      "document": "2026-19159",
+      "title": "Federal Acquisition Regulation: Revolutionary Federal Acquisition Regulation Overhaul Parts 9, 27, and 47",
+      "agency": "Management and Budget Office, Federal Procurement Policy Office, Defense Department, General Services Administration, NASA",
+      "type": "Proposed Rule",
+      "published": "2026-09-18",
+      "comments_close_on": "2026-10-19",
+      "topics": [
+        "NASA & Exploration",
+        "Regulatory & Licensing"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/09/18/2026-19159/federal-acquisition-regulation-revolutionary-federal-acquisition-regulation-overhaul-parts-9-27-and"
+    },
+    {
+      "document": "2026-19158",
+      "title": "Federal Acquisition Regulation: Revolutionary Federal Acquisition Regulation Overhaul Parts 14, 28, 36, and 52",
+      "agency": "Management and Budget Office, Federal Procurement Policy Office, Defense Department, General Services Administration, NASA",
+      "type": "Proposed Rule",
+      "published": "2026-09-18",
+      "comments_close_on": "2026-10-19",
+      "topics": [
+        "NASA & Exploration",
+        "Regulatory & Licensing"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/09/18/2026-19158/federal-acquisition-regulation-revolutionary-federal-acquisition-regulation-overhaul-parts-14-28-36"
+    },
     {
       "document": "2026-18850",
       "title": "Airworthiness Directives; Airbus Defence and Space GmbH Airplanes",
