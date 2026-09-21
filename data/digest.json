@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-20",
-  "window_start": "2026-09-13",
-  "window_end": "2026-09-20",
-  "summary": "5 bill actions · 5 rules published · 4 comment deadlines ahead",
+  "generated": "2026-09-21",
+  "window_start": "2026-09-14",
+  "window_end": "2026-09-21",
+  "summary": "3 bill actions · 5 rules published · 4 comment deadlines ahead",
   "bills": [
     {
       "bill": "H.Res. 1557",
@@ -24,20 +24,6 @@
       "latest_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
       "action_date": "2026-09-15",
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5398"
-    },
-    {
-      "bill": "S. 1962",
-      "title": "Secure Space Act of 2026",
-      "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 557.",
-      "action_date": "2026-09-14",
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1962"
-    },
-    {
-      "bill": "S. 3404",
-      "title": "Satellite Cybersecurity Act of 2025",
-      "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 560.",
-      "action_date": "2026-09-14",
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3404"
     }
   ],
   "rules": [

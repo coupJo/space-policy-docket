@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-20",
+  "generated": "2026-09-21",
   "source": "Live data from the Congress.gov API",
   "bills": [
     {
@@ -289,18 +289,6 @@
         "General Space"
       ],
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4201"
-    },
-    {
-      "bill": "S.Res. 641",
-      "congress": "119th",
-      "title": "A resolution recognizing Girl Scouts of the United States of America on its 114th birthday and celebrating its legacy of providing girls with a supportive and inclusive space where they can explore their world, build meaningful relationships, and have access to experiences that prepare them for a life of leadership.",
-      "sponsor": "Sen. Tammy Duckworth (D-IL)",
-      "latest_action": "Referred to the Committee on the Judiciary. (text: CR S1050-1051)",
-      "action_date": "2026-03-12",
-      "topics": [
-        "General Space"
-      ],
-      "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/641"
     },
     {
       "bill": "H.Res. 1114",
@@ -604,18 +592,6 @@
         "NASA & Exploration"
       ],
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/5122"
-    },
-    {
-      "bill": "S. 2622",
-      "congress": "119th",
-      "title": "Space Ready Act",
-      "sponsor": "Sen. Ashley Moody (R-FL)",
-      "latest_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
-      "action_date": "2025-07-31",
-      "topics": [
-        "General Space"
-      ],
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2622"
     },
     {
       "bill": "S. 2632",
