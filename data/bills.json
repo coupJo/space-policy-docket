@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-21",
+  "generated": "2026-09-22",
   "source": "Live data from the Congress.gov API",
   "bills": [
     {
@@ -13,18 +13,6 @@
         "General Space"
       ],
       "url": "https://www.congress.gov/bill/119th-congress/house-resolution/1557"
-    },
-    {
-      "bill": "H.R. 10430",
-      "congress": "119th",
-      "title": "To establish the United States Space Academy as a service academy of the United States, to require that the Academy be located in the State of Florida, and for other purposes.",
-      "sponsor": "Rep. Byron Donalds (R-FL)",
-      "latest_action": "Referred to the House Committee on Science, Space, and Technology.",
-      "action_date": "2026-09-16",
-      "topics": [
-        "General Space"
-      ],
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/10430"
     },
     {
       "bill": "S. 5398",
@@ -231,6 +219,19 @@
       "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/695"
     },
     {
+      "bill": "S. 2351",
+      "congress": "119th",
+      "title": "Space Exploration Research Act",
+      "sponsor": "Sen. Ted Cruz (R-TX)",
+      "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 369.",
+      "action_date": "2026-04-13",
+      "topics": [
+        "NASA & Exploration",
+        "Science & Weather"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2351"
+    },
+    {
       "bill": "H.R. 8198",
       "congress": "119th",
       "title": "OUTPACE in Space Act",
@@ -289,6 +290,18 @@
         "General Space"
       ],
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4201"
+    },
+    {
+      "bill": "S.Res. 641",
+      "congress": "119th",
+      "title": "A resolution recognizing Girl Scouts of the United States of America on its 114th birthday and celebrating its legacy of providing girls with a supportive and inclusive space where they can explore their world, build meaningful relationships, and have access to experiences that prepare them for a life of leadership.",
+      "sponsor": "Sen. Tammy Duckworth (D-IL)",
+      "latest_action": "Referred to the Committee on the Judiciary. (text: CR S1050-1051)",
+      "action_date": "2026-03-12",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/641"
     },
     {
       "bill": "H.Res. 1114",
@@ -604,6 +617,18 @@
         "NASA & Exploration"
       ],
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2632"
+    },
+    {
+      "bill": "S. 2622",
+      "congress": "119th",
+      "title": "Space Ready Act",
+      "sponsor": "Sen. Ashley Moody (R-FL)",
+      "latest_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "action_date": "2025-07-31",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2622"
     },
     {
       "bill": "S.Res. 309",

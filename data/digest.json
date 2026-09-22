@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-21",
-  "window_start": "2026-09-14",
-  "window_end": "2026-09-21",
-  "summary": "3 bill actions · 5 rules published · 4 comment deadlines ahead",
+  "generated": "2026-09-22",
+  "window_start": "2026-09-15",
+  "window_end": "2026-09-22",
+  "summary": "1 bill action · 4 rules published · 4 comment deadlines ahead",
   "bills": [
     {
       "bill": "H.Res. 1557",
@@ -10,20 +10,6 @@
       "latest_action": "Referred to the House Committee on Science, Space, and Technology.",
       "action_date": "2026-09-16",
       "url": "https://www.congress.gov/bill/119th-congress/house-resolution/1557"
-    },
-    {
-      "bill": "H.R. 10430",
-      "title": "To establish the United States Space Academy as a service academy of the United States, to require that the Academy be located in the State of Florida, and for other purposes.",
-      "latest_action": "Referred to the House Committee on Science, Space, and Technology.",
-      "action_date": "2026-09-16",
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/10430"
-    },
-    {
-      "bill": "S. 5398",
-      "title": "A bill to establish the United States Space Academy as a service academy of the United States, to require that the Academy be located in the State of Florida, and for other purposes.",
-      "latest_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
-      "action_date": "2026-09-15",
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5398"
     }
   ],
   "rules": [
@@ -58,14 +44,6 @@
       "type": "Proposed Rule",
       "published": "2026-09-18",
       "url": "https://www.federalregister.gov/documents/2026/09/18/2026-19158/federal-acquisition-regulation-revolutionary-federal-acquisition-regulation-overhaul-parts-14-28-36"
-    },
-    {
-      "document": "2026-18850",
-      "title": "Airworthiness Directives; Airbus Defence and Space GmbH Airplanes",
-      "agency": "Transportation Department, FAA",
-      "type": "Proposed Rule",
-      "published": "2026-09-15",
-      "url": "https://www.federalregister.gov/documents/2026/09/15/2026-18850/airworthiness-directives-airbus-defence-and-space-gmbh-airplanes"
     }
   ],
   "deadlines": [

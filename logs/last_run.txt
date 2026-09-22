@@ -1,16 +1,16 @@
-Run started 2026-09-21 18:35 UTC
-Sponsors remembered from last run: 83
+Run started 2026-09-22 17:35 UTC
+Sponsors remembered from last run: 81
 Scanning the entire 119th Congress for space-related bills…
-  …2500 bills scanned, 6 space-related so far (API quota left: 19990)
-  …5000 bills scanned, 22 space-related so far (API quota left: 19980)
-  …7500 bills scanned, 37 space-related so far (API quota left: 19970)
-  …10000 bills scanned, 41 space-related so far (API quota left: 19960)
-  …12500 bills scanned, 54 space-related so far (API quota left: 19950)
-  …15000 bills scanned, 62 space-related so far (API quota left: 19940)
-  …17500 bills scanned, 76 space-related so far (API quota left: 19930)
-Scanned 18962 bills total; 81 look space-related.
-Sponsors: 81 remembered, 0 fetched fresh.
-Wrote 81 bills to /home/runner/work/space-policy-docket/space-policy-docket/data/bills.json
+  …2500 bills scanned, 7 space-related so far (API quota left: 19990)
+  …5000 bills scanned, 18 space-related so far (API quota left: 19980)
+  …7500 bills scanned, 39 space-related so far (API quota left: 19970)
+  …10000 bills scanned, 43 space-related so far (API quota left: 19960)
+  …12500 bills scanned, 56 space-related so far (API quota left: 19950)
+  …15000 bills scanned, 63 space-related so far (API quota left: 19940)
+  …17500 bills scanned, 78 space-related so far (API quota left: 19930)
+Scanned 18989 bills total; 83 look space-related.
+Sponsors: 80 remembered, 3 fetched fresh.
+Wrote 83 bills to /home/runner/work/space-policy-docket/space-policy-docket/data/bills.json
 Searching the Federal Register…
   'space': 182 documents
   'satellite': 160 documents
@@ -31,4 +31,4 @@ Fetching FY 2025 awards funded by Space Force…
   top districts: 0
   Space Force: no award data found — leaving it off the site.
 Wrote 1 program(s) to /home/runner/work/space-policy-docket/space-policy-docket/data/money.json
-Digest: 3 bill actions · 5 rules published · 4 comment deadlines ahead  →  /home/runner/work/space-policy-docket/space-policy-docket/data/digest.json
+Digest: 1 bill action · 4 rules published · 4 comment deadlines ahead  →  /home/runner/work/space-policy-docket/space-policy-docket/data/digest.json
