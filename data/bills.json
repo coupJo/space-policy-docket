@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-24",
+  "generated": "2026-09-25",
   "source": "Live data from the Congress.gov API",
   "bills": [
     {
@@ -7,8 +7,8 @@
       "congress": "119th",
       "title": "Satellite Cybersecurity Act of 2025",
       "sponsor": "Sen. Gary Peters (D-MI)",
-      "latest_action": "Passed Senate with an amendment by Unanimous Consent. (consideration: CR S4956-4958; text of amendment in the nature of a substitute: CR S4957-4958)",
-      "action_date": "2026-09-23",
+      "latest_action": "Held at the desk.",
+      "action_date": "2026-09-24",
       "topics": [
         "National Security"
       ],
@@ -19,8 +19,8 @@
       "congress": "119th",
       "title": "Secure Space Act of 2026",
       "sponsor": "Sen. Deb Fischer (R-NE)",
-      "latest_action": "Passed Senate with an amendment and an amendment to the Title by Unanimous Consent. (consideration: CR S4956; text of amendment in the nature of a substitute: CR S4956)",
-      "action_date": "2026-09-23",
+      "latest_action": "Held at the desk.",
+      "action_date": "2026-09-24",
       "topics": [
         "General Space"
       ],
@@ -230,18 +230,6 @@
         "General Space"
       ],
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/8198"
-    },
-    {
-      "bill": "H.R. 8187",
-      "congress": "119th",
-      "title": "To amend title 51, United States Code, to direct the Administrator of the National Aeronautics and Space Administration to seek to establish the initial elements of a lunar outpost, and for other purposes.",
-      "sponsor": "Rep. Keith Self (R-TX)",
-      "latest_action": "Referred to the House Committee on Science, Space, and Technology.",
-      "action_date": "2026-04-02",
-      "topics": [
-        "NASA & Exploration"
-      ],
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/8187"
     },
     {
       "bill": "S. 4264",
@@ -595,18 +583,6 @@
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/5122"
     },
     {
-      "bill": "S. 2622",
-      "congress": "119th",
-      "title": "Space Ready Act",
-      "sponsor": "Sen. Ashley Moody (R-FL)",
-      "latest_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
-      "action_date": "2025-07-31",
-      "topics": [
-        "General Space"
-      ],
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2622"
-    },
-    {
       "bill": "S. 2632",
       "congress": "119th",
       "title": "Saving NASA’s Workforce Act",
@@ -617,6 +593,18 @@
         "NASA & Exploration"
       ],
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2632"
+    },
+    {
+      "bill": "S. 2622",
+      "congress": "119th",
+      "title": "Space Ready Act",
+      "sponsor": "Sen. Ashley Moody (R-FL)",
+      "latest_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "action_date": "2025-07-31",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2622"
     },
     {
       "bill": "S.Res. 309",
@@ -811,6 +799,18 @@
       "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/120"
     },
     {
+      "bill": "H.R. 1325",
+      "congress": "119th",
+      "title": "Commercial Remote Sensing Amendment Act of 2025",
+      "sponsor": "Rep. Frank Lucas (R-OK)",
+      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "action_date": "2025-03-25",
+      "topics": [
+        "Remote Sensing"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1325"
+    },
+    {
       "bill": "H.R. 1368",
       "congress": "119th",
       "title": "DOE and NASA Interagency Research Coordination Act",
@@ -822,18 +822,6 @@
         "Science & Weather"
       ],
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/1368"
-    },
-    {
-      "bill": "H.R. 1325",
-      "congress": "119th",
-      "title": "Commercial Remote Sensing Amendment Act of 2025",
-      "sponsor": "Rep. Frank Lucas (R-OK)",
-      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
-      "action_date": "2025-03-25",
-      "topics": [
-        "Remote Sensing"
-      ],
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1325"
     },
     {
       "bill": "H.R. 2210",
