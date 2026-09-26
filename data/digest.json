@@ -1,58 +1,25 @@
 {
-  "generated": "2026-09-24",
-  "window_start": "2026-09-17",
-  "window_end": "2026-09-24",
-  "summary": "2 bill actions · 4 rules published · 4 comment deadlines ahead",
+  "generated": "2026-09-26",
+  "window_start": "2026-09-19",
+  "window_end": "2026-09-26",
+  "summary": "2 bill actions · 0 rules published · 4 comment deadlines ahead",
   "bills": [
-    {
-      "bill": "S. 3404",
-      "title": "Satellite Cybersecurity Act of 2025",
-      "latest_action": "Passed Senate with an amendment by Unanimous Consent. (consideration: CR S4956-4958; text of amendment in the nature of a substitute: CR S4957-4958)",
-      "action_date": "2026-09-23",
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3404"
-    },
     {
       "bill": "S. 1962",
       "title": "Secure Space Act of 2026",
-      "latest_action": "Passed Senate with an amendment and an amendment to the Title by Unanimous Consent. (consideration: CR S4956; text of amendment in the nature of a substitute: CR S4956)",
-      "action_date": "2026-09-23",
+      "latest_action": "Message on Senate action sent to the House.",
+      "action_date": "2026-09-24",
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1962"
+    },
+    {
+      "bill": "S. 3404",
+      "title": "Satellite Cybersecurity Act of 2025",
+      "latest_action": "Message on Senate action sent to the House.",
+      "action_date": "2026-09-24",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3404"
     }
   ],
-  "rules": [
-    {
-      "document": "2026-19162",
-      "title": "Federal Acquisition Regulation: Revolutionary FAR Overhaul Parts 8, 12, 13, 15, 38, 44, and 51",
-      "agency": "Management and Budget Office, Federal Procurement Policy Office, Defense Department, General Services Administration, NASA",
-      "type": "Proposed Rule",
-      "published": "2026-09-18",
-      "url": "https://www.federalregister.gov/documents/2026/09/18/2026-19162/federal-acquisition-regulation-revolutionary-far-overhaul-parts-8-12-13-15-38-44-and-51"
-    },
-    {
-      "document": "2026-19160",
-      "title": "Federal Acquisition Regulation: Revolutionary Federal Acquisition Regulation Overhaul Parts 16, 17, and 35",
-      "agency": "Management and Budget Office, Federal Procurement Policy Office, Defense Department, General Services Administration, NASA",
-      "type": "Proposed Rule",
-      "published": "2026-09-18",
-      "url": "https://www.federalregister.gov/documents/2026/09/18/2026-19160/federal-acquisition-regulation-revolutionary-federal-acquisition-regulation-overhaul-parts-16-17-and"
-    },
-    {
-      "document": "2026-19159",
-      "title": "Federal Acquisition Regulation: Revolutionary Federal Acquisition Regulation Overhaul Parts 9, 27, and 47",
-      "agency": "Management and Budget Office, Federal Procurement Policy Office, Defense Department, General Services Administration, NASA",
-      "type": "Proposed Rule",
-      "published": "2026-09-18",
-      "url": "https://www.federalregister.gov/documents/2026/09/18/2026-19159/federal-acquisition-regulation-revolutionary-federal-acquisition-regulation-overhaul-parts-9-27-and"
-    },
-    {
-      "document": "2026-19158",
-      "title": "Federal Acquisition Regulation: Revolutionary Federal Acquisition Regulation Overhaul Parts 14, 28, 36, and 52",
-      "agency": "Management and Budget Office, Federal Procurement Policy Office, Defense Department, General Services Administration, NASA",
-      "type": "Proposed Rule",
-      "published": "2026-09-18",
-      "url": "https://www.federalregister.gov/documents/2026/09/18/2026-19158/federal-acquisition-regulation-revolutionary-federal-acquisition-regulation-overhaul-parts-14-28-36"
-    }
-  ],
+  "rules": [],
   "deadlines": [
     {
       "document": "2026-19162",

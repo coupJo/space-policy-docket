@@ -1,30 +1,30 @@
 {
-  "generated": "2026-09-25",
+  "generated": "2026-09-26",
   "source": "Live data from the Congress.gov API",
   "bills": [
-    {
-      "bill": "S. 3404",
-      "congress": "119th",
-      "title": "Satellite Cybersecurity Act of 2025",
-      "sponsor": "Sen. Gary Peters (D-MI)",
-      "latest_action": "Held at the desk.",
-      "action_date": "2026-09-24",
-      "topics": [
-        "National Security"
-      ],
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3404"
-    },
     {
       "bill": "S. 1962",
       "congress": "119th",
       "title": "Secure Space Act of 2026",
       "sponsor": "Sen. Deb Fischer (R-NE)",
-      "latest_action": "Held at the desk.",
+      "latest_action": "Message on Senate action sent to the House.",
       "action_date": "2026-09-24",
       "topics": [
         "General Space"
       ],
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1962"
+    },
+    {
+      "bill": "S. 3404",
+      "congress": "119th",
+      "title": "Satellite Cybersecurity Act of 2025",
+      "sponsor": "Sen. Gary Peters (D-MI)",
+      "latest_action": "Message on Senate action sent to the House.",
+      "action_date": "2026-09-24",
+      "topics": [
+        "National Security"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3404"
     },
     {
       "bill": "H.Res. 1557",
@@ -230,6 +230,18 @@
         "General Space"
       ],
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/8198"
+    },
+    {
+      "bill": "H.R. 8187",
+      "congress": "119th",
+      "title": "To amend title 51, United States Code, to direct the Administrator of the National Aeronautics and Space Administration to seek to establish the initial elements of a lunar outpost, and for other purposes.",
+      "sponsor": "Rep. Keith Self (R-TX)",
+      "latest_action": "Referred to the House Committee on Science, Space, and Technology.",
+      "action_date": "2026-04-02",
+      "topics": [
+        "NASA & Exploration"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/8187"
     },
     {
       "bill": "S. 4264",
@@ -583,18 +595,6 @@
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/5122"
     },
     {
-      "bill": "S. 2632",
-      "congress": "119th",
-      "title": "Saving NASA’s Workforce Act",
-      "sponsor": "Sen. Mazie Hirono (D-HI)",
-      "latest_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
-      "action_date": "2025-07-31",
-      "topics": [
-        "NASA & Exploration"
-      ],
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2632"
-    },
-    {
       "bill": "S. 2622",
       "congress": "119th",
       "title": "Space Ready Act",
@@ -605,6 +605,18 @@
         "General Space"
       ],
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2622"
+    },
+    {
+      "bill": "S. 2632",
+      "congress": "119th",
+      "title": "Saving NASA’s Workforce Act",
+      "sponsor": "Sen. Mazie Hirono (D-HI)",
+      "latest_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "action_date": "2025-07-31",
+      "topics": [
+        "NASA & Exploration"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2632"
     },
     {
       "bill": "S.Res. 309",
