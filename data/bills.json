@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-27",
+  "generated": "2026-09-28",
   "source": "Live data from the Congress.gov API",
   "bills": [
     {
@@ -499,18 +499,6 @@
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/5626"
     },
     {
-      "bill": "S. 428",
-      "congress": "119th",
-      "title": "SAFE Orbit Act",
-      "sponsor": "Sen. John Cornyn (R-TX)",
-      "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 170.",
-      "action_date": "2025-09-29",
-      "topics": [
-        "General Space"
-      ],
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/428"
-    },
-    {
       "bill": "S. 2888",
       "congress": "119th",
       "title": "SPACEPORT Act",
@@ -811,6 +799,18 @@
       "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/120"
     },
     {
+      "bill": "H.R. 1325",
+      "congress": "119th",
+      "title": "Commercial Remote Sensing Amendment Act of 2025",
+      "sponsor": "Rep. Frank Lucas (R-OK)",
+      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "action_date": "2025-03-25",
+      "topics": [
+        "Remote Sensing"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1325"
+    },
+    {
       "bill": "H.R. 1368",
       "congress": "119th",
       "title": "DOE and NASA Interagency Research Coordination Act",
@@ -822,18 +822,6 @@
         "Science & Weather"
       ],
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/1368"
-    },
-    {
-      "bill": "H.R. 1325",
-      "congress": "119th",
-      "title": "Commercial Remote Sensing Amendment Act of 2025",
-      "sponsor": "Rep. Frank Lucas (R-OK)",
-      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
-      "action_date": "2025-03-25",
-      "topics": [
-        "Remote Sensing"
-      ],
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1325"
     },
     {
       "bill": "H.R. 2210",
@@ -920,18 +908,6 @@
       "url": "https://www.congress.gov/bill/119th-congress/house-resolution/96"
     },
     {
-      "bill": "H.R. 794",
-      "congress": "119th",
-      "title": "Lunar New Year Day Act",
-      "sponsor": "Rep. Grace Meng (D-NY)",
-      "latest_action": "Referred to the House Committee on Oversight and Government Reform.",
-      "action_date": "2025-01-28",
-      "topics": [
-        "NASA & Exploration"
-      ],
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/794"
-    },
-    {
       "bill": "H.Res. 75",
       "congress": "119th",
       "title": "Recognizing the cultural and historical significance of Lunar New Year in 2025.",
@@ -942,6 +918,18 @@
         "NASA & Exploration"
       ],
       "url": "https://www.congress.gov/bill/119th-congress/house-resolution/75"
+    },
+    {
+      "bill": "H.R. 794",
+      "congress": "119th",
+      "title": "Lunar New Year Day Act",
+      "sponsor": "Rep. Grace Meng (D-NY)",
+      "latest_action": "Referred to the House Committee on Oversight and Government Reform.",
+      "action_date": "2025-01-28",
+      "topics": [
+        "NASA & Exploration"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/794"
     },
     {
       "bill": "H.R. 527",
@@ -956,18 +944,6 @@
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/527"
     },
     {
-      "bill": "S.Res. 23",
-      "congress": "119th",
-      "title": "A resolution recognizing the 4th anniversary of the Trump administration's Secretary of the Air Force announcing Redstone Arsenal in Huntsville, Alabama, as the preferred location for United States Space Command Headquarters.",
-      "sponsor": "Sen. Tommy Tuberville (R-AL)",
-      "latest_action": "Referred to the Committee on Armed Services.",
-      "action_date": "2025-01-13",
-      "topics": [
-        "General Space"
-      ],
-      "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/23"
-    },
-    {
       "bill": "H.Res. 37",
       "congress": "119th",
       "title": "Recognizing the 4th anniversary of the Trump administration's Secretary of the Air Force announcing Redstone Arsenal in Huntsville, Alabama, as the preferred location for United States Space Command Headquarters.",
@@ -978,6 +954,18 @@
         "General Space"
       ],
       "url": "https://www.congress.gov/bill/119th-congress/house-resolution/37"
+    },
+    {
+      "bill": "S.Res. 23",
+      "congress": "119th",
+      "title": "A resolution recognizing the 4th anniversary of the Trump administration's Secretary of the Air Force announcing Redstone Arsenal in Huntsville, Alabama, as the preferred location for United States Space Command Headquarters.",
+      "sponsor": "Sen. Tommy Tuberville (R-AL)",
+      "latest_action": "Referred to the Committee on Armed Services.",
+      "action_date": "2025-01-13",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/23"
     },
     {
       "bill": "H.R. 108",
