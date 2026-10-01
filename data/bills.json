@@ -1,19 +1,7 @@
 {
-  "generated": "2026-09-30",
+  "generated": "2026-10-01",
   "source": "Live data from the Congress.gov API",
   "bills": [
-    {
-      "bill": "S. 1962",
-      "congress": "119th",
-      "title": "Secure Space Act of 2026",
-      "sponsor": "Sen. Deb Fischer (R-NE)",
-      "latest_action": "Message on Senate action sent to the House.",
-      "action_date": "2026-09-24",
-      "topics": [
-        "General Space"
-      ],
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1962"
-    },
     {
       "bill": "S. 3404",
       "congress": "119th",
@@ -25,6 +13,18 @@
         "National Security"
       ],
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3404"
+    },
+    {
+      "bill": "S. 1962",
+      "congress": "119th",
+      "title": "Secure Space Act of 2026",
+      "sponsor": "Sen. Deb Fischer (R-NE)",
+      "latest_action": "Message on Senate action sent to the House.",
+      "action_date": "2026-09-24",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1962"
     },
     {
       "bill": "H.Res. 1557",
@@ -256,6 +256,18 @@
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4264"
     },
     {
+      "bill": "H.R. 7388",
+      "congress": "119th",
+      "title": "Smart Space Act of 2026",
+      "sponsor": "Rep. Eric Burlison (R-MO)",
+      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Environment and Public Works.",
+      "action_date": "2026-03-25",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/7388"
+    },
+    {
       "bill": "S. 4201",
       "congress": "119th",
       "title": "Indo-Pacific Space Partnership Act of 2026",
@@ -388,18 +400,6 @@
         "General Space"
       ],
       "url": "https://www.congress.gov/bill/119th-congress/house-resolution/941"
-    },
-    {
-      "bill": "H.R. 3426",
-      "congress": "119th",
-      "title": "Courthouse Affordability and Space Efficiency Act of 2025",
-      "sponsor": "Rep. Jefferson Shreve (R-IN)",
-      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Environment and Public Works.",
-      "action_date": "2025-12-01",
-      "topics": [
-        "General Space"
-      ],
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/3426"
     },
     {
       "bill": "S. 3198",
@@ -799,18 +799,6 @@
       "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/120"
     },
     {
-      "bill": "H.R. 1325",
-      "congress": "119th",
-      "title": "Commercial Remote Sensing Amendment Act of 2025",
-      "sponsor": "Rep. Frank Lucas (R-OK)",
-      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
-      "action_date": "2025-03-25",
-      "topics": [
-        "Remote Sensing"
-      ],
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1325"
-    },
-    {
       "bill": "H.R. 1368",
       "congress": "119th",
       "title": "DOE and NASA Interagency Research Coordination Act",
@@ -822,6 +810,18 @@
         "Science & Weather"
       ],
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/1368"
+    },
+    {
+      "bill": "H.R. 1325",
+      "congress": "119th",
+      "title": "Commercial Remote Sensing Amendment Act of 2025",
+      "sponsor": "Rep. Frank Lucas (R-OK)",
+      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "action_date": "2025-03-25",
+      "topics": [
+        "Remote Sensing"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1325"
     },
     {
       "bill": "H.R. 2210",

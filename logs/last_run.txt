@@ -1,15 +1,15 @@
-Run started 2026-09-30 18:21 UTC
-Sponsors remembered from last run: 82
+Run started 2026-10-01 18:47 UTC
+Sponsors remembered from last run: 81
 Scanning the entire 119th Congress for space-related bills…
-  …2500 bills scanned, 8 space-related so far (API quota left: 19990)
+  …2500 bills scanned, 7 space-related so far (API quota left: 19991)
   …5000 bills scanned, 13 space-related so far (API quota left: 19980)
   …7500 bills scanned, 38 space-related so far (API quota left: 19970)
-  …10000 bills scanned, 43 space-related so far (API quota left: 19960)
-  …12500 bills scanned, 53 space-related so far (API quota left: 19950)
+  …10000 bills scanned, 43 space-related so far (API quota left: 19961)
+  …12500 bills scanned, 52 space-related so far (API quota left: 19950)
   …15000 bills scanned, 62 space-related so far (API quota left: 19940)
   …17500 bills scanned, 76 space-related so far (API quota left: 19930)
-Scanned 19340 bills total; 81 look space-related.
-Sponsors: 81 remembered, 0 fetched fresh.
+Scanned 19441 bills total; 81 look space-related.
+Sponsors: 80 remembered, 1 fetched fresh.
 Wrote 81 bills to /home/runner/work/space-policy-docket/space-policy-docket/data/bills.json
 Searching the Federal Register…
   'space': 185 documents
@@ -22,7 +22,7 @@ Searching the Federal Register…
 274 unique documents; filtering for space relevance…
 Wrote 65 rules to /home/runner/work/space-policy-docket/space-policy-docket/data/rules.json
 Fetching FY 2025 awards funded by NASA…
-  total obligations: $16,778,776,250
+  total obligations: $16,778,791,250
   top recipients: 25
   top districts: 25
 Fetching FY 2025 awards funded by Space Force…
@@ -31,4 +31,4 @@ Fetching FY 2025 awards funded by Space Force…
   top districts: 0
   Space Force: no award data found — leaving it off the site.
 Wrote 1 program(s) to /home/runner/work/space-policy-docket/space-policy-docket/data/money.json
-Digest: 2 bill actions · 0 rules published · 5 comment deadlines ahead  →  /home/runner/work/space-policy-docket/space-policy-docket/data/digest.json
+Digest: 0 bill actions · 0 rules published · 5 comment deadlines ahead  →  /home/runner/work/space-policy-docket/space-policy-docket/data/digest.json
