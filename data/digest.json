@@ -1,9 +1,24 @@
 {
-  "generated": "2026-10-01",
-  "window_start": "2026-09-24",
-  "window_end": "2026-10-01",
-  "summary": "0 bill actions · 0 rules published · 5 comment deadlines ahead",
-  "bills": [],
+  "generated": "2026-10-02",
+  "window_start": "2026-09-25",
+  "window_end": "2026-10-02",
+  "summary": "2 bill actions · 0 rules published · 5 comment deadlines ahead",
+  "bills": [
+    {
+      "bill": "H.R. 10697",
+      "title": "To amend titles 18 and 10, United States Code, to provide for congressional authority to terminate exceptions authorized to the prohibition on the use of the Army, Navy, Marine Corps, Air Force, and Space Force as posse comitatus, and for other purposes.",
+      "latest_action": "Referred to the Committee on the Judiciary, and in addition to the Committees on Armed Services, Rules, Appropriations, and the Budget, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "action_date": "2026-10-01",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/10697"
+    },
+    {
+      "bill": "H.Res. 1597",
+      "title": "Expressing support for designation of the week of October 4, 2026, through October 10, 2026, as \"World Space Week\".",
+      "latest_action": "Referred to the Committee on Science, Space, and Technology, and in addition to the Committee on Education and Workforce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "action_date": "2026-10-01",
+      "url": "https://www.congress.gov/bill/119th-congress/house-resolution/1597"
+    }
+  ],
   "rules": [],
   "deadlines": [
     {

@@ -1,7 +1,31 @@
 {
-  "generated": "2026-10-01",
+  "generated": "2026-10-02",
   "source": "Live data from the Congress.gov API",
   "bills": [
+    {
+      "bill": "H.R. 10697",
+      "congress": "119th",
+      "title": "To amend titles 18 and 10, United States Code, to provide for congressional authority to terminate exceptions authorized to the prohibition on the use of the Army, Navy, Marine Corps, Air Force, and Space Force as posse comitatus, and for other purposes.",
+      "sponsor": "Rep. Patrick Ryan (D-NY)",
+      "latest_action": "Referred to the Committee on the Judiciary, and in addition to the Committees on Armed Services, Rules, Appropriations, and the Budget, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "action_date": "2026-10-01",
+      "topics": [
+        "National Security"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/10697"
+    },
+    {
+      "bill": "H.Res. 1597",
+      "congress": "119th",
+      "title": "Expressing support for designation of the week of October 4, 2026, through October 10, 2026, as \"World Space Week\".",
+      "sponsor": "Rep. Debbie Dingell (D-MI)",
+      "latest_action": "Referred to the Committee on Science, Space, and Technology, and in addition to the Committee on Education and Workforce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "action_date": "2026-10-01",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-resolution/1597"
+    },
     {
       "bill": "S. 3404",
       "congress": "119th",
@@ -400,6 +424,18 @@
         "General Space"
       ],
       "url": "https://www.congress.gov/bill/119th-congress/house-resolution/941"
+    },
+    {
+      "bill": "H.R. 3426",
+      "congress": "119th",
+      "title": "Courthouse Affordability and Space Efficiency Act of 2025",
+      "sponsor": "Rep. Jefferson Shreve (R-IN)",
+      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Environment and Public Works.",
+      "action_date": "2025-12-01",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/3426"
     },
     {
       "bill": "S. 3198",
