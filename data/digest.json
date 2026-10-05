@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-04",
-  "window_start": "2026-09-27",
-  "window_end": "2026-10-04",
-  "summary": "2 bill actions · 0 rules published · 5 comment deadlines ahead",
+  "generated": "2026-10-05",
+  "window_start": "2026-09-28",
+  "window_end": "2026-10-05",
+  "summary": "2 bill actions · 5 rules published · 10 comment deadlines ahead",
   "bills": [
     {
       "bill": "H.R. 10697",
@@ -19,7 +19,48 @@
       "url": "https://www.congress.gov/bill/119th-congress/house-resolution/1597"
     }
   ],
-  "rules": [],
+  "rules": [
+    {
+      "document": "2026-20392",
+      "title": "Overpressure Blast Effects Analysis Burden Reducing Clarification",
+      "agency": "Transportation Department, FAA",
+      "type": "Proposed Rule",
+      "published": "2026-10-05",
+      "url": "https://www.federalregister.gov/documents/2026/10/05/2026-20392/overpressure-blast-effects-analysis-burden-reducing-clarification"
+    },
+    {
+      "document": "2026-20391",
+      "title": "Lightning Hazard Mitigation Burden-Reducing Exception",
+      "agency": "Transportation Department, FAA",
+      "type": "Proposed Rule",
+      "published": "2026-10-05",
+      "url": "https://www.federalregister.gov/documents/2026/10/05/2026-20391/lightning-hazard-mitigation-burden-reducing-exception"
+    },
+    {
+      "document": "2026-20388",
+      "title": "Streamlining Flight Safety Analysis Methodology Means of Compliance",
+      "agency": "Transportation Department, FAA",
+      "type": "Proposed Rule",
+      "published": "2026-10-05",
+      "url": "https://www.federalregister.gov/documents/2026/10/05/2026-20388/streamlining-flight-safety-analysis-methodology-means-of-compliance"
+    },
+    {
+      "document": "2026-20387",
+      "title": "Digital Modernization for Licensing Electronic Application Submissions",
+      "agency": "Transportation Department, FAA",
+      "type": "Proposed Rule",
+      "published": "2026-10-05",
+      "url": "https://www.federalregister.gov/documents/2026/10/05/2026-20387/digital-modernization-for-licensing-electronic-application-submissions"
+    },
+    {
+      "document": "2026-20386",
+      "title": "Simplifying Physical Containment Requirements",
+      "agency": "Transportation Department, FAA",
+      "type": "Proposed Rule",
+      "published": "2026-10-05",
+      "url": "https://www.federalregister.gov/documents/2026/10/05/2026-20386/simplifying-physical-containment-requirements"
+    }
+  ],
   "deadlines": [
     {
       "document": "2026-19162",
@@ -55,6 +96,41 @@
       "agency": "Transportation Department, FAA",
       "closes": "2026-10-30",
       "url": "https://www.federalregister.gov/documents/2026/09/15/2026-18850/airworthiness-directives-airbus-defence-and-space-gmbh-airplanes"
+    },
+    {
+      "document": "2026-20392",
+      "title": "Overpressure Blast Effects Analysis Burden Reducing Clarification",
+      "agency": "Transportation Department, FAA",
+      "closes": "2026-11-04",
+      "url": "https://www.federalregister.gov/documents/2026/10/05/2026-20392/overpressure-blast-effects-analysis-burden-reducing-clarification"
+    },
+    {
+      "document": "2026-20391",
+      "title": "Lightning Hazard Mitigation Burden-Reducing Exception",
+      "agency": "Transportation Department, FAA",
+      "closes": "2026-11-04",
+      "url": "https://www.federalregister.gov/documents/2026/10/05/2026-20391/lightning-hazard-mitigation-burden-reducing-exception"
+    },
+    {
+      "document": "2026-20388",
+      "title": "Streamlining Flight Safety Analysis Methodology Means of Compliance",
+      "agency": "Transportation Department, FAA",
+      "closes": "2026-11-04",
+      "url": "https://www.federalregister.gov/documents/2026/10/05/2026-20388/streamlining-flight-safety-analysis-methodology-means-of-compliance"
+    },
+    {
+      "document": "2026-20387",
+      "title": "Digital Modernization for Licensing Electronic Application Submissions",
+      "agency": "Transportation Department, FAA",
+      "closes": "2026-11-04",
+      "url": "https://www.federalregister.gov/documents/2026/10/05/2026-20387/digital-modernization-for-licensing-electronic-application-submissions"
+    },
+    {
+      "document": "2026-20386",
+      "title": "Simplifying Physical Containment Requirements",
+      "agency": "Transportation Department, FAA",
+      "closes": "2026-11-04",
+      "url": "https://www.federalregister.gov/documents/2026/10/05/2026-20386/simplifying-physical-containment-requirements"
     }
   ]
 }

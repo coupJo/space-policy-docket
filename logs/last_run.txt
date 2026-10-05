@@ -1,16 +1,16 @@
-Run started 2026-10-04 17:24 UTC
+Run started 2026-10-05 21:08 UTC
 Sponsors remembered from last run: 84
 Scanning the entire 119th Congress for space-related bills…
   …2500 bills scanned, 9 space-related so far (API quota left: 19990)
   …5000 bills scanned, 15 space-related so far (API quota left: 19980)
-  …7500 bills scanned, 39 space-related so far (API quota left: 19970)
-  …10000 bills scanned, 44 space-related so far (API quota left: 19960)
-  …12500 bills scanned, 55 space-related so far (API quota left: 19950)
-  …15000 bills scanned, 65 space-related so far (API quota left: 19940)
-  …17500 bills scanned, 78 space-related so far (API quota left: 19930)
-Scanned 19539 bills total; 84 look space-related.
-Sponsors: 84 remembered, 0 fetched fresh.
-Wrote 84 bills to /home/runner/work/space-policy-docket/space-policy-docket/data/bills.json
+  …7500 bills scanned, 37 space-related so far (API quota left: 19970)
+  …10000 bills scanned, 42 space-related so far (API quota left: 19960)
+  …12500 bills scanned, 54 space-related so far (API quota left: 19950)
+  …15000 bills scanned, 64 space-related so far (API quota left: 19940)
+  …17500 bills scanned, 77 space-related so far (API quota left: 19930)
+Scanned 19539 bills total; 83 look space-related.
+Sponsors: 83 remembered, 0 fetched fresh.
+Wrote 83 bills to /home/runner/work/space-policy-docket/space-policy-docket/data/bills.json
 Searching the Federal Register…
   'space': 190 documents
   'satellite': 160 documents
@@ -31,4 +31,4 @@ Fetching FY 2025 awards funded by Space Force…
   top districts: 0
   Space Force: no award data found — leaving it off the site.
 Wrote 1 program(s) to /home/runner/work/space-policy-docket/space-policy-docket/data/money.json
-Digest: 2 bill actions · 0 rules published · 5 comment deadlines ahead  →  /home/runner/work/space-policy-docket/space-policy-docket/data/digest.json
+Digest: 2 bill actions · 5 rules published · 10 comment deadlines ahead  →  /home/runner/work/space-policy-docket/space-policy-docket/data/digest.json
