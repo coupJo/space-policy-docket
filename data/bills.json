@@ -1,18 +1,18 @@
 {
-  "generated": "2026-10-05",
+  "generated": "2026-10-06",
   "source": "Live data from the Congress.gov API",
   "bills": [
     {
-      "bill": "H.R. 10697",
+      "bill": "H.R. 10750",
       "congress": "119th",
-      "title": "To amend titles 18 and 10, United States Code, to provide for congressional authority to terminate exceptions authorized to the prohibition on the use of the Army, Navy, Marine Corps, Air Force, and Space Force as posse comitatus, and for other purposes.",
-      "sponsor": "Rep. Patrick Ryan (D-NY)",
-      "latest_action": "Referred to the Committee on the Judiciary, and in addition to the Committees on Armed Services, Rules, Appropriations, and the Budget, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-      "action_date": "2026-10-01",
+      "title": "To direct the Secretary of the Air Force to establish a pilot program to conduct in-space technology demonstrations regarding advanced nuclear fission propulsion systems and advanced nuclear fusion propulsion systems.",
+      "sponsor": "Rep. George Whitesides (D-CA)",
+      "latest_action": "Referred to the House Committee on Armed Services.",
+      "action_date": "2026-10-05",
       "topics": [
-        "National Security"
+        "General Space"
       ],
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/10697"
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/10750"
     },
     {
       "bill": "H.Res. 1597",
@@ -85,18 +85,6 @@
         "NASA & Exploration"
       ],
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5123"
-    },
-    {
-      "bill": "S. 434",
-      "congress": "119th",
-      "title": "Space Commerce Advisory Committee Act",
-      "sponsor": "Sen. Gary Peters (D-MI)",
-      "latest_action": "Held at the desk.",
-      "action_date": "2026-08-10",
-      "topics": [
-        "General Space"
-      ],
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/434"
     },
     {
       "bill": "S. 5329",
@@ -619,18 +607,6 @@
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/5122"
     },
     {
-      "bill": "S. 2632",
-      "congress": "119th",
-      "title": "Saving NASA’s Workforce Act",
-      "sponsor": "Sen. Mazie Hirono (D-HI)",
-      "latest_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
-      "action_date": "2025-07-31",
-      "topics": [
-        "NASA & Exploration"
-      ],
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2632"
-    },
-    {
       "bill": "S. 2622",
       "congress": "119th",
       "title": "Space Ready Act",
@@ -643,16 +619,16 @@
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2622"
     },
     {
-      "bill": "S.Res. 309",
+      "bill": "S. 2632",
       "congress": "119th",
-      "title": "A resolution commemorating the 65th anniversary of the Marshall Space Flight Center and recognizing its continued leadership in the development of the Space Launch System and human space exploration.",
-      "sponsor": "Sen. Tommy Tuberville (R-AL)",
-      "latest_action": "Resolution agreed to in Senate without amendment and with a preamble by Unanimous Consent. (consideration: CR S4856; text: 06/26/2025 CR S3566)",
-      "action_date": "2025-07-29",
+      "title": "Saving NASA’s Workforce Act",
+      "sponsor": "Sen. Mazie Hirono (D-HI)",
+      "latest_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "action_date": "2025-07-31",
       "topics": [
         "NASA & Exploration"
       ],
-      "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/309"
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2632"
     },
     {
       "bill": "H.R. 4414",
@@ -833,6 +809,18 @@
         "General Space"
       ],
       "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/120"
+    },
+    {
+      "bill": "H.R. 1325",
+      "congress": "119th",
+      "title": "Commercial Remote Sensing Amendment Act of 2025",
+      "sponsor": "Rep. Frank Lucas (R-OK)",
+      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "action_date": "2025-03-25",
+      "topics": [
+        "Remote Sensing"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1325"
     },
     {
       "bill": "H.R. 1368",
