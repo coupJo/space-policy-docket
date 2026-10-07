@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-06",
+  "generated": "2026-10-07",
   "source": "Live data from the Congress.gov API",
   "bills": [
     {
@@ -85,6 +85,18 @@
         "NASA & Exploration"
       ],
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5123"
+    },
+    {
+      "bill": "S. 434",
+      "congress": "119th",
+      "title": "Space Commerce Advisory Committee Act",
+      "sponsor": "Sen. Gary Peters (D-MI)",
+      "latest_action": "Held at the desk.",
+      "action_date": "2026-08-10",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/434"
     },
     {
       "bill": "S. 5329",
@@ -631,6 +643,18 @@
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2632"
     },
     {
+      "bill": "S.Res. 309",
+      "congress": "119th",
+      "title": "A resolution commemorating the 65th anniversary of the Marshall Space Flight Center and recognizing its continued leadership in the development of the Space Launch System and human space exploration.",
+      "sponsor": "Sen. Tommy Tuberville (R-AL)",
+      "latest_action": "Resolution agreed to in Senate without amendment and with a preamble by Unanimous Consent. (consideration: CR S4856; text: 06/26/2025 CR S3566)",
+      "action_date": "2025-07-29",
+      "topics": [
+        "NASA & Exploration"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/309"
+    },
+    {
       "bill": "H.R. 4414",
       "congress": "119th",
       "title": "Satellite-Based Agricultural Data Act",
@@ -811,18 +835,6 @@
       "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/120"
     },
     {
-      "bill": "H.R. 1325",
-      "congress": "119th",
-      "title": "Commercial Remote Sensing Amendment Act of 2025",
-      "sponsor": "Rep. Frank Lucas (R-OK)",
-      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
-      "action_date": "2025-03-25",
-      "topics": [
-        "Remote Sensing"
-      ],
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1325"
-    },
-    {
       "bill": "H.R. 1368",
       "congress": "119th",
       "title": "DOE and NASA Interagency Research Coordination Act",
@@ -834,6 +846,18 @@
         "Science & Weather"
       ],
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/1368"
+    },
+    {
+      "bill": "H.R. 1325",
+      "congress": "119th",
+      "title": "Commercial Remote Sensing Amendment Act of 2025",
+      "sponsor": "Rep. Frank Lucas (R-OK)",
+      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "action_date": "2025-03-25",
+      "topics": [
+        "Remote Sensing"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1325"
     },
     {
       "bill": "H.R. 2210",
