@@ -1,19 +1,7 @@
 {
-  "generated": "2026-10-07",
+  "generated": "2026-10-08",
   "source": "Live data from the Congress.gov API",
   "bills": [
-    {
-      "bill": "H.R. 10750",
-      "congress": "119th",
-      "title": "To direct the Secretary of the Air Force to establish a pilot program to conduct in-space technology demonstrations regarding advanced nuclear fission propulsion systems and advanced nuclear fusion propulsion systems.",
-      "sponsor": "Rep. George Whitesides (D-CA)",
-      "latest_action": "Referred to the House Committee on Armed Services.",
-      "action_date": "2026-10-05",
-      "topics": [
-        "General Space"
-      ],
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/10750"
-    },
     {
       "bill": "H.Res. 1597",
       "congress": "119th",
@@ -27,28 +15,28 @@
       "url": "https://www.congress.gov/bill/119th-congress/house-resolution/1597"
     },
     {
-      "bill": "S. 3404",
-      "congress": "119th",
-      "title": "Satellite Cybersecurity Act of 2025",
-      "sponsor": "Sen. Gary Peters (D-MI)",
-      "latest_action": "Message on Senate action sent to the House.",
-      "action_date": "2026-09-24",
-      "topics": [
-        "National Security"
-      ],
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3404"
-    },
-    {
       "bill": "S. 1962",
       "congress": "119th",
       "title": "Secure Space Act of 2026",
       "sponsor": "Sen. Deb Fischer (R-NE)",
-      "latest_action": "Message on Senate action sent to the House.",
+      "latest_action": "Held at the desk.",
       "action_date": "2026-09-24",
       "topics": [
         "General Space"
       ],
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1962"
+    },
+    {
+      "bill": "S. 3404",
+      "congress": "119th",
+      "title": "Satellite Cybersecurity Act of 2025",
+      "sponsor": "Sen. Gary Peters (D-MI)",
+      "latest_action": "Held at the desk.",
+      "action_date": "2026-09-24",
+      "topics": [
+        "National Security"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3404"
     },
     {
       "bill": "H.Res. 1557",
@@ -302,18 +290,6 @@
         "General Space"
       ],
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4201"
-    },
-    {
-      "bill": "S.Res. 641",
-      "congress": "119th",
-      "title": "A resolution recognizing Girl Scouts of the United States of America on its 114th birthday and celebrating its legacy of providing girls with a supportive and inclusive space where they can explore their world, build meaningful relationships, and have access to experiences that prepare them for a life of leadership.",
-      "sponsor": "Sen. Tammy Duckworth (D-IL)",
-      "latest_action": "Referred to the Committee on the Judiciary. (text: CR S1050-1051)",
-      "action_date": "2026-03-12",
-      "topics": [
-        "General Space"
-      ],
-      "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/641"
     },
     {
       "bill": "H.Res. 1114",
@@ -619,18 +595,6 @@
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/5122"
     },
     {
-      "bill": "S. 2622",
-      "congress": "119th",
-      "title": "Space Ready Act",
-      "sponsor": "Sen. Ashley Moody (R-FL)",
-      "latest_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
-      "action_date": "2025-07-31",
-      "topics": [
-        "General Space"
-      ],
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2622"
-    },
-    {
       "bill": "S. 2632",
       "congress": "119th",
       "title": "Saving NASA’s Workforce Act",
@@ -641,6 +605,18 @@
         "NASA & Exploration"
       ],
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2632"
+    },
+    {
+      "bill": "S. 2622",
+      "congress": "119th",
+      "title": "Space Ready Act",
+      "sponsor": "Sen. Ashley Moody (R-FL)",
+      "latest_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "action_date": "2025-07-31",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2622"
     },
     {
       "bill": "S.Res. 309",
@@ -835,6 +811,18 @@
       "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/120"
     },
     {
+      "bill": "H.R. 1325",
+      "congress": "119th",
+      "title": "Commercial Remote Sensing Amendment Act of 2025",
+      "sponsor": "Rep. Frank Lucas (R-OK)",
+      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "action_date": "2025-03-25",
+      "topics": [
+        "Remote Sensing"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1325"
+    },
+    {
       "bill": "H.R. 1368",
       "congress": "119th",
       "title": "DOE and NASA Interagency Research Coordination Act",
@@ -846,18 +834,6 @@
         "Science & Weather"
       ],
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/1368"
-    },
-    {
-      "bill": "H.R. 1325",
-      "congress": "119th",
-      "title": "Commercial Remote Sensing Amendment Act of 2025",
-      "sponsor": "Rep. Frank Lucas (R-OK)",
-      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
-      "action_date": "2025-03-25",
-      "topics": [
-        "Remote Sensing"
-      ],
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1325"
     },
     {
       "bill": "H.R. 2210",
