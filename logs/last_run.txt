@@ -1,28 +1,29 @@
-Run started 2026-10-09 18:43 UTC
-Sponsors remembered from last run: 82
+Run started 2026-10-10 17:44 UTC
+Sponsors remembered from last run: 83
 Scanning the entire 119th Congress for space-related bills…
-  …2500 bills scanned, 10 space-related so far (API quota left: 19990)
+  …2500 bills scanned, 9 space-related so far (API quota left: 19990)
   …5000 bills scanned, 15 space-related so far (API quota left: 19980)
-  …7500 bills scanned, 39 space-related so far (API quota left: 19970)
-  …10000 bills scanned, 44 space-related so far (API quota left: 19960)
-  …12500 bills scanned, 54 space-related so far (API quota left: 19950)
-  …15000 bills scanned, 64 space-related so far (API quota left: 19940)
-  …17500 bills scanned, 77 space-related so far (API quota left: 19930)
-Scanned 19602 bills total; 83 look space-related.
-Sponsors: 82 remembered, 1 fetched fresh.
+  API hiccup (Response ended prematurely); waiting 30s then retrying…
+  …7500 bills scanned, 39 space-related so far (API quota left: 19969)
+  …10000 bills scanned, 44 space-related so far (API quota left: 19959)
+  …12500 bills scanned, 54 space-related so far (API quota left: 19949)
+  …15000 bills scanned, 64 space-related so far (API quota left: 19939)
+  …17500 bills scanned, 77 space-related so far (API quota left: 19929)
+Scanned 19633 bills total; 83 look space-related.
+Sponsors: 83 remembered, 0 fetched fresh.
 Wrote 83 bills to /home/runner/work/space-policy-docket/space-policy-docket/data/bills.json
 Searching the Federal Register…
-  'space': 193 documents
+  'space': 194 documents
   'satellite': 160 documents
   'orbital debris': 13 documents
   'launch vehicle': 39 documents
   'remote sensing': 27 documents
   'spaceport': 3 documents
   'reentry': 18 documents
-282 unique documents; filtering for space relevance…
+283 unique documents; filtering for space relevance…
 Wrote 70 rules to /home/runner/work/space-policy-docket/space-policy-docket/data/rules.json
 Fetching FY 2025 awards funded by NASA…
-  total obligations: $16,778,791,237
+  total obligations: $16,778,177,230
   top recipients: 25
   top districts: 25
 Fetching FY 2025 awards funded by Space Force…
