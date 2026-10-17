@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16",
+  "generated": "2026-10-17",
   "source": "Live data from the Congress.gov API",
   "bills": [
     {
@@ -121,6 +121,18 @@
         "General Space"
       ],
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/9592"
+    },
+    {
+      "bill": "S. 4905",
+      "congress": "119th",
+      "title": "Space Ready 2.0 Act",
+      "sponsor": "Sen. Ashley Moody (R-FL)",
+      "latest_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "action_date": "2026-06-24",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4905"
     },
     {
       "bill": "S. 1898",
