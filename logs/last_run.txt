@@ -1,14 +1,15 @@
-Run started 2026-10-22 17:55 UTC
+Run started 2026-10-23 17:49 UTC
 Sponsors remembered from last run: 82
 Scanning the entire 119th Congress for space-related bills…
-  …2500 bills scanned, 9 space-related so far (API quota left: 19990)
-  …5000 bills scanned, 18 space-related so far (API quota left: 19980)
-  …7500 bills scanned, 40 space-related so far (API quota left: 19970)
+  …2500 bills scanned, 8 space-related so far (API quota left: 19990)
+  …5000 bills scanned, 16 space-related so far (API quota left: 19980)
+  …7500 bills scanned, 38 space-related so far (API quota left: 19970)
   …10000 bills scanned, 46 space-related so far (API quota left: 19960)
   …12500 bills scanned, 52 space-related so far (API quota left: 19950)
   …15000 bills scanned, 64 space-related so far (API quota left: 19940)
   …17500 bills scanned, 76 space-related so far (API quota left: 19930)
-Scanned 19716 bills total; 82 look space-related.
+  …19775 bills scanned, 82 space-related so far (API quota left: 19920)
+Scanned 19775 bills total; 82 look space-related.
 Sponsors: 81 remembered, 1 fetched fresh.
 Wrote 82 bills to /home/runner/work/space-policy-docket/space-policy-docket/data/bills.json
 Searching the Federal Register…
