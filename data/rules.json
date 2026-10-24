@@ -1,7 +1,19 @@
 {
-  "generated": "2026-10-23",
+  "generated": "2026-10-24",
   "source": "Live data from the Federal Register API",
   "rules": [
+    {
+      "document": "2026-21818",
+      "title": "Space Modernization for the 21st Century",
+      "agency": "FCC",
+      "type": "Proposed Rule",
+      "published": "2026-10-26",
+      "comments_close_on": "2026-12-28",
+      "topics": [
+        "Regulatory & Licensing"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/10/26/2026-21818/space-modernization-for-the-21st-century"
+    },
     {
       "document": "2026-20392",
       "title": "Overpressure Blast Effects Analysis Burden Reducing Clarification",
