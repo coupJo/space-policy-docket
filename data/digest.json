@@ -1,10 +1,19 @@
 {
-  "generated": "2026-10-25",
-  "window_start": "2026-10-18",
-  "window_end": "2026-10-25",
-  "summary": "0 bill actions · 0 rules published · 6 comment deadlines ahead",
+  "generated": "2026-10-26",
+  "window_start": "2026-10-19",
+  "window_end": "2026-10-26",
+  "summary": "0 bill actions · 1 rule published · 6 comment deadlines ahead",
   "bills": [],
-  "rules": [],
+  "rules": [
+    {
+      "document": "2026-21818",
+      "title": "Space Modernization for the 21st Century",
+      "agency": "FCC",
+      "type": "Proposed Rule",
+      "published": "2026-10-26",
+      "url": "https://www.federalregister.gov/documents/2026/10/26/2026-21818/space-modernization-for-the-21st-century"
+    }
+  ],
   "deadlines": [
     {
       "document": "2026-18850",
