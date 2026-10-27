@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26",
+  "generated": "2026-10-27",
   "source": "Live data from the Congress.gov API",
   "bills": [
     {
@@ -121,18 +121,6 @@
         "General Space"
       ],
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/9592"
-    },
-    {
-      "bill": "S. 4905",
-      "congress": "119th",
-      "title": "Space Ready 2.0 Act",
-      "sponsor": "Sen. Ashley Moody (R-FL)",
-      "latest_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
-      "action_date": "2026-06-24",
-      "topics": [
-        "General Space"
-      ],
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4905"
     },
     {
       "bill": "S. 1898",
@@ -607,18 +595,6 @@
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/5122"
     },
     {
-      "bill": "S. 2632",
-      "congress": "119th",
-      "title": "Saving NASA’s Workforce Act",
-      "sponsor": "Sen. Mazie Hirono (D-HI)",
-      "latest_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
-      "action_date": "2025-07-31",
-      "topics": [
-        "NASA & Exploration"
-      ],
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2632"
-    },
-    {
       "bill": "S. 2622",
       "congress": "119th",
       "title": "Space Ready Act",
@@ -629,6 +605,18 @@
         "General Space"
       ],
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2622"
+    },
+    {
+      "bill": "S. 2632",
+      "congress": "119th",
+      "title": "Saving NASA’s Workforce Act",
+      "sponsor": "Sen. Mazie Hirono (D-HI)",
+      "latest_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "action_date": "2025-07-31",
+      "topics": [
+        "NASA & Exploration"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2632"
     },
     {
       "bill": "S.Res. 309",

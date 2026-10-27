@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26",
+  "generated": "2026-10-27",
   "source": "Live data from the Federal Register API",
   "rules": [
     {
@@ -8,7 +8,7 @@
       "agency": "FCC",
       "type": "Proposed Rule",
       "published": "2026-10-26",
-      "comments_close_on": "2026-12-28",
+      "comments_close_on": "2026-11-25",
       "topics": [
         "Regulatory & Licensing"
       ],
