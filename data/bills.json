@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-28",
+  "generated": "2026-10-29",
   "source": "Live data from the Congress.gov API",
   "bills": [
     {
@@ -811,16 +811,17 @@
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1403"
     },
     {
-      "bill": "S.Res. 120",
+      "bill": "H.R. 1368",
       "congress": "119th",
-      "title": "A resolution recognizing Girl Scouts of the United States of America on its 113th birthday and celebrating its founder, Juliette Gordon Low, and the legacy of providing girls with a secure and inclusive space where they can explore their world, build meaningful relationships, and have access to experiences that prepare them for a life of leadership.",
-      "sponsor": "Sen. Tammy Duckworth (D-IL)",
-      "latest_action": "Resolution agreed to in Senate without amendment and with a preamble by Unanimous Consent. (consideration: CR S1864; text: 03/10/2025 CR S1632)",
-      "action_date": "2025-03-26",
+      "title": "DOE and NASA Interagency Research Coordination Act",
+      "sponsor": "Rep. Nicholas Begich (R-AK)",
+      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "action_date": "2025-03-25",
       "topics": [
-        "General Space"
+        "NASA & Exploration",
+        "Science & Weather"
       ],
-      "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/120"
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1368"
     },
     {
       "bill": "H.R. 1325",
@@ -833,19 +834,6 @@
         "Remote Sensing"
       ],
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/1325"
-    },
-    {
-      "bill": "H.R. 1368",
-      "congress": "119th",
-      "title": "DOE and NASA Interagency Research Coordination Act",
-      "sponsor": "Rep. Nicholas Begich (R-AK)",
-      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
-      "action_date": "2025-03-25",
-      "topics": [
-        "NASA & Exploration",
-        "Science & Weather"
-      ],
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1368"
     },
     {
       "bill": "H.R. 2210",
