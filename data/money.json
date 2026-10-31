@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30",
+  "generated": "2026-10-31",
   "source": "Live data from the USAspending.gov API",
   "fiscal_year": "FY 2025",
   "note": "Prime awards (contracts and grants). Districts reflect place of performance — where the work is done.",
@@ -7,7 +7,7 @@
     {
       "key": "nasa",
       "label": "NASA",
-      "total": 16779440285,
+      "total": 16779382157,
       "recipients": [
         {
           "name": "California Institute of Technology",
@@ -30,16 +30,16 @@
           "amount": 541471072
         },
         {
+          "name": "Lockheed Martin Corp",
+          "amount": 417640501
+        },
+        {
           "name": "The Johns Hopkins University Applied Physics Laboratory LLC",
           "amount": 413766689
         },
         {
           "name": "Kbr Wyle Services, LLC",
           "amount": 399382294
-        },
-        {
-          "name": "Lockheed Martin Corp",
-          "amount": 394043501
         },
         {
           "name": "The Boeing Company",
