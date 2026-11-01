@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-31",
+  "generated": "2026-11-01",
   "source": "Live data from the Congress.gov API",
   "bills": [
     {
@@ -545,6 +545,18 @@
         "Commercial Launch"
       ],
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/5447"
+    },
+    {
+      "bill": "H.R. 3424",
+      "congress": "119th",
+      "title": "SPACE Act of 2025",
+      "sponsor": "Rep. Robert Onder (R-MO)",
+      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Environment and Public Works.",
+      "action_date": "2025-09-09",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/3424"
     },
     {
       "bill": "H.R. 5175",
