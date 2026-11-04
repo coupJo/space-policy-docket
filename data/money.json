@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-03",
+  "generated": "2026-11-04",
   "source": "Live data from the USAspending.gov API",
   "fiscal_year": "FY 2025",
   "note": "Prime awards (contracts and grants). Districts reflect place of performance — where the work is done.",
@@ -7,7 +7,7 @@
     {
       "key": "nasa",
       "label": "NASA",
-      "total": 16779382157,
+      "total": 16780026897,
       "recipients": [
         {
           "name": "California Institute of Technology",
@@ -70,12 +70,12 @@
           "amount": 142725993
         },
         {
-          "name": "Science Systems and Applications, INC.",
-          "amount": 133195703
+          "name": "Caci, INC. - Federal",
+          "amount": 133463507
         },
         {
-          "name": "Caci, INC. - Federal",
-          "amount": 132818767
+          "name": "Science Systems and Applications, INC.",
+          "amount": 133195703
         },
         {
           "name": "Hamilton Sundstrand Space Systems International, INC.",
@@ -133,7 +133,7 @@
         },
         {
           "name": "VA-11",
-          "amount": 1035066787
+          "amount": 1035711527
         },
         {
           "name": "WA-09",
