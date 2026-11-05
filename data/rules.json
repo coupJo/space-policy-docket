@@ -1,7 +1,19 @@
 {
-  "generated": "2026-11-04",
+  "generated": "2026-11-05",
   "source": "Live data from the Federal Register API",
   "rules": [
+    {
+      "document": "2026-22600",
+      "title": "Modernizing Spectrum Sharing for Satellite Broadband",
+      "agency": "FCC",
+      "type": "Final Rule",
+      "published": "2026-11-05",
+      "comments_close_on": null,
+      "topics": [
+        "Spectrum & Comms"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/11/05/2026-22600/modernizing-spectrum-sharing-for-satellite-broadband"
+    },
     {
       "document": "2026-21818",
       "title": "Space Modernization for the 21st Century",

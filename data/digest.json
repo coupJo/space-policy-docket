@@ -1,46 +1,20 @@
 {
-  "generated": "2026-11-04",
-  "window_start": "2026-10-28",
-  "window_end": "2026-11-04",
-  "summary": "0 bill actions · 0 rules published · 6 comment deadlines ahead",
+  "generated": "2026-11-05",
+  "window_start": "2026-10-29",
+  "window_end": "2026-11-05",
+  "summary": "0 bill actions · 1 rule published · 1 comment deadline ahead",
   "bills": [],
-  "rules": [],
+  "rules": [
+    {
+      "document": "2026-22600",
+      "title": "Modernizing Spectrum Sharing for Satellite Broadband",
+      "agency": "FCC",
+      "type": "Final Rule",
+      "published": "2026-11-05",
+      "url": "https://www.federalregister.gov/documents/2026/11/05/2026-22600/modernizing-spectrum-sharing-for-satellite-broadband"
+    }
+  ],
   "deadlines": [
-    {
-      "document": "2026-20392",
-      "title": "Overpressure Blast Effects Analysis Burden Reducing Clarification",
-      "agency": "Transportation Department, FAA",
-      "closes": "2026-11-04",
-      "url": "https://www.federalregister.gov/documents/2026/10/05/2026-20392/overpressure-blast-effects-analysis-burden-reducing-clarification"
-    },
-    {
-      "document": "2026-20391",
-      "title": "Lightning Hazard Mitigation Burden-Reducing Exception",
-      "agency": "Transportation Department, FAA",
-      "closes": "2026-11-04",
-      "url": "https://www.federalregister.gov/documents/2026/10/05/2026-20391/lightning-hazard-mitigation-burden-reducing-exception"
-    },
-    {
-      "document": "2026-20388",
-      "title": "Streamlining Flight Safety Analysis Methodology Means of Compliance",
-      "agency": "Transportation Department, FAA",
-      "closes": "2026-11-04",
-      "url": "https://www.federalregister.gov/documents/2026/10/05/2026-20388/streamlining-flight-safety-analysis-methodology-means-of-compliance"
-    },
-    {
-      "document": "2026-20387",
-      "title": "Digital Modernization for Licensing Electronic Application Submissions",
-      "agency": "Transportation Department, FAA",
-      "closes": "2026-11-04",
-      "url": "https://www.federalregister.gov/documents/2026/10/05/2026-20387/digital-modernization-for-licensing-electronic-application-submissions"
-    },
-    {
-      "document": "2026-20386",
-      "title": "Simplifying Physical Containment Requirements",
-      "agency": "Transportation Department, FAA",
-      "closes": "2026-11-04",
-      "url": "https://www.federalregister.gov/documents/2026/10/05/2026-20386/simplifying-physical-containment-requirements"
-    },
     {
       "document": "2026-21818",
       "title": "Space Modernization for the 21st Century",
