@@ -1,7 +1,58 @@
 {
-  "generated": "2026-11-07",
+  "generated": "2026-11-08",
   "source": "Live data from the Federal Register API",
   "rules": [
+    {
+      "document": "2026-22784",
+      "title": "Conditional Expected Casualty Exception for Failures Resulting in an Uncontrolled Atmospheric Return",
+      "agency": "Transportation Department, FAA",
+      "type": "Proposed Rule",
+      "published": "2026-11-09",
+      "comments_close_on": "2026-12-09",
+      "topics": [
+        "Commercial Launch",
+        "Regulatory & Licensing"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/11/09/2026-22784/conditional-expected-casualty-exception-for-failures-resulting-in-an-uncontrolled-atmospheric-return"
+    },
+    {
+      "document": "2026-22783",
+      "title": "Flight Safety Limits Objectives Burden Reducing Clarification",
+      "agency": "Transportation Department, FAA",
+      "type": "Proposed Rule",
+      "published": "2026-11-09",
+      "comments_close_on": "2026-12-09",
+      "topics": [
+        "Commercial Launch",
+        "Regulatory & Licensing"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/11/09/2026-22783/flight-safety-limits-objectives-burden-reducing-clarification"
+    },
+    {
+      "document": "2026-22782",
+      "title": "Flight Abort Burden Reducing Clarification on End of Flight Safety Limits",
+      "agency": "Transportation Department, FAA",
+      "type": "Proposed Rule",
+      "published": "2026-11-09",
+      "comments_close_on": "2026-12-09",
+      "topics": [
+        "Commercial Launch",
+        "Regulatory & Licensing"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/11/09/2026-22782/flight-abort-burden-reducing-clarification-on-end-of-flight-safety-limits"
+    },
+    {
+      "document": "2026-22781",
+      "title": "Technical Corrections of Commercial Space Transportation Regulations",
+      "agency": "Transportation Department, FAA",
+      "type": "Final Rule",
+      "published": "2026-11-09",
+      "comments_close_on": null,
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/11/09/2026-22781/technical-corrections-of-commercial-space-transportation-regulations"
+    },
     {
       "document": "2026-22600",
       "title": "Modernizing Spectrum Sharing for Satellite Broadband",
