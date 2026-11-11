@@ -1,11 +1,11 @@
 {
-  "generated": "2026-11-10",
+  "generated": "2026-11-11",
   "source": "Live data from the Congress.gov API",
   "bills": [
     {
       "bill": "S. 933",
       "congress": "119th",
-      "title": "NASA Transition Authorization Act of 2025",
+      "title": "NASA Authorization Act of 2026",
       "sponsor": "Sen. Ted Cruz (R-TX)",
       "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 689.",
       "action_date": "2026-11-09",
@@ -607,18 +607,6 @@
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/5122"
     },
     {
-      "bill": "S. 2622",
-      "congress": "119th",
-      "title": "Space Ready Act",
-      "sponsor": "Sen. Ashley Moody (R-FL)",
-      "latest_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
-      "action_date": "2025-07-31",
-      "topics": [
-        "General Space"
-      ],
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2622"
-    },
-    {
       "bill": "S. 2632",
       "congress": "119th",
       "title": "Saving NASA’s Workforce Act",
@@ -629,6 +617,18 @@
         "NASA & Exploration"
       ],
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2632"
+    },
+    {
+      "bill": "S. 2622",
+      "congress": "119th",
+      "title": "Space Ready Act",
+      "sponsor": "Sen. Ashley Moody (R-FL)",
+      "latest_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "action_date": "2025-07-31",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2622"
     },
     {
       "bill": "S.Res. 309",
@@ -811,18 +811,6 @@
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1403"
     },
     {
-      "bill": "S.Res. 120",
-      "congress": "119th",
-      "title": "A resolution recognizing Girl Scouts of the United States of America on its 113th birthday and celebrating its founder, Juliette Gordon Low, and the legacy of providing girls with a secure and inclusive space where they can explore their world, build meaningful relationships, and have access to experiences that prepare them for a life of leadership.",
-      "sponsor": "Sen. Tammy Duckworth (D-IL)",
-      "latest_action": "Resolution agreed to in Senate without amendment and with a preamble by Unanimous Consent. (consideration: CR S1864; text: 03/10/2025 CR S1632)",
-      "action_date": "2025-03-26",
-      "topics": [
-        "General Space"
-      ],
-      "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/120"
-    },
-    {
       "bill": "H.R. 1325",
       "congress": "119th",
       "title": "Commercial Remote Sensing Amendment Act of 2025",
@@ -833,6 +821,19 @@
         "Remote Sensing"
       ],
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/1325"
+    },
+    {
+      "bill": "H.R. 1368",
+      "congress": "119th",
+      "title": "DOE and NASA Interagency Research Coordination Act",
+      "sponsor": "Rep. Nicholas Begich (R-AK)",
+      "latest_action": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "action_date": "2025-03-25",
+      "topics": [
+        "NASA & Exploration",
+        "Science & Weather"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1368"
     },
     {
       "bill": "H.R. 2210",
