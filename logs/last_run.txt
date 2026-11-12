@@ -1,17 +1,17 @@
-Run started 2026-11-11 20:06 UTC
+Run started 2026-11-12 20:43 UTC
 Sponsors remembered from last run: 82
 Scanning the entire 119th Congress for space-related bills…
-  …2500 bills scanned, 7 space-related so far (API quota left: 19990)
-  …5000 bills scanned, 18 space-related so far (API quota left: 19980)
-  …7500 bills scanned, 23 space-related so far (API quota left: 19970)
-  …10000 bills scanned, 48 space-related so far (API quota left: 19960)
-  …12500 bills scanned, 52 space-related so far (API quota left: 19950)
-  …15000 bills scanned, 64 space-related so far (API quota left: 19940)
-  …17500 bills scanned, 76 space-related so far (API quota left: 19930)
-  …19909 bills scanned, 82 space-related so far (API quota left: 19920)
-Scanned 19909 bills total; 82 look space-related.
-Sponsors: 81 remembered, 1 fetched fresh.
-Wrote 82 bills to /home/runner/work/space-policy-docket/space-policy-docket/data/bills.json
+  …2500 bills scanned, 7 space-related so far (API quota left: 19991)
+  …5000 bills scanned, 18 space-related so far (API quota left: 19981)
+  …7500 bills scanned, 23 space-related so far (API quota left: 19972)
+  …10000 bills scanned, 49 space-related so far (API quota left: 19961)
+  …12500 bills scanned, 53 space-related so far (API quota left: 19951)
+  …15000 bills scanned, 65 space-related so far (API quota left: 19941)
+  …17500 bills scanned, 77 space-related so far (API quota left: 19931)
+  …19933 bills scanned, 83 space-related so far (API quota left: 19921)
+Scanned 19933 bills total; 83 look space-related.
+Sponsors: 82 remembered, 1 fetched fresh.
+Wrote 83 bills to /home/runner/work/space-policy-docket/space-policy-docket/data/bills.json
 Searching the Federal Register…
   'space': 203 documents
   'satellite': 169 documents
@@ -23,7 +23,6 @@ Searching the Federal Register…
 296 unique documents; filtering for space relevance…
 Wrote 76 rules to /home/runner/work/space-policy-docket/space-policy-docket/data/rules.json
 Fetching FY 2025 awards funded by NASA…
-  API hiccup (HTTPSConnectionPool(host='api.usaspending.gov', port=443): Max retries exceeded with url: /api/v2/search/spending_over_time/ (Caused by NewConnectionError("HTTPSConnection(host='api.usaspending.gov', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))); waiting 30s then retrying…
   total obligations: $16,779,335,621
   top recipients: 25
   top districts: 25
@@ -33,4 +32,4 @@ Fetching FY 2025 awards funded by Space Force…
   top districts: 0
   Space Force: no award data found — leaving it off the site.
 Wrote 1 program(s) to /home/runner/work/space-policy-docket/space-policy-docket/data/money.json
-Digest: 1 bill action · 5 rules published · 5 comment deadlines ahead  →  /home/runner/work/space-policy-docket/space-policy-docket/data/digest.json
+Digest: 1 bill action · 4 rules published · 5 comment deadlines ahead  →  /home/runner/work/space-policy-docket/space-policy-docket/data/digest.json

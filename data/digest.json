@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-11",
-  "window_start": "2026-11-04",
-  "window_end": "2026-11-11",
-  "summary": "1 bill action · 5 rules published · 5 comment deadlines ahead",
+  "generated": "2026-11-12",
+  "window_start": "2026-11-05",
+  "window_end": "2026-11-12",
+  "summary": "1 bill action · 4 rules published · 5 comment deadlines ahead",
   "bills": [
     {
       "bill": "S. 933",
@@ -44,14 +44,6 @@
       "type": "Final Rule",
       "published": "2026-11-09",
       "url": "https://www.federalregister.gov/documents/2026/11/09/2026-22781/technical-corrections-of-commercial-space-transportation-regulations"
-    },
-    {
-      "document": "2026-22600",
-      "title": "Modernizing Spectrum Sharing for Satellite Broadband",
-      "agency": "FCC",
-      "type": "Final Rule",
-      "published": "2026-11-05",
-      "url": "https://www.federalregister.gov/documents/2026/11/05/2026-22600/modernizing-spectrum-sharing-for-satellite-broadband"
     }
   ],
   "deadlines": [
