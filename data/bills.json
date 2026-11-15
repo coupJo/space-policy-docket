@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-14",
+  "generated": "2026-11-15",
   "source": "Live data from the Congress.gov API",
   "bills": [
     {
@@ -450,6 +450,19 @@
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/582"
     },
     {
+      "bill": "S. 3029",
+      "congress": "119th",
+      "title": "DOE and NASA Interagency Research Coordination Act",
+      "sponsor": "Sen. Dan Sullivan (R-AK)",
+      "latest_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "action_date": "2025-10-22",
+      "topics": [
+        "NASA & Exploration",
+        "Science & Weather"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3029"
+    },
+    {
       "bill": "S.Res. 456",
       "congress": "119th",
       "title": "A resolution commemorating the 40th anniversary of the inaugural flight of Space Shuttle Atlantis and recognizing Kennedy Space Center for its economic, educational, and cultural contributions to the State of Florida and the United States.",
@@ -558,6 +571,18 @@
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/5175"
     },
     {
+      "bill": "S. 1081",
+      "congress": "119th",
+      "title": "Comprehensive NASA Reporting Act of 2025",
+      "sponsor": "Sen. Ted Cruz (R-TX)",
+      "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 150.",
+      "action_date": "2025-09-08",
+      "topics": [
+        "NASA & Exploration"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1081"
+    },
+    {
       "bill": "H.R. 5188",
       "congress": "119th",
       "title": "To direct the Secretary of Defense to establish blast safety officer positions in the Army, Navy, Marine Corps, Air Force, and Space Force.",
@@ -582,18 +607,6 @@
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/5122"
     },
     {
-      "bill": "S. 2632",
-      "congress": "119th",
-      "title": "Saving NASA’s Workforce Act",
-      "sponsor": "Sen. Mazie Hirono (D-HI)",
-      "latest_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
-      "action_date": "2025-07-31",
-      "topics": [
-        "NASA & Exploration"
-      ],
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2632"
-    },
-    {
       "bill": "S. 2622",
       "congress": "119th",
       "title": "Space Ready Act",
@@ -604,6 +617,18 @@
         "General Space"
       ],
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2622"
+    },
+    {
+      "bill": "S. 2632",
+      "congress": "119th",
+      "title": "Saving NASA’s Workforce Act",
+      "sponsor": "Sen. Mazie Hirono (D-HI)",
+      "latest_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "action_date": "2025-07-31",
+      "topics": [
+        "NASA & Exploration"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2632"
     },
     {
       "bill": "S.Res. 309",
