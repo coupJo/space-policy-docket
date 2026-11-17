@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-16",
+  "generated": "2026-11-17",
   "source": "Live data from the Congress.gov API",
   "bills": [
     {
@@ -86,6 +86,18 @@
         "NASA & Exploration"
       ],
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5123"
+    },
+    {
+      "bill": "S. 434",
+      "congress": "119th",
+      "title": "Space Commerce Advisory Committee Act",
+      "sponsor": "Sen. Gary Peters (D-MI)",
+      "latest_action": "Held at the desk.",
+      "action_date": "2026-08-10",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/434"
     },
     {
       "bill": "S. 5329",
@@ -727,18 +739,6 @@
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1946"
     },
     {
-      "bill": "S.Res. 228",
-      "congress": "119th",
-      "title": "A resolution supporting May 2, 2025, as \"National Space Day\" in recognition of the significant positive impact the aerospace community has and will continue to have on the United States of America.",
-      "sponsor": "Sen. Jerry Moran (R-KS)",
-      "latest_action": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S2934; text: CR S2931)",
-      "action_date": "2025-05-14",
-      "topics": [
-        "General Space"
-      ],
-      "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/228"
-    },
-    {
       "bill": "H.Res. 370",
       "congress": "119th",
       "title": "Supporting May 2 as \"National Space Day\" in recognition of the significant positive impact the aerospace community has and will continue to have on the United States of America.",
@@ -920,18 +920,6 @@
       "url": "https://www.congress.gov/bill/119th-congress/house-resolution/96"
     },
     {
-      "bill": "H.Res. 75",
-      "congress": "119th",
-      "title": "Recognizing the cultural and historical significance of Lunar New Year in 2025.",
-      "sponsor": "Rep. Grace Meng (D-NY)",
-      "latest_action": "Referred to the House Committee on Oversight and Government Reform.",
-      "action_date": "2025-01-28",
-      "topics": [
-        "NASA & Exploration"
-      ],
-      "url": "https://www.congress.gov/bill/119th-congress/house-resolution/75"
-    },
-    {
       "bill": "H.R. 794",
       "congress": "119th",
       "title": "Lunar New Year Day Act",
@@ -942,6 +930,18 @@
         "NASA & Exploration"
       ],
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/794"
+    },
+    {
+      "bill": "H.Res. 75",
+      "congress": "119th",
+      "title": "Recognizing the cultural and historical significance of Lunar New Year in 2025.",
+      "sponsor": "Rep. Grace Meng (D-NY)",
+      "latest_action": "Referred to the House Committee on Oversight and Government Reform.",
+      "action_date": "2025-01-28",
+      "topics": [
+        "NASA & Exploration"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-resolution/75"
     },
     {
       "bill": "H.R. 527",
