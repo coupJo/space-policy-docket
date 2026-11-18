@@ -1,29 +1,29 @@
-Run started 2026-11-17 21:38 UTC
+Run started 2026-11-18 21:17 UTC
 Sponsors remembered from last run: 82
 Scanning the entire 119th Congress for space-related bills…
-  …2500 bills scanned, 12 space-related so far (API quota left: 19991)
-  …5000 bills scanned, 23 space-related so far (API quota left: 19981)
-  …7500 bills scanned, 29 space-related so far (API quota left: 19971)
-  …10000 bills scanned, 51 space-related so far (API quota left: 19960)
-  …12500 bills scanned, 56 space-related so far (API quota left: 19951)
-  …15000 bills scanned, 66 space-related so far (API quota left: 19940)
-  …17500 bills scanned, 77 space-related so far (API quota left: 19931)
-  …19973 bills scanned, 82 space-related so far (API quota left: 19921)
-Scanned 19973 bills total; 82 look space-related.
-Sponsors: 81 remembered, 1 fetched fresh.
-Wrote 82 bills to /home/runner/work/space-policy-docket/space-policy-docket/data/bills.json
+  …2500 bills scanned, 14 space-related so far (API quota left: 19992)
+  …5000 bills scanned, 25 space-related so far (API quota left: 19980)
+  …7500 bills scanned, 31 space-related so far (API quota left: 19970)
+  …10000 bills scanned, 53 space-related so far (API quota left: 19961)
+  …12500 bills scanned, 58 space-related so far (API quota left: 19950)
+  …15000 bills scanned, 68 space-related so far (API quota left: 19940)
+  …17500 bills scanned, 79 space-related so far (API quota left: 19930)
+  …20000 bills scanned, 85 space-related so far (API quota left: 19920)
+Scanned 20000 bills total; 85 look space-related.
+Sponsors: 82 remembered, 3 fetched fresh.
+Wrote 85 bills to /home/runner/work/space-policy-docket/space-policy-docket/data/bills.json
 Searching the Federal Register…
-  'space': 206 documents
-  'satellite': 171 documents
+  'space': 208 documents
+  'satellite': 172 documents
   'orbital debris': 17 documents
-  'launch vehicle': 46 documents
-  'remote sensing': 29 documents
+  'launch vehicle': 47 documents
+  'remote sensing': 30 documents
   'spaceport': 3 documents
   'reentry': 24 documents
-300 unique documents; filtering for space relevance…
+302 unique documents; filtering for space relevance…
 Wrote 76 rules to /home/runner/work/space-policy-docket/space-policy-docket/data/rules.json
 Fetching FY 2025 awards funded by NASA…
-  total obligations: $16,779,335,621
+  total obligations: $16,779,335,589
   top recipients: 25
   top districts: 25
 Fetching FY 2025 awards funded by Space Force…
@@ -32,4 +32,4 @@ Fetching FY 2025 awards funded by Space Force…
   top districts: 0
   Space Force: no award data found — leaving it off the site.
 Wrote 1 program(s) to /home/runner/work/space-policy-docket/space-policy-docket/data/money.json
-Digest: 0 bill actions · 0 rules published · 5 comment deadlines ahead  →  /home/runner/work/space-policy-docket/space-policy-docket/data/digest.json
+Digest: 2 bill actions · 0 rules published · 5 comment deadlines ahead  →  /home/runner/work/space-policy-docket/space-policy-docket/data/digest.json

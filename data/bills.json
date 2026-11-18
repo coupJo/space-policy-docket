@@ -1,7 +1,31 @@
 {
-  "generated": "2026-11-17",
+  "generated": "2026-11-18",
   "source": "Live data from the Congress.gov API",
   "bills": [
+    {
+      "bill": "H.R. 11048",
+      "congress": "119th",
+      "title": "To direct the Director of the National Geospatial-Intelligence Agency to conduct a comprehensive assessment of commercially available artificial intelligence tools capable of automated analysis of satellite and geospatial imagery, and for other purposes.",
+      "sponsor": "Rep. John Moolenaar (R-MI)",
+      "latest_action": "Referred to the House Permanent Select Committee on Intelligence.",
+      "action_date": "2026-11-17",
+      "topics": [
+        "Remote Sensing"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/11048"
+    },
+    {
+      "bill": "H.R. 11047",
+      "congress": "119th",
+      "title": "To require certain persons to disclose to the Secretary of Defense covered relationships for covered contracts relating to covered aerospace technology, and for other purposes.",
+      "sponsor": "Rep. John Moolenaar (R-MI)",
+      "latest_action": "Referred to the House Committee on Armed Services.",
+      "action_date": "2026-11-17",
+      "topics": [
+        "National Security"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/11047"
+    },
     {
       "bill": "S. 933",
       "congress": "119th",
@@ -607,18 +631,6 @@
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/5122"
     },
     {
-      "bill": "S. 2632",
-      "congress": "119th",
-      "title": "Saving NASA’s Workforce Act",
-      "sponsor": "Sen. Mazie Hirono (D-HI)",
-      "latest_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
-      "action_date": "2025-07-31",
-      "topics": [
-        "NASA & Exploration"
-      ],
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2632"
-    },
-    {
       "bill": "S. 2622",
       "congress": "119th",
       "title": "Space Ready Act",
@@ -629,6 +641,18 @@
         "General Space"
       ],
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2622"
+    },
+    {
+      "bill": "S. 2632",
+      "congress": "119th",
+      "title": "Saving NASA’s Workforce Act",
+      "sponsor": "Sen. Mazie Hirono (D-HI)",
+      "latest_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "action_date": "2025-07-31",
+      "topics": [
+        "NASA & Exploration"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2632"
     },
     {
       "bill": "S.Res. 309",
@@ -737,6 +761,18 @@
         "General Space"
       ],
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1946"
+    },
+    {
+      "bill": "S.Res. 228",
+      "congress": "119th",
+      "title": "A resolution supporting May 2, 2025, as \"National Space Day\" in recognition of the significant positive impact the aerospace community has and will continue to have on the United States of America.",
+      "sponsor": "Sen. Jerry Moran (R-KS)",
+      "latest_action": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S2934; text: CR S2931)",
+      "action_date": "2025-05-14",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/228"
     },
     {
       "bill": "H.Res. 370",
