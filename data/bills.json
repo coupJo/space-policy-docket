@@ -3,6 +3,18 @@
   "source": "Live data from the Congress.gov API",
   "bills": [
     {
+      "bill": "H.R. 11047",
+      "congress": "119th",
+      "title": "Aerospace Transparency Act",
+      "sponsor": "Rep. John Moolenaar (R-MI)",
+      "latest_action": "Referred to the House Committee on Armed Services.",
+      "action_date": "2026-11-17",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/11047"
+    },
+    {
       "bill": "S. 933",
       "congress": "119th",
       "title": "NASA Authorization Act of 2026",
@@ -809,6 +821,18 @@
         "General Space"
       ],
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1403"
+    },
+    {
+      "bill": "S.Res. 120",
+      "congress": "119th",
+      "title": "A resolution recognizing Girl Scouts of the United States of America on its 113th birthday and celebrating its founder, Juliette Gordon Low, and the legacy of providing girls with a secure and inclusive space where they can explore their world, build meaningful relationships, and have access to experiences that prepare them for a life of leadership.",
+      "sponsor": "Sen. Tammy Duckworth (D-IL)",
+      "latest_action": "Resolution agreed to in Senate without amendment and with a preamble by Unanimous Consent. (consideration: CR S1864; text: 03/10/2025 CR S1632)",
+      "action_date": "2025-03-26",
+      "topics": [
+        "General Space"
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/120"
     },
     {
       "bill": "H.R. 1368",
